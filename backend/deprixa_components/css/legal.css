@@ -1,0 +1,53 @@
+/* colours */
+/* nav */
+/* alerts buttons dialogues */
+/* rad */
+/* fonts */
+/* grid */
+/* media query */
+/* colours */
+/* nav */
+/* alerts buttons dialogues */
+/* rad */
+/* fonts */
+/* grid */
+/* media query */
+/* section */
+/* retina images */
+/* Variables */
+.zopim {
+    display: none !important;
+  }
+div.mpHeader {
+  border-bottom: 2px solid #5fb047 !important;
+}
+
+h1 {
+  padding: 20px 0;
+}
+
+section h2 {
+  font-size: 16px;
+  text-align: left !important;
+  text-transform: uppercase;
+  padding: 10px;
+  background: #e9e9e9;
+  display: block;
+  margin: 20px 0 10px 0 !important;
+}
+
+/* WIDE SCREEN */
+/* DESKTOP */
+@media only screen and (max-width: 1240px) {
+  section h2 {
+    font-size: 18px;
+  }
+}
+/* TABLET */
+@media only screen and (max-width: 990px) {
+  section h2 {
+    font-size: 16px;
+  }
+}
+/* MOBILE */
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

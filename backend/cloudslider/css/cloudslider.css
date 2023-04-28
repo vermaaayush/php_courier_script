@@ -1,0 +1,260 @@
+
+/**************************************************************************
+ * Cloud Slider Style Definition
+ * @author	:	WebuddySoft
+ * @Licenses: 	http://codecanyon.net/licenses/
+**************************************************************************/
+.clear {
+	clear: both;
+}
+.hidden {
+	display: none;
+}
+.kr-top {
+	top: 0;
+}
+.kr-bottom {
+	bottom: 0;
+}
+.kr-hide, .kr-hidden {
+	display: none;
+}
+.cloud-container {
+	position: relative;
+	background-position: center center;
+	display: none;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	background-repeat: no-repeat;
+	background-size: contain;
+	z-index: 0;
+}
+.cloud-wrapper {
+	margin: 0 auto;
+	position: relative;
+	background-position: center center;
+	z-index: 1;
+	padding: 0;
+}
+.kr-cloud {
+	text-transform: inherit !important;
+}
+.cloud-container .kr-cloud > h1, .cloud-container .kr-cloud > h2, .cloud-container .kr-cloud > h3, .cloud-container .kr-cloud > h4, .cloud-container .kr-cloud > h5, .cloud-container .kr-cloud > h6 {
+	color: inherit;
+	padding: inherit;
+	margin: inherit;
+	line-height: inherit;
+}
+.cloud-container .kr-cloud > h1 {
+	font-size: 2em;
+}
+.cloud-container .kr-cloud > h2 {
+	font-size: 1.5em;
+}
+.cloud-container .kr-cloud > h3 {
+	font-size: 1.17em;
+}
+.cloud-container .kr-cloud > h4 {
+	font-size: 1em;
+}
+.cloud-container .kr-cloud > h5 {
+	font-size: 0.83em;
+}
+.cloud-container .kr-cloud > h6 {
+	font-size: 0.67em;
+}
+.kr-sky {
+	position: absolute;
+	display: none;
+}
+.kr-sky > * {
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin: 0;
+}
+.sky-opened {
+	display: block !important;
+}
+.kr-clouds {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.sky-background {
+	width: 100%;
+	height: 100%;
+	visibility: visible;
+	overflow: hidden;
+	position: relative;
+}
+.sky-background img {
+	position: absolute;
+}
+.kr-bg-link {
+	width: 100% !important;
+	height: 100% !important;
+}
+.kr-clouds > * {
+	position: absolute;
+	line-height: normal;
+	margin: 0;
+	left: 0;
+	top: 0;
+	display: none;
+}
+.kr-cloud > a {
+	color: inherit;
+}
+.kr-cloud > iframe[src*="youtube"], .kr-cloud > video, .kr-cloud > audio {
+	display: none;
+}
+.kr-carousel-container {
+	cursor: pointer;
+}
+.kr-carousel-wrapper {
+	top: 0;
+	position: absolute;
+	left: 0;
+	z-index: 1000;
+}
+.kr-carousel {
+	position: absolute;
+	overflow: hidden;
+}
+.kr-carousel .kr-carousel-img {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	box-shadow: none !important;
+	border: none !important;
+	border-radius: 0 !important;
+}
+.kr-carousel-left-arrow, .kr-carousel-right-arrow {
+	position: absolute;
+	cursor: pointer;
+	z-index: 2000;
+}
+.kr-carousel-left-arrow img, .kr-carousel-right-arrow img {
+	width: 100%;
+	height: 100%;
+}
+.kr-line-timer {
+	width: 100%;
+	height: 3px;
+	background: #aaa;
+	position: absolute;
+	z-index: 99999;
+	filter:alpha(opacity=60);
+}
+.kr-loader {
+	position: absolute;
+	display: none;
+	z-index: 3;
+	left: 50%;
+	top: 50%;
+}
+.kr-nav-arrow {
+	position: absolute;
+	z-index: 1000;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100% 100%;
+	outline: none;
+}
+.kr-nav-arrow img {
+	width: 26px !important;
+	height: 46px !important;
+}
+.kr-bullet-container {
+	position: absolute;
+	z-index: 1000;
+}
+.kr-bullet, .kr-bullet-left, .kr-bullet-right {
+	float: left;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	outline: none;
+}
+.kr-bullet-left, .kr-bullet-right {
+	cursor: default;
+}
+.kr-thumb-container {
+	z-index: 1000;
+	overflow: hidden;
+	opacity: 1;
+	position: relative;
+	visibility: visible;
+	display: block;
+}
+.kr-thumb-inner {
+	width: 10000px;
+}
+.kr-thumb {
+	display: inline-block;
+	background-size: cover;
+	background-position: center center;
+	outline: none;
+	visibility: hidden;	
+	background-repeat: no-repeat;
+	font-family: initial !important;
+	text-decoration: none !important;
+}
+.kr-flow-panel {
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+.kr-current-bg {
+	position: absolute;
+	z-index: 0;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+}
+.kr-current-bg img {
+	position: absolute;
+}
+.kr-cell {
+	position: relative;
+	float: left;
+	perspective: 800px;
+	-o-perspective: 800px;
+	-ms-perspective: 800px;
+	-moz-perspective: 800px;
+	-webkit-perspective: 800px;
+}
+.kr-shape {
+	position: absolute;
+	transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-webkit-transform-style: preserve-3d;
+}
+.kr-box-front, .kr-box-back, .kr-box-top, .kr-box-bottom, .kr-box-left, .kr-box-right {
+	position: absolute;
+	background: #AAAAAA;
+	overflow: hidden;
+}
+.kr-3d-test {
+	display: none;
+	width: 0px;
+}
+.cloud-container img {
+	max-width: 1000% !important;
+}
+.cloud-others {
+	display: none;
+}
+@supports ( (perspective: 10px) or (-moz-perspective: 10px) or (-webkit-perspective: 10px) or (-ms-perspective: 10px) or (-o-perspective: 10px) ) {
+	.kr-3d-test {
+		width: 1px;
+	}
+}

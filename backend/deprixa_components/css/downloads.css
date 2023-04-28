@@ -1,0 +1,53 @@
+.grad{background: url("../media/1855/download-grad.jpg") repeat-x #daebf5;}
+.download-main{min-height:510px; margin-bottom:0; padding-bottom:0;}
+.download-main .slant-box{width:516px; margin-top:60px;}
+.download-main .slant-box img{width:100%; float:left;}
+.download-main .slant-box h1{color:#fff; text-align:left; padding:10px; background:#5fb047; margin:0;}
+.download-main .title .ebook-info{clear:both; overflow:hidden; margin-top:110px;}
+.download-main .title .ebook-info .list .media-body p{padding:2px 50px 0 0;}
+.download-main .title .ebook-info .list .media-left, .download-main .title .ebook-info .list .media-body{display:table-cell; vertical-align:top;}
+.download-main .title .ebook-info .list .tick{font-family: "contact-icon"; font-size: 22px; color:#5fb047; padding:0; margin-right:5px;}
+.download-main .title .ebook-info h2{margin:0; text-align:left; font-size:25px!important; margin-bottom:20px;}
+.download-main .form-area #mailer{padding:20px; margin-top:72px; background:#5F666E; border-radius:4px; -moz-border-radius:4px; -ms-border-radius:4px; -webkit-border-radius:4px;}
+.download-main .form-area #mailer p{color:#fff; font-size:14px; margin:0 0 20px 0;}
+.download-main .form-area #mailer button{width:100%; font-size:18px;}
+.download-main .form-area #mailer .form-group{margin-bottom:20px;}
+.download-main .form-area .pb img{position:absolute; bottom:-136px; width: 171px; height: 207px; right:270px;}
+
+/* DESKTOP */
+@media only screen and (max-width: 1240px) {
+	.download-main .title .ebook-info img{width:100%;}
+	.download-main .form-area .pb img{right:230px;}
+}
+/* TABLET */
+@media only screen and (max-width: 990px) {
+	.download-main .slant-box{width:100%;}
+	.download-main .title .ebook-info h2{font-size:20px!important;}
+	.download-main .title .ebook-info img{width:80%;}
+	.download-main .title .ebook-info .ebook-outer{text-align:center;}
+	.download-main .title .ebook-info{margin-top:60px;}
+	.download-main .title .ebook-info h2{margin-top:30px;}
+	.download-main .title .ebook-info .list .media-body p{padding-right:0;}
+	.download-main .title .ebook-info .list-outer{padding-left:0;}
+	.download-main .title .ebook-info .list-outer .list{margin-bottom:20px;}
+	.download-main .form-area #mailer{margin-top:132px;}
+	.download-main .form-area .pb img{right:256px; bottom:-98px; width:141px; height:169px;}
+	.download-main .form-area .confirmation-message{margin-top:50%!important;}
+}
+/* MOBILE */
+@media only screen and (max-width: 767px) {
+	.download-main{padding-bottom:20px;}
+	.download-main .slant-box{margin-top:20px;}
+	.download-main .slant-box h1{text-align:center;}
+	.download-main .title .ebook-info h2{text-align:center;}
+	.download-main .form-area #mailer{margin-top:20px;}
+	.download-main .form-area .pb{display:none;}
+	.download-main .form-area .confirmation-message{margin-top:0!important;}
+	.download-main .form-area .confirmation-message p{font-size:20px!important;}
+}
+
+.download-main .form-area .confirmation-message{margin-top:100px; text-align:center; padding:20px; background:#EF6224; border-radius:4px; -moz-border-radius:4px; -ms-border-radius:4px; -webkit-border-radius:4px;}
+.download-main .form-area .confirmation-message p{color:#fff; font-size:26px;}
+.download-main .form-area .confirmation-message .glyphicon{display:block; color:#fff; font-size:80px; margin-bottom:30px;}
+.download-main .form-area .confirmation-message a{color:#fff;}
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

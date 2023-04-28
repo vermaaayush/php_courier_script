@@ -1,0 +1,555 @@
+/* colours */
+/* nav */
+/* alerts buttons dialogues */
+/* rad */
+/* fonts */
+/* grid */
+/* media query */
+.zopim {
+    display: none !important;
+  }
+@font-face {
+  font-family: 'mpd-icon';
+  src: url("../App_Plugins/mpdicons/icomoonb746.eot?-pwj46m");
+  src: url("../App_Plugins/mpdicons/icomoond41d.eot?#iefix-pwj46m") format("embedded-opentype"), url("../App_Plugins/mpdicons/icomoonb746.woff?-pwj46m") format("woff"), url("../App_Plugins/mpdicons/icomoonb746.ttf?-pwj46m") format("truetype"), url("../App_Plugins/mpdicons/icomoonb746.svg?-pwj46m#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'mpd-icon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-magnifying47:before {
+  content: "\e629";
+}
+
+section.store-locator {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+section.store-locator h1 {
+  padding: 30px 0;
+}
+section.store-locator p {
+  text-align: center;
+}
+
+#hermespsf_overlay .hermespsf {
+  font-family: Lato-Regular, Arial !important;
+}
+
+section.locator-search {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+section.locator-search .searchContainer {
+  float: none;
+}
+section.locator-search .searchContainer .hermespsf {
+  font-family: Lato-Regular, Arial !important;
+  width: 50%;
+  margin: 0 auto;
+}
+section.locator-search .searchContainer .searchbase {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+section.locator-search .searchContainer .hermespsf.gui .search input.text {
+  width: 100%;
+  padding-right: 10px;
+  font-family: Lato-Regular, Arial;
+  font-size: 14px;
+  height: 32px;
+}
+section.locator-search .searchContainer .hermespsf.gui .search {
+  height: 32px;
+}
+section.locator-search .searchContainer .hermespsf.gui .search .left {
+  display: none;
+}
+section.locator-search .searchContainer .hermespsf.gui .search .middle {
+  height: 32px;
+  width: 100%;
+  background: none !important;
+}
+section.locator-search .searchContainer .hermespsf.gui .search .middle input.text {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  border: 1px solid #ddd;
+  background: none;
+  padding-left: 10px;
+  width: 100%;
+  margin: 0;
+  height: 32px;
+  display: block;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.428571429;
+  vertical-align: middle;
+}
+section.locator-search .searchContainer .hermespsf.gui .search .right {
+  width: 45px;
+  float: none;
+  background: #ef6224;
+  position: absolute;
+  height: 32px;
+  top: 0;
+  right: 0;
+}
+section.locator-search .searchContainer .hermespsf.gui .search .right input.submit {
+  width: 45px;
+  height: 32px;
+  top: 0;
+  left: 0;
+  border: none;
+  background: none !important;
+  z-index: 10 !important;
+  position: relative;
+}
+section.locator-search .searchContainer .hermespsf.gui .search .right:after {
+  z-index: 0 !important;
+  position: absolute !important;
+  top: 8px;
+  left: 13px;
+  content: "\e629";
+  font-size: 20px;
+  color: white;
+  font-family: "mpd-icon";
+}
+section.locator-search .searchContainer #hermespsf_overlay {
+  top: 100px !important;
+}
+
+section.locator-map {
+  padding: 40px 0;
+  /* Item Styles */
+  /* route styles */
+}
+section.locator-map .noPadLeft {
+  padding-left: 0;
+}
+section.locator-map .noPadRight {
+  padding-right: 0;
+}
+section.locator-map .spacer {
+  float: left;
+  margin: 10px 0 0 0;
+  width: 800px;
+}
+section.locator-map .mapContainer {
+  height: 565px;
+  width: 100%;
+  float: left;
+}
+section.locator-map .infoContainer {
+  float: left;
+}
+section.locator-map #content {
+  width: 900px !important;
+}
+section.locator-map #items li {
+  padding: 8px 0 9px 14px;
+  width: 300px !important;
+}
+section.locator-map ul#items {
+  width: 300px !important;
+}
+section.locator-map #items {
+  height: 529px;
+}
+section.locator-map #itemsWrapper {
+  height: 529px;
+}
+section.locator-map #side {
+  background: #dddddd !important;
+}
+section.locator-map #side .head {
+  border-bottom: 0;
+  margin-bottom: 1px;
+  color: #fff;
+  background: #0099cc;
+  font-family: 'montserratregular', 'Helvetica';
+  font-size: 16px;
+  text-transform: uppercase;
+}
+section.locator-map #side .head li p {
+  font-family: Lato-Regular, Arial;
+}
+section.locator-map #side,
+section.locator-map #route {
+  float: right;
+  width: 300px !important;
+  /* height: 478px; */
+  padding: 0 0 5px;
+  border: 1px solid #e2e2e3;
+  left: 10px;
+  top: 98px;
+  background: #fff;
+  height: 564px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background-clip: padding-box;
+  -moz-border-radius-topright: 4px;
+  -moz-border-radius-bottomright: 4px;
+  -moz-background-clip: padding-box;
+  -webkit-border-top-right-radius: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  -webkit-background-clip: padding-box;
+}
+section.locator-map #side .head,
+section.locator-map #route .head {
+  padding-top: 5px;
+}
+section.locator-map #side .result,
+section.locator-map #route .result {
+  padding-top: 0;
+}
+section.locator-map #route {
+  display: none;
+}
+section.locator-map .jspPane {
+  width: 300px !important;
+}
+section.locator-map .jspContainer {
+  width: 300px !important;
+}
+section.locator-map .jspVerticalBar {
+  width: 12px;
+}
+section.locator-map #route .fields p.from {
+  background-position: 0 -88px;
+}
+section.locator-map #route .fields p.from.swap {
+  background-position: 0 -118px;
+}
+section.locator-map #route .type {
+  list-style: none;
+}
+section.locator-map #route .type li {
+  float: left;
+  width: 38px;
+  height: 24px;
+}
+section.locator-map .result ul li {
+  list-style: none;
+}
+section.locator-map #steps li {
+  padding: 4px 0 6px 5px !important;
+  width: 95%;
+}
+section.locator-map #steps, section.locator-map #steps .jspContainer {
+  width: 300px !important;
+}
+section.locator-map #steps li.to {
+  background: url("../../parcelshops/images/side/to.html") no-repeat scroll 5px 15px transparent;
+  padding: 4px 0 4px 29px;
+  width: 180px;
+}
+section.locator-map #steps li.to p {
+  padding-left: 23px;
+}
+section.locator-map #steps li.from.invertFrom {
+  background: url("../../parcelshops/images/side/to.html") no-repeat scroll 4px 15px transparent;
+  padding-left: 23px;
+}
+section.locator-map #steps li.from.invertFrom p {
+  padding-left: 23px;
+}
+section.locator-map #steps li.to.invertTo {
+  background: url("../../parcelshops/images/side/toB.html") no-repeat scroll 17px 17px transparent;
+}
+section.locator-map #steps li.from p {
+  background: url("../../parcelshops/images/side/from.html") no-repeat scroll 1px 3px transparent;
+}
+section.locator-map .cta {
+  text-align: center;
+  padding-top: 40px;
+}
+section.locator-map .cta .primaryButtonSmall {
+  padding: 10px 50px;
+  font-size: 16px;
+}
+
+#hermespsf_directory .info li.contact {
+  width: auto;
+}
+#hermespsf_directory .info li.contact h2 {
+  max-width: 170px;
+}
+#hermespsf_directory .hello {
+  height: auto !important;
+}
+#hermespsf_directory .hello ul {
+  padding-bottom: 10px !important;
+  overflow: hidden;
+}
+#hermespsf_directory .hello h5, #hermespsf_directory .hello p, #hermespsf_directory .hello li {
+  font-family: Lato-Regular, Arial !important;
+}
+#hermespsf_directory .descContent p {
+  padding-right: 20px;
+}
+#hermespsf_directory .descContent p, #hermespsf_directory .descContent h5 {
+  font-family: Lato-Regular, Arial !important;
+}
+
+#hermespsf_detail {
+  height: 590px !important;
+}
+#hermespsf_detail .foot {
+  height: 20px !important;
+}
+
+.close {
+  opacity: 1 !important;
+}
+
+/* DESKTOP */
+@media only screen and (max-width: 1240px) {
+  section.locator-map .noPadRight, section.locator-map .noPadLeft {
+    padding: 0 10px;
+  }
+}
+/* TABLET */
+@media only screen and (max-width: 990px) {
+  section.store-locator p {
+    text-align: center;
+  }
+
+  section.locator-map {
+    padding-top: 20px;
+  }
+  section.locator-map .mapContainer {
+    float: none;
+  }
+  section.locator-map #route {
+    float: none;
+    width: 100% !important;
+  }
+  section.locator-map #side {
+    width: 100% !important;
+    margin-top: 23px;
+    min-height: 567px;
+  }
+  section.locator-map ul#items, section.locator-map .jspContainer, section.locator-map .jspPane, section.locator-map ul#items li {
+    width: 100% !important;
+  }
+  section.locator-map .jspVerticalBar {
+    width: 10px;
+  }
+  section.locator-map .cta {
+    padding-top: 25px;
+  }
+  section.locator-map #steps {
+    width: 100% !important;
+  }
+  section.locator-map #steps .jspContainer {
+    width: 100% !important;
+  }
+  section.locator-map #steps .act {
+    width: 100%;
+  }
+
+  section.locator-search .searchContainer .hermespsf {
+    width: 70% !important;
+  }
+
+  #hermespsf_detail {
+    width: 767px !important;
+  }
+  #hermespsf_detail .main {
+    width: 767px !important;
+  }
+  #hermespsf_detail #hermespsf_directory .info {
+    width: 743px;
+  }
+  #hermespsf_detail #hermespsf_directory .info .open {
+    width: 190px;
+  }
+  #hermespsf_detail #hermespsf_directory .helloContainer {
+    width: 280px;
+  }
+  #hermespsf_detail #hermespsf_directory .descHeader {
+    width: 450px;
+  }
+}
+/* MOBILE */
+@media only screen and (max-width: 767px) {
+  section.store-locator {
+    padding-bottom: 0;
+  }
+  section.store-locator p {
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  section.locator-search .searchContainer .hermespsf {
+    width: 100% !important;
+  }
+  section.locator-search .searchContainer .hermespsf .search {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  section.locator-search .searchContainer .hermespsf .search .middle {
+    min-width: 245px !important;
+  }
+  section.locator-search .searchContainer .hermespsf .search .right {
+    float: left !important;
+    width: auto !important;
+  }
+
+  section.locator-map {
+    padding-top: 0;
+  }
+  section.locator-map .mobHeight {
+    height: 400px !important;
+  }
+  section.locator-map #mpdHermesParcelShopLocaltor {
+    height: 400px !important;
+    overflow: visible !important;
+  }
+  section.locator-map .spacer {
+    display: none;
+  }
+  section.locator-map .mapContainer {
+    position: absolute;
+    left: -10000px;
+  }
+  section.locator-map .containerpsf {
+    height: 400px !important;
+  }
+  section.locator-map #side {
+    margin-top: 15px;
+    min-height: 342px !important;
+    height: 300px !important;
+  }
+  section.locator-map #side .route, section.locator-map #side .info {
+    display: none;
+  }
+  section.locator-map #side #items {
+    min-height: 300px !important;
+    height: 300px !important;
+  }
+  section.locator-map #side #items .jspContainer {
+    height: 300px !important;
+  }
+  section.locator-map #side #items .jspContainer .jspVerticalBar {
+    height: 300px !important;
+  }
+  section.locator-map #side #items .jspContainer .jspTrack {
+    height: 300px !important;
+  }
+  section.locator-map #side #items li {
+    pointer-events: none;
+  }
+  section.locator-map .cta .primaryButtonSmall {
+    font-size: 14px;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .cta {
+    float: left;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  #hermespsf_overlay .detailContainer {
+    height: 100%;
+  }
+
+  #hermespsf_detail {
+    width: 95% !important;
+    height: 100% !important;
+  }
+  #hermespsf_detail .main {
+    width: 100% !important;
+  }
+  #hermespsf_detail .head {
+    position: static;
+    overflow: hidden;
+    height: 120px !important;
+    background: url("../../../duanedobson.com/MPD/Images/store-locator/hermes/mob-head-bg.png") repeat-x bottom;
+  }
+  #hermespsf_detail .head p {
+    margin-top: 5px !important;
+    width: 100% !important;
+    position: relative;
+    background: url("../../../duanedobson.com/MPD/Images/store-locator/hermes/mob-head-bg-left.png") no-repeat !important;
+  }
+  #hermespsf_detail .head p a.close {
+    width: 80px;
+    height: 66px;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    position: static;
+    background: url("../../../duanedobson.com/MPD/Images/store-locator/hermes/mob-head-bg-link.png") no-repeat;
+  }
+  #hermespsf_detail .head p a.close:hover {
+    background: url("../../../duanedobson.com/MPD/Images/store-locator/hermes/mob-head-bg-link-hover.png") no-repeat;
+  }
+  #hermespsf_detail .head .logo {
+    float: none !important;
+    display: block;
+    margin: 10px auto;
+  }
+  #hermespsf_detail #hermespsf_directory {
+    overflow: visible !important;
+  }
+  #hermespsf_detail #hermespsf_directory .info {
+    width: 100% !important;
+  }
+  #hermespsf_detail #hermespsf_directory .info .cover {
+    width: 100%;
+    float: none;
+  }
+  #hermespsf_detail #hermespsf_directory .info .cover img {
+    width: 100% !important;
+    float: left;
+  }
+  #hermespsf_detail #hermespsf_directory .info .contact {
+    width: auto;
+    margin: 20px 20px 0 0;
+  }
+  #hermespsf_detail #hermespsf_directory .info .open {
+    width: auto;
+    margin-top: 40px;
+  }
+  #hermespsf_detail #hermespsf_directory .helloContainer {
+    width: 100%;
+    height: 245px !important;
+  }
+  #hermespsf_detail #hermespsf_directory .helloContainer .hello {
+    width: auto;
+  }
+  #hermespsf_detail #hermespsf_directory .helloContainer .hello .services li {
+    width: 100%;
+  }
+  #hermespsf_detail #hermespsf_directory .helloContainer .shopSId {
+    margin-top: 12px;
+  }
+  #hermespsf_detail #hermespsf_directory .descHeader {
+    width: 100%;
+    height: auto !important;
+  }
+  #hermespsf_detail .foot {
+    float: left;
+    margin-top: 20px;
+    width: 100%;
+  }
+}
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

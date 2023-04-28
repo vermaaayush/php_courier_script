@@ -1,0 +1,140 @@
+/* colours */
+/* nav */
+/* alerts buttons dialogues */
+/* rad */
+/* fonts */
+/* grid */
+/* media query */
+/* colours */
+/* nav */
+/* alerts buttons dialogues */
+/* rad */
+/* fonts */
+/* grid */
+/* media query */
+/* section */
+/* retina images */
+.zopim {
+    display: none !important;
+  }
+.email-signup {
+  margin-top: 40px;
+}
+.email-signup h1 {
+  color: #5fb047;
+}
+.email-signup h2 {
+  font-size: 20px;
+  margin-top: 0;
+}
+.email-signup .pb {
+  text-align: center;
+  margin: 20px 0;
+}
+.email-signup .blog-info {
+  width: 535px;
+  margin: 40px auto 0 auto;
+  text-align: center;
+}
+.email-signup .blog-info p {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+.email-signup .next-step {
+  margin-top: 40px;
+}
+.email-signup .next-step p {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.email-signup .next-step .links {
+  margin: 0 auto;
+  width: 535px;
+  text-align: center;
+}
+.email-signup .next-step .links a {
+  margin: 0 30px;
+}
+.email-signup .trust-pilot {
+  width: 535px;
+  background: #eeeeee;
+  overflow: hidden;
+  padding: 10px;
+  margin: 20px auto;
+}
+.email-signup .trust-pilot .tp {
+  float: left;
+  margin-left: 0;
+}
+.email-signup .trust-pilot .tp-arrows {
+  float: left;
+  margin-left: 12px;
+}
+.email-signup .trust-pilot .hp-trust-pilot {
+  float: left;
+  margin: 0 0 0 12px;
+}
+.email-signup .trust-pilot .hp-trust-pilot .tp-score {
+  background: #5fb047;
+  color: white;
+  padding: 2px 6px;
+}
+.email-signup .trust-pilot .hp-trust-pilot .wording {
+  clear: both;
+  float: none;
+  display: block;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+.email-signup .trust-pilot .cta {
+  float: right;
+}
+.email-signup .trust-pilot .cta a {
+  text-decoration: none;
+}
+
+/* MOBILE */
+@media only screen and (max-width: 767px) {
+  .email-signup h2 {
+    font-size: 18px;
+  }
+  .email-signup .blog-info {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+  }
+  .email-signup .next-step .links {
+    width: 100%;
+  }
+  .email-signup .next-step .links a {
+    margin: 5px 20px;
+    display: inline-block;
+  }
+  .email-signup .trust-pilot {
+    text-align: center;
+    padding: 30px;
+    width: 100%;
+  }
+  .email-signup .trust-pilot .tp {
+    float: none;
+  }
+  .email-signup .trust-pilot .tp-arrows {
+    float: none;
+    display: block;
+    margin: 16px 0;
+  }
+  .email-signup .trust-pilot .hp-trust-pilot {
+    float: none;
+    margin-left: 0;
+  }
+  .email-signup .trust-pilot .cta {
+    float: none;
+    margin-top: 10px;
+  }
+  .email-signup .trust-pilot .cta a {
+    width: 100%;
+  }
+}
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

@@ -1,0 +1,55 @@
+.zopim {
+    display: none !important;
+  }
+
+div.main-promo{background:none;}
+div.main-promo .pds-text{padding-top:24px; color:#fff; padding-bottom:10px;}
+div.main-promo .pds-text .title{margin-bottom:20px;}
+div.main-promo .pds-text img{float:left; max-width:90px; margin-right:20px;}
+div.main-promo .pds-text p{width:100%; padding-top:0; clear:both; margin-bottom:15px;}
+div.main-promo .pds-text h1 {text-align:left; margin:0; padding:0; color:#fff; width:100%!important; display:table-cell;}
+div.main-promo .pds-text ul{padding-top:20px; padding-left:15px;}
+div.main-promo .pds-text ul li{font-size:14px; margin:5px; 0;}
+div.main-promo .pds-text a{color:#fff!important;}
+.intro{margin-bottom:0; padding:40px 0;}
+.intro .box{margin-bottom:0;}
+section.blocktext{border-bottom:1px solid #eee; margin-bottom:0; padding-bottom:20px;}
+.slide p{width:1240px; margin:0 auto;}
+.cta{margin-bottom:0; padding-bottom:0;}
+.slide h1, .slide h2{width:1240px; margin-left:auto; margin-right:auto;}
+.cta .cta-end{text-align: center; padding-top: 40px; clear: both;}
+.cta .cta-end .primaryButtonSmall{font-size: 18px; padding: 12px 30px;}
+footer{margin-top:40px;}
+
+/* DESKTOP */
+@media only screen and (max-width: 1240px) {
+div.main-promo .pds-text h1{padding-top:7px;}
+div.main-promo .pds-text img {padding-top:10px; max-width: 60px;}
+.slide p{width:990px; margin:0 auto; padding:0;}
+.slide h1, .slide h2{width:990px; margin-left:auto; margin-right:auto;}
+.slide h2{font-size:22px!important;}
+}
+
+/* TABLET */
+@media only screen and (max-width: 990px) {
+div.main-promo .pds-text h1{padding-top:8px; width:100%;}
+div.main-promo .pd-services{padding-bottom:15px!important;}
+div.main-promo .pds-text p {padding-left:0; margin-bottom:15px;}
+.intro .box{margin-bottom:20px;}	
+.slide p{width:757px; margin:0 auto; padding:0 15px;}
+.slide h1, .slide h2{width:757px; margin-left:auto; margin-right:auto;}
+.slide h2{font-size:20px!important;}
+}
+
+/* MOBILE */
+@media only screen and (max-width: 767px) {
+div.green-bg{background:#fff!important;}	
+div.main-promo .pds-text {text-align:center;}
+div.main-promo .pds-text .nation {margin-bottom:0;}	
+div.main-promo .pds-text h1{text-align:center; padding:15px 0; display:block; color:#666;}
+div.main-promo .pds-text p {padding:0; text-align:left; color:#666;}
+div.main-promo .pds-text img {max-width:50px; float:none; text-align:center; margin-bottom:10px;}
+.slide p{width:100%; padding:0 15px; margin:0 auto;}
+.slide h1, .slide h2{width:320px; margin-left:auto; margin-right:auto;}
+.slide h2{font-size:18px!important;}
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

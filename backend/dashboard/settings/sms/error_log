@@ -1,0 +1,3 @@
+[23-Jul-2021 11:00:07 America/New_York] PHP Fatal error:  Call to undefined function login_alert() in /home/paraplyl/public_html/backend/dashboard/settings/sms/login_sms.php on line 35
+[23-Jul-2021 11:00:24 America/New_York] PHP Fatal error:  Call to undefined function login_alert() in /home/paraplyl/public_html/backend/dashboard/settings/sms/login_sms.php on line 35
+[23-Jul-2021 11:00:28 America/New_York] PHP Fatal error:  Call to undefined function login_alert() in /home/paraplyl/public_html/backend/dashboard/settings/sms/login_sms.php on line 35

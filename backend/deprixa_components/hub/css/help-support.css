@@ -1,0 +1,1034 @@
+/* colours */
+/* nav */
+/* alerts buttons dialogues */
+/* rad */
+/* fonts */
+/* grid */
+/* media query */
+/* colours */
+/* nav */
+/* alerts buttons dialogues */
+/* rad */
+/* fonts */
+/* grid */
+/* media query */
+/* section */
+/* retina images */
+/* Variables */
+
+@font-face {
+  font-family: 'help-icon';
+  src: url("../App_Plugins/mpdicons/help-icomoon3059.eot?-ndsscj");
+  src: url("../App_Plugins/mpdicons/help-icomoond41d.eot?#iefix-ndsscj") format("embedded-opentype"), url("../App_Plugins/mpdicons/help-icomoon3059.woff?-ndsscj") format("woff"), url("../App_Plugins/mpdicons/help-icomoon3059.ttf?-ndsscj") format("truetype"), url("../App_Plugins/mpdicons/help-icomoon3059.svg?-ndsscj#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Help Icons */
+[class^="help-icon="], [class*=" help-icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Help Icons */
+.help-icon-arrow492:before {
+  content: "\e60a";
+}
+
+.help-icon-controls1:before {
+  content: "\e609";
+}
+
+.help-icon-arrow486:before {
+  content: "\e600";
+}
+
+.help-icon-email20:before {
+  content: "\e602";
+}
+
+.help-icon-call10:before {
+  content: "\e603";
+}
+
+.help-icon-work:before {
+  content: "\e605";
+}
+
+.help-icon-chat55:before {
+  content: "\e608";
+}
+
+.grey-gradient-bg {
+  border-bottom: 7px solid #afcacd;
+  background: url("../../Images/cms/help-support/help-header-bg.jpg") repeat-x #cedfe1;
+}
+
+.active {
+  list-style: none;
+}
+.active a {
+  text-decoration: none;
+}
+
+.mobShow {
+  display: none;
+}
+
+section.help-support-intro {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  padding-top: 30px;
+}
+section.help-support-intro .pb-contact {
+  text-align: right;
+}
+section.help-support-intro h1 {
+  text-align: left;
+}
+section.help-support-intro p {
+  padding: 10px 60px 10px 0;
+}
+section.help-support-intro .btn-primary {
+  text-decoration: none;
+  padding: 10px 16px;
+}
+section.help-support-intro .btn-primary:hover {
+  color: white;
+}
+section.help-support-intro .btn-primary.btn-push {
+  margin-right: 40px;
+}
+
+section.search-controls {
+  padding-top: 20px;
+}
+section.search-controls .help-main-area {
+  padding: 0;
+  width: 70%;
+  float: left;
+  border: 1px solid #dddddd;
+}
+section.search-controls header {
+  background: #eeeeee;
+  padding: 20px 0;
+}
+section.search-controls header h2, section.search-controls header .results .question-header, section.search-controls .results header .question-header {
+  font-size: 16px;
+  margin: 0;
+}
+section.search-controls header .subTitle {
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 70px 0 70px;
+}
+section.search-controls .results-page {
+  width: 360px;
+  padding: 0;
+  float: right;
+}
+section.search-controls .results-page .facet {
+  padding-left: 0px !important;
+  width: 357px;
+  margin: 0 0 0 10px;
+  border-top: 0px !important;
+  z-index: 99;
+}
+section.search-controls .results-page .facet .facet-wrapper {
+  border: 0;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+section.search-controls .results-page .facet .facet-wrapper p {
+  text-transform: uppercase;
+  background: #eeeeee;
+  text-align: left;
+  font-size: 16px;
+  padding: 10px 0 10px 12px;
+  margin-bottom: 0;
+}
+section.search-controls .results-page .facet .facet-wrapper h4 {
+  clear: both;
+  line-height: 1.5em;
+  color: #666;
+  border-bottom: 0;
+  border-top: 0;
+  padding: 6px 15px;
+  margin-top: 0;
+}
+section.search-controls .results-page .facet .facet-wrapper h4 a {
+  color: #666;
+  text-decoration: none;
+  font-size: 14px;
+}
+section.search-controls .results-page .facet .facet-wrapper h4 span {
+  vertical-align: middle;
+  font-family: "help-icon";
+  font-size: 20px;
+  color: white;
+  margin-right: 10px;
+}
+section.search-controls .results-page .facet .facet-wrapper ul {
+  padding: 0 0 0 30px;
+  overflow: hidden;
+  margin-bottom: 0;
+  height: 85px;
+}
+section.search-controls .results-page .facet .facet-wrapper ul li {
+  line-height: 22px;
+  color: #ddd;
+}
+section.search-controls .results-page .facet .facet-wrapper ul li a {
+  color: #5fb047;
+}
+section.search-controls .results-page .facet .facet-wrapper .show-all-facet {
+  margin-top: 18px;
+  float: right;
+  display: block;
+  padding: 0 20px 0 10px;
+  background: #eeeeee;
+  text-decoration: none;
+}
+section.search-controls .results-page .facet .facet-wrapper .show-all-facet:hover {
+  color: #5fb047;
+}
+section.search-controls .results-page .facet .facet-wrapper .show-all-facet:before {
+  vertical-align: middle;
+  padding: 0 6px 0 0;
+}
+section.search-controls .results-page .facet .facet-wrapper .downArrow:before {
+  font-family: "help-icon";
+  font-size: 20px;
+  color: #aaaaaa;
+  content: "\e600";
+}
+section.search-controls .results-page .facet .facet-wrapper .upArrow:before {
+  font-family: "help-icon";
+  font-size: 20px;
+  color: #aaaaaa;
+  content: "\e60a";
+}
+section.search-controls .results-page .facet img {
+  margin: 0 auto;
+  display: block;
+}
+section.search-controls .results-page .facet .still-stuck {
+  text-align: center;
+  background: #eeeeee;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+}
+section.search-controls .results-page .facet .still-stuck img {
+  display: inline-block;
+}
+section.search-controls .results-page .facet .still-stuck .stuck-ctn {
+  margin: 20px;
+  display: inline-block;
+}
+section.search-controls .results-page .facet .still-stuck .stuck-ctn p {
+  font-size: 16px;
+}
+section.search-controls .results-page .facet .still-stuck .stuck-ctn a {
+  text-decoration: none;
+  padding: 10px 26px;
+}
+section.search-controls .results-page .facet .still-stuck .stuck-ctn a:hover {
+  color: white;
+}
+section.search-controls .search-bar-container {
+  display: none;
+  background: #e6eff0;
+  padding: 20px;
+  overflow: hidden;
+  border-right: 1px solid white;
+}
+section.search-controls .search-bar-container .search-bar {
+  padding-left: 0;
+  padding-right: 0;
+}
+section.search-controls .search-bar-container .search-bar .form-group {
+  width: 92%;
+  position: relative;
+  margin-bottom: 0;
+  float: left;
+}
+section.search-controls .search-bar-container .search-bar .form-control {
+  border: none;
+  box-shadow: none;
+  height: 40px;
+}
+section.search-controls .search-bar-container .search-bar ::-webkit-input-placeholder {
+  color: #d2d3d4;
+}
+section.search-controls .search-bar-container .search-bar :-moz-placeholde {
+  color: #d2d3d4;
+}
+section.search-controls .search-bar-container .search-bar ::-moz-placeholder {
+  color: #d2d3d4;
+}
+section.search-controls .search-bar-container .search-bar :-ms-input-placeholder {
+  color: #d2d3d4;
+}
+section.search-controls .search-bar-container button {
+  border-radius: 0;
+  height: 40px;
+}
+section.search-controls .extra-buttons {
+  background: #e6eff0;
+  overflow: hidden;
+  padding: 20px 0;
+  display: none;
+  /*To remove when search bar goes in*/
+  text-align: center;
+}
+section.search-controls .extra-buttons a {
+  text-decoration: none;
+  height: 40px;
+  padding: 10px 12px;
+}
+section.search-controls .extra-buttons a:hover {
+  color: white;
+}
+section.search-controls .extra-buttons .btn-primary {
+  background: #5fb047;
+  float: none;
+  margin: 0 30px;
+                /*ADD THESE WHEN SEARCH BAR GOES BACK IN
+                float:left;
+                margin:0;
+				&.btn-push{margin:0 15px 0 20px;}*/
+}
+section.search-controls .results {
+  margin-top: 0px;
+  float: left;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+}
+section.search-controls .results .show-all-facet:before {
+  vertical-align: middle;
+  font-family: "help-icon";
+  font-size: 20px;
+  color: #aaaaaa;
+  content: "\e600";
+  padding: 0 6px 0 0;
+}
+section.search-controls .results .question-header {
+  margin-left: 25px !important;
+  clear: none !important;
+  background: #abcbcd;
+  display: block;
+  text-align: left !important;
+  color: white !important;
+  text-transform: capitalize !important;
+  font-size: 22px;
+  padding: 18px 0 18px 50px;
+}
+section.search-controls .results ul {
+  margin-top: 0;
+  padding: 20px 0 20px 0;
+}
+section.search-controls .results ul li {
+  list-style: none;
+  margin: 15px auto 0 auto;
+  padding: 0;
+  width: 85%;
+  float: none;
+  border: 1px solid #dddddd;
+}
+section.search-controls .results ul a {
+  color: #5fb047;
+  display: inline-block;
+  padding-top: 10px;
+  vertical-align: super;
+}
+section.search-controls .results .help-icon-work {
+  font-family: "help-icon";
+  font-size: 20px;
+  color: #aaaaaa;
+  display: inline-block;
+  background: #eeeeee;
+  padding: 8px 16px;
+  margin-right: 15px;
+  border-right: 1px solid #dddddd;
+}
+section.search-controls .results .answer-wrapper {
+  position: relative;
+  overflow: hidden;
+  padding-left: 0;
+  padding-right: 0;
+  min-height: 150px;
+  margin-top: 20px;
+}
+section.search-controls .results .answer-wrapper .parcelboy {
+  display: block;
+  width: 178px;
+  height: 237px;
+  position: absolute;
+  bottom: 0;
+  left: 15%;
+  z-index: 10;
+  background: url("../../Images/cms/help-support/pb.png") no-repeat;
+}
+@media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6 / 2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
+  section.search-controls .results .answer-wrapper .parcelboy {
+    background-repeat: no-repeat;
+    background-image: url("../../Images/cms/help-support/pb-ret.png");
+    background-size: 178px 237px;
+  }
+}
+section.search-controls .results .answer-wrapper .answer {
+  padding: 0 20px;
+  margin-top: 0;
+}
+section.search-controls .results .answer-wrapper .answer .help-icon-controls1 {
+  margin: 25px 0 25px 0;
+  font-family: "help-icon";
+  font-size: 20px;
+  color: #aaaaaa;
+  display: inline-block;
+  background: #eeeeee;
+}
+section.search-controls .results .answer-wrapper .answer .help-icon-controls1 a {
+  vertical-align: text-bottom;
+  font-family: Lato-Regular, Arial;
+  font-size: 14px;
+  padding: 0 15px;
+}
+section.search-controls .results .answer-wrapper .answer .icon-information68 {
+  font-family: "mpd-icon";
+  font-size: 16px !important;
+  color: #666;
+  margin: 0 2px;
+  position: relative;
+  top: 2px;
+}
+section.search-controls .results .answer-wrapper .answer .help-image-holder {
+  padding: 15px 10px 15px 15px;
+}
+section.search-controls .results .answer-wrapper .answer .help-image-holder img {
+  height: auto;
+  margin: 0;
+  max-width: 100%;
+}
+section.search-controls .results hr {
+  display: block;
+  height: 2px;
+  margin: 40px 0;
+}
+section.search-controls .results .answer-controls {
+  overflow: hidden;
+  margin: 20px 0;
+}
+section.search-controls .results .answer-controls .help-icon-controls1 {
+  margin: 0 0 25px 0;
+  font-family: "help-icon";
+  font-size: 20px;
+  color: #aaaaaa;
+  display: inline-block;
+  background: #eeeeee;
+}
+section.search-controls .results .answer-controls .help-icon-controls1 a {
+  vertical-align: text-bottom;
+  font-family: Lato-Regular, Arial;
+  font-size: 14px;
+  padding: 0 15px;
+}
+section.search-controls .results .answer-controls .textlink {
+  float: left;
+}
+section.search-controls .results .answer-controls .textlink:hover {
+  color: #5fb047;
+}
+section.search-controls .results .answer-controls .btn-primary {
+  background: #ef6224;
+  float: right;
+  text-decoration: none;
+}
+section.search-controls .results .answer-controls .btn-primary:hover {
+  color: white;
+}
+section.search-controls .trust-pilot {
+  width: 100%;
+  background: #eeeeee;
+  clear: both;
+  overflow: hidden;
+  padding: 15px;
+}
+section.search-controls .trust-pilot .tp, section.search-controls .trust-pilot .tp-arrows {
+  float: left;
+  margin-top: 5px;
+}
+section.search-controls .trust-pilot .tp-arrows {
+  display: inline;
+  margin-left: 20px;
+}
+section.search-controls .trust-pilot .hp-trust-pilot {
+  float: left;
+  margin: 6px 0 0 25px;
+}
+section.search-controls .trust-pilot .hp-trust-pilot .tp-score {
+  background: #5fb047;
+  color: white;
+  padding: 2px 6px;
+}
+section.search-controls .trust-pilot .hp-trust-pilot .wording {
+  clear: both;
+  background-repeat: none;
+  float: none;
+  display: block;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+section.search-controls .trust-pilot .cta {
+  float: right;
+  margin-top: 5px;
+}
+section.search-controls .trust-pilot a {
+  text-decoration: none;
+}
+section.search-controls .trust-pilot a:hover {
+  color: white;
+}
+section.search-controls .contact-container {
+  background: none;
+  padding: 20px;
+  clear: left;
+  margin-top: 0;
+  float: left;
+}
+section.search-controls .contact-container .trigger {
+  float: right;
+}
+section.search-controls .contact-container .trigger p {
+  margin: 0;
+  display: inline;
+}
+section.search-controls .contact-container .trigger .btn-primary {
+  background: #28a4d8;
+  text-decoration: none;
+  color: white;
+  margin-left: 30px;
+}
+section.search-controls .contact-container .contact-details {
+  margin: 20px 0 20px 0;
+  float: left;
+  width: 100%;
+}
+section.search-controls .contact-container .contact-details .box {
+  min-height: 301px;
+  text-align: center;
+  background: white;
+  /*width: 250px;*/
+  float: none;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #eeeeee;
+}
+section.search-controls .contact-container .contact-details .box span {
+  font-family: "help-icon";
+  font-size: 65px;
+  color: #564193;
+  display: block;
+}
+section.search-controls .contact-container .contact-details .box span.closeModal {
+  font-size: 20px;
+  color: #5fb047;
+}
+section.search-controls .contact-container .contact-details .box p {
+  font-size: 14px;
+  display: block;
+}
+section.search-controls .contact-container .contact-details .box .title {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+section.search-controls .contact-container .contact-details .box span.phoneNumber {
+  font-size: 12px;
+  color: #333;
+  display: inline;
+}
+section.search-controls .contact-container .contact-details .box .telno {
+  display: none;
+}
+section.search-controls .contact-container .help-icon-controls1 {
+  margin: 25px 0 25px 15px;
+  font-family: "help-icon";
+  font-size: 20px;
+  color: #aaaaaa;
+  display: inline-block;
+  background: #eeeeee;
+}
+section.search-controls .contact-container .help-icon-controls1 a {
+  vertical-align: text-bottom;
+  font-family: Lato-Regular, Arial;
+  font-size: 14px;
+  padding: 0 15px;
+}
+
+.modal {
+  overflow-y: hidden !important;
+}
+.modal .modal-dialog {
+  left: auto;
+}
+.modal .modal-dialog .modal-content {
+  height: 610px !important;
+  min-width: 640px !important;
+}
+.modal .modal-dialog .modal-content .modal-title {
+  font-family: montserratregular, Helvetica;
+  text-transform: uppercase;
+}
+.modal .modal-dialog .modal-content #dropbox {
+  background: white !important;
+}
+
+/* WIDE SCREEN */
+/* DESKTOP */
+@media only screen and (max-width: 1240px) {
+  section.search-controls .results-page {
+    padding-left: 0;
+  }
+  section.search-controls .help-main-area {
+    width: 62%;
+  }
+  section.search-controls .help-main-area .search-bar-container .form-group {
+    width: 88% !important;
+  }
+  section.search-controls .contact-container .contact-details .box {
+    width: auto;
+    min-height: 341px;
+  }
+}
+/* TABLET */
+@media only screen and (max-width: 990px) {
+  section.help-support-intro {
+    text-align: center;
+  }
+  section.help-support-intro h1, section.help-support-intro .pb-contact {
+    text-align: center;
+  }
+  section.help-support-intro .pb-contact {
+    margin-top: 35px;
+  }
+  section.help-support-intro p {
+    padding-right: 0;
+  }
+
+  section.search-controls {
+    overflow: visible;
+  }
+  section.search-controls .subTitle {
+    padding: 10px 30px;
+  }
+  section.search-controls .help-main-area {
+    width: 100%;
+  }
+  section.search-controls .results-page {
+    width: 100%;
+  }
+  section.search-controls .results-page .filter-button {
+    display: none !important;
+    background: #28a4d8;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+  }
+  section.search-controls .results-page .filter-button span {
+    font-family: "mpd-icon";
+    font-size: 18px;
+    vertical-align: text-top;
+  }
+  section.search-controls .results-page .facet {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+  section.search-controls .results-page .facet .facet-wrapper {
+    width: 100%;
+    margin-top: 15px;
+  }
+  section.search-controls .results-page .facet .facet-wrapper h4 {
+    float: left;
+    margin-right: 20px;
+    width: 150px;
+    margin-top: 7px;
+  }
+  section.search-controls .results-page .facet .facet-wrapper .menu-section select {
+    width: 70%;
+    margin: 10px 0 10px 25px;
+  }
+  section.search-controls .results-page .facet .mobile-menu-header {
+    display: none;
+  }
+  section.search-controls .results-page .facet .facet-wrapper p {
+    margin-top: 10px;
+  }
+  section.search-controls .results-page .facet .still-stuck {
+    margin: 15px auto;
+    width: 100% !important;
+  }
+  section.search-controls .results-page .facet .still-stuck img {
+    left: 30%;
+  }
+  section.search-controls .contact-container .contact-details .box {
+    min-height: 309px;
+  }
+
+  .filterActive .facet {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+  }
+
+  .filterActive {
+    -webkit-transform: translate3d(232px, 0, 0);
+    -moz-transform: translate3d(232px, 0, 0);
+  }
+
+  .filterButtonActive {
+    background: #60666d !important;
+  }
+}
+/* MOBILE */
+@media only screen and (max-width: 767px) {
+  .mobHide {
+    display: none;
+  }
+
+  .mobShow {
+    display: block;
+  }
+
+  .zopim {
+    display: block !important;
+  }
+
+  .zopim:nth-of-type(2) {
+    display: none !important;
+  }
+
+  section.help-support-intro {
+    padding-top: 10px;
+  }
+  section.help-support-intro .pb-contact img {
+    max-width: 320px;
+  }
+  section.help-support-intro .btn-primary {
+    display: block;
+    width: 85%;
+    margin: 20px auto;
+  }
+  section.help-support-intro .btn-primary.btn-push {
+    margin-right: auto;
+  }
+
+  section.search-controls .results-page {
+    width: 100%;
+    padding: 0 10px;
+  }
+  section.search-controls .results-page .filter-button {
+    width: auto !important;
+    margin-top: -16px !important;
+    margin-bottom: 30px !important;
+  }
+  section.search-controls .results-page .filter-button span {
+    display: none;
+  }
+  section.search-controls .results-page .facet {
+    margin: 0;
+  }
+  section.search-controls .results-page .facet .facet-wrapper {
+    padding-bottom: 20px;
+  }
+  section.search-controls .results-page .facet .facet-wrapper h4 {
+    padding: 5px 10px;
+  }
+  section.search-controls .results-page .facet .facet-wrapper .menu-section select {
+    width: 95%;
+    margin: 0 10px;
+  }
+  section.search-controls .results-page .facet .mobile-menu-header {
+    margin: 0;
+    line-height: 2.5em;
+    display: none;
+  }
+  section.search-controls .results-page .facet .still-stuck .stuck-ctn p {
+    text-align: center !important;
+  }
+  section.search-controls .results-page .facet .still-stuck img {
+    display: none !important;
+  }
+  section.search-controls .help-main-area {
+    border: 0;
+    padding: 0 10px;
+  }
+  section.search-controls .help-main-area .search-bar-container .form-group {
+    width: 100%;
+  }
+  section.search-controls .help-main-area .search-bar-container .btn-primary {
+    position: absolute;
+    right: 0;
+  }
+  section.search-controls .help-main-area .extra-buttons {
+    text-align: center !important;
+  }
+  section.search-controls .help-main-area .extra-buttons .btn-primary {
+    float: none !important;
+    /*Delete this after Search Bar goes live*/
+    margin: 0 15px;
+  }
+  section.search-controls .help-main-area .extra-buttons .btn-primary.btn-push {
+    margin-left: 0;
+  }
+  section.search-controls .help-main-area .results header {
+    border: 1px solid #ddd;
+  }
+  section.search-controls .help-main-area .results .subTitle {
+    padding: 10px 15px;
+  }
+  section.search-controls .help-main-area .results ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+  section.search-controls .help-main-area .results ul a {
+    padding-top: 0;
+  }
+  section.search-controls .help-main-area .results li {
+    position: relative;
+    float: none;
+    width: auto;
+    margin: 10px;
+    padding: 10px;
+  }
+  section.search-controls .help-main-area .results a {
+    position: static;
+    padding-right: 10px;
+  }
+  section.search-controls .help-main-area .results h2, section.search-controls .help-main-area .results .question-header {
+    font-size: 16px !important;
+    padding: 10px 12px 10px 30px !important;
+    margin-left: 16px !important;
+  }
+  section.search-controls .help-main-area .results .help-icon-work {
+    padding: 6px 12px !important;
+    font-size: 16px !important;
+  }
+  section.search-controls .help-main-area .results .answer-wrapper {
+    min-height: 100% !important;
+  }
+  section.search-controls .help-main-area .results .answer-wrapper .parcelboy {
+    display: none;
+  }
+  section.search-controls .help-main-area .results .answer-wrapper .answer .help-image-holder {
+    padding: 0;
+  }
+  section.search-controls .help-main-area .results .answer-wrapper .answer ol {
+    padding-left: 15px;
+  }
+  section.search-controls .help-main-area .results .answer-wrapper .answer ol li {
+    margin: 15px 0;
+    padding: 10px !important;
+  }
+  section.search-controls .help-main-area .results .answer-controls {
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  section.search-controls .help-main-area .results .answer-controls a {
+    position: relative;
+  }
+  section.search-controls .help-main-area .results .trust-pilot {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  section.search-controls .help-main-area .results .trust-pilot .tp, section.search-controls .help-main-area .results .trust-pilot .tp-arrows {
+    float: none;
+  }
+  section.search-controls .help-main-area .results .trust-pilot .tp-arrows {
+    float: none;
+    display: block;
+    margin: 16px 0;
+  }
+  section.search-controls .help-main-area .results .trust-pilot .hp-trust-pilot {
+    float: none;
+    margin-left: 0;
+  }
+  section.search-controls .help-main-area .results .trust-pilot .cta {
+    float: none;
+    margin-top: 10px;
+  }
+  section.search-controls .help-main-area .results .trust-pilot .cta .btn-primary {
+    position: static;
+    margin: 10px 0;
+    padding: 10px 30px;
+    margin-bottom: 0;
+  }
+  section.search-controls .contact-container .help-icon-controls1 {
+    margin: 15px 0 15px 15px;
+  }
+  section.search-controls .contact-container .contact-details {
+    margin-bottom: 0;
+  }
+  section.search-controls .contact-container .contact-details .box {
+    min-height: 0;
+    margin-bottom: 20px;
+  }
+  section.search-controls .contact-container .contact-details .box .telno {
+    display: inline !important;
+    padding-right: 0;
+  }
+  section.search-controls .contact-container .contact-details .box .title {
+    font-size: 16px;
+  }
+  section.search-controls .contact-container .contact-details .box a {
+    padding-right: 0;
+  }
+
+  .filterActive .facet {
+    -webkit-transform: translate3d(0, 0, 0) !important;
+    -moz-transform: translate3d(0, 0, 0) !important;
+  }
+
+  .filterActive {
+    -webkit-transform: translate3d(232px, 0, 0) !important;
+    -moz-transform: translate3d(232px, 0, 0);
+  }
+
+  .filterButtonActive {
+    background: #60666d !important;
+  }
+
+  h2, section.search-controls .results .question-header {
+    font-size: 22px !important;
+  }
+  h2.accordion-header, section.search-controls .results .accordion-header.question-header {
+    font-size: 14px !important;
+  }
+
+  h3 {
+    font-size: 20px !important;
+  }
+
+  .subTitle {
+    padding: 0 10px;
+  }
+}
+/* DD EDITS */
+.facet-wrapper {
+  margin-bottom: 17px !important;
+  overflow: hidden;
+  border: 1px solid #dddddd !important;
+  width: 98%;
+  background: #f6f6f6;
+}
+
+.menu-section select {
+  padding: 8px;
+  margin: 0 10px 7px 10px;
+  width: 92%;
+  border: 1px solid #ddd;
+  color: #666;
+}
+
+.facet .still-stuck {
+  background: #e8f2f1 !important;
+  border: 1px solid #ddd;
+  width: 98% !important;
+  margin-left: 0px !important;
+  position: relative !important;
+}
+
+.search-controls header {
+  background: #f6f6f6 !important;
+  padding: 13px 0 !important;
+}
+
+.facet .facet-wrapper p {
+  text-transform: uppercase;
+  background: #eeeeee;
+  text-align: left;
+  font-size: 15px;
+  padding: 11px 0 12px 12px;
+  margin-bottom: 0;
+  font-family: montserratregular;
+}
+
+.search-controls .results-page .facet .still-stuck img {
+  display: inline-block !important;
+  height: 85px;
+  float: left;
+  padding-top: 13px;
+  position: absolute;
+  bottom: 0px;
+  left: 10px;
+}
+
+.search-controls .results-page .facet .still-stuck .stuck-ctn {
+  margin: 8px !important;
+  display: inline-block;
+}
+
+.search-controls .results-page .facet .still-stuck .stuck-ctn p {
+  font-size: 15px !important;
+  text-align: left !important;
+}
+
+.search-controls .results-page .facet .still-stuck .stuck-ctn a {
+  text-decoration: none;
+  padding: 6px 26px !important;
+}
+
+.search-controls .results ul li {
+  list-style: none;
+  margin: 8px auto 0 auto !important;
+}
+
+@media only screen and (max-width: 767px) {
+  section.search-controls .help-main-area .results h2, section.search-controls .help-main-area .results .question-header, section.search-controls .help-main-area .results .question-header {
+    font-size: 16px !important;
+    padding: 5px !important;
+    margin-left: 0px !important;
+  }
+
+  #container .search-controls .results-page .facet .facet-wrapper p {
+    margin-top: 0px !important;
+  }
+
+  #container .search-controls .results-page .facet .facet-wrapper {
+    margin-top: 20px !important;
+    width: 100% !important;
+  }
+
+  #container .help-icon-work {
+    display: none;
+  }
+
+  #container .still-stuck {
+    width: 100% !important;
+  }
+
+  #container .search-controls .help-main-area .results li {
+    background: #f6f6f6;
+  }
+}
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

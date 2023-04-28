@@ -1,0 +1,107 @@
+body 
+
+.form-input, .error {
+	display: block;
+	height: 24px;
+	padding: 6px 10px;
+	margin-bottom: 20px;
+	border-radius:         8px;
+	-moz-box-shadow:    inset 0 0 1px rgba(0, 0, 0, 0.7), 0 1px 0 rgba(255, 255, 255, 0.1);
+	-webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.7), 0 1px 0 rgba(255, 255, 255, 0.1);
+	box-shadow:         inset 0 0 1px rgba(0, 0, 0, 0.7), 0 1px 0 rgba(255, 255, 255, 0.1);
+	background-color: #646464;
+	-moz-box-shadow:    inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.7);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.7);
+	box-shadow:         inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.7);
+	behavior: url(PIE.htc);
+	width: 320px;
+	background: #ededed;
+	border: 5px solid #dbdbdb;
+	color: #999;
+	position: relative;
+}
+.error{
+	background: #ff9197;
+	border: 5px solid red;
+}
+textarea.form-input {
+	height: 150px;
+	overflow: auto;
+	width: 300px; 
+	position: relative;
+}
+.form-btn {
+	padding: 0 15px;
+	height: 20px;
+	text-align: center;
+	color: #fff;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.7);
+	cursor: pointer;
+	border: 1px solid #0d3d6a;
+	background-color: #2F57B7;
+	clear: both;
+	float: right;
+}
+.form-btn:hover {
+	color: #8598C6;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.7);
+}
+.contact-form {
+	width: 800px;
+	padding: 15px;
+	margin: 0 auto;
+	position: relative;
+	background-color: #ffffff;
+	background-image: -webkit-gradient(linear, left top, right bottom, 
+										   color-stop(5%,  #bfd1E7), color-stop(5%,  #ed5737),
+	                                       color-stop(15%, #ed5737), color-stop(15%, #bfd1E7),
+	                                       color-stop(25%, #bfd1E7), color-stop(25%, #2f57b7),
+	                                       color-stop(35%, #2f57b7), color-stop(35%, #bfd1E7),
+	                                       color-stop(45%, #bfd1E7), color-stop(45%, #ed5737),
+	                                       color-stop(55%, #ed5737), color-stop(55%, #bfd1E7),
+	                                       color-stop(65%, #bfd1E7), color-stop(65%, #2f57b7),
+	                                       color-stop(75%, #2f57b7), color-stop(75%, #bfd1E7),
+	                                       color-stop(85%, #bfd1E7), color-stop(85%, #ed5737),
+	                                       color-stop(95%, #ed5737), color-stop(95%, #bfd1E7));
+	background-image: -webkit-repeating-linear-gradient(135deg, #ed5737 0, #ed5737 50px, transparent 50px, transparent 80px, #2f57b7 80px, #2f57b7 130px, transparent 130px, transparent 160px);
+	background-image:    -moz-repeating-linear-gradient(135deg, #ed5737 0, #ed5737 50px, transparent 50px, transparent 80px, #2f57b7 80px, #2f57b7 130px, transparent 130px, transparent 160px);
+	background-image:     -ms-repeating-linear-gradient(135deg, #ed5737 0, #ed5737 50px, transparent 50px, transparent 80px, #2f57b7 80px, #2f57b7 130px, transparent 130px, transparent 160px);
+	background-image:      -o-repeating-linear-gradient(135deg, #ed5737 0, #ed5737 50px, transparent 50px, transparent 80px, #2f57b7 80px, #2f57b7 130px, transparent 130px, transparent 160px);
+	background-image:         repeating-linear-gradient(135deg, #ed5737 0, #ed5737 50px, transparent 50px, transparent 80px, #2f57b7 80px, #2f57b7 130px, transparent 130px, transparent 160px);
+	-pie-background:          linear-gradient(135deg, 
+										   #bfd1E7 5%,  #ed5737 5%,
+	                                       #ed5737 15%, #bfd1E7 15%,
+	                                       #bfd1E7 25%, #2f57b7 25%,
+	                                       #2f57b7 35%, #bfd1E7 35%,
+	                                       #bfd1E7 45%, #ed5737 45%,
+	                                       #ed5737 55%, #bfd1E7 55%,
+	                                       #bfd1E7 65%, #2f57b7 65%,
+	                                       #2f57b7 75%, #bfd1E7 75%,
+	                                       #bfd1E7 85%, #ed5737 85%,
+	                                       #ed5737 95%, #bfd1E7 95%);
+	behavior: url(PIE.htc);
+	text-align: left;
+
+}
+.formulario {
+	overflow: hidden;
+	padding: 40px 20px;
+	background-color: #fff;
+}
+.column:first-of-type {
+	float: left;
+	position: relative;
+}
+
+.column:last-of-type {
+	float: right;
+	margin: 0 0 20px 40px;
+}
+label {
+	color: #444;
+
+}
+label span {
+	color: #ff4141;
+	font-size: 11px;
+}

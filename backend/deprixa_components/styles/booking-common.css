@@ -1,0 +1,377 @@
+/* colours */
+/* nav */
+/* alerts buttons dialogues */
+/* rad */
+/* fonts */
+/* grid */
+/* media query */
+/* colours */
+/* nav */
+/* alerts buttons dialogues */
+/* rad */
+/* fonts */
+/* grid */
+/* media query */
+/* section */
+/* retina images */
+div.mpHeader {
+  border-bottom: none; }
+
+.booking-header {
+  background: #EF6224;
+  color: #fff;
+  height: 50px;
+  text-align: center; }
+  .booking-header section {
+    padding: 0px; }
+
+.price-summary {
+  background: #FFF8DE;
+  padding-left: 0px !important;
+  padding-right: 0px !important; }
+  .price-summary .resicharge {
+    display: none; }
+  .price-summary .well {
+    margin-bottom: 0px !important; }
+  .price-summary .delivery-service {
+    background: none; }
+    .price-summary .delivery-service img {
+      width: 50% !important;
+      float: none;
+      clear: both;
+      margin-bottom: 16px;
+      margin: auto;
+      text-align: center;
+      display: block; }
+    .price-summary .delivery-service span.mpdGreen {
+      float: none;
+      color: #4e8a3c !important; }
+    .price-summary .delivery-service a {
+      width: 100% !important;
+      text-align: center !important;
+      padding: 12px !important;
+      clear: both;
+      display: inline-block;
+      border-bottom: 1px solid #fff;
+      margin-bottom: 14px;
+      font-size: 12px; }
+  .price-summary .courier-name-summary {
+    text-align: center;
+    padding: 19px 10px 8px 10px;
+    border-bottom: 1px solid #fff; }
+  .price-summary .delivery-price {
+    background: #FFFDF1;
+    min-height: 113px;
+    float: right; }
+    .price-summary .delivery-price div {
+      border-bottom: 1px solid #FFF8DE;
+      padding: 7px 4px; }
+    .price-summary .delivery-price span {
+      float: right; }
+    .price-summary .delivery-price .delivery-total {
+      border-bottom: 0px;
+      font-size: 20px; }
+  .price-summary .card-logos img {
+    width: 80%;
+    float: left; }
+
+section.pro-forma {
+  overflow: visible; }
+  section.pro-forma input[type=number]::-webkit-outer-spin-button,
+  section.pro-forma input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; }
+  section.pro-forma input[type=number] {
+    -moz-appearance: textfield; }
+  section.pro-forma h1 {
+    margin: 40px 0; }
+  section.pro-forma h2 {
+    font-size: 16px;
+    text-align: left;
+    margin: 0 0 5px 0 !important; }
+  section.pro-forma p {
+    margin: 10px 0 20px 0; }
+  section.pro-forma .pro-forma-form .form-group {
+    position: relative; }
+    section.pro-forma .pro-forma-form .form-group .pro-forma-comment {
+      text-align: left;
+      font-size: 12px;
+      padding-top: 5px; }
+    section.pro-forma .pro-forma-form .form-group .icon-information68 {
+      font-family: mpd-icon;
+      font-size: 14px;
+      position: absolute;
+      left: 100px;
+      top: 10px;
+      z-index: 2; }
+  section.pro-forma .pro-forma-form input {
+    display: block;
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #555;
+    vertical-align: middle;
+    border-radius: 3px; }
+  section.pro-forma .pro-forma-form .small-check-box {
+    margin-top: 7px; }
+  section.pro-forma .pro-forma-form #VATNumber, section.pro-forma .pro-forma-form #TaxId {
+    width: 200px; }
+  section.pro-forma .form-group label {
+    text-align: left; }
+  section.pro-forma #parcel-details-container .icon-information68 {
+    font-family: mpd-icon;
+    font-size: 14px;
+    padding: 2px 0 0 5px; }
+  section.pro-forma #parcel-details-container .proforma-parcels-warning {
+    background: #D7E7E8;
+    padding: 5px;
+    font-size: 12px;
+    border: 1px solid #ACCBCD;
+    margin-bottom: 20px; }
+    section.pro-forma #parcel-details-container .proforma-parcels-warning p {
+      margin: 0; }
+  section.pro-forma #parcel-details-container .col-md-4 {
+    padding-left: 0px !important; }
+  section.pro-forma #parcel-details-container .remove-row {
+    clear: both;
+    padding-left: 0;
+    margin-bottom: 20px; }
+    section.pro-forma #parcel-details-container .remove-row a.remove-row-button {
+      color: #5FB047;
+      float: left;
+      margin-top: 5px; }
+  section.pro-forma #parcel-details-container .input-group {
+    margin-bottom: 6px; }
+  section.pro-forma #parcel-details-container .pro-forma-parcel-details {
+    float: left; }
+  section.pro-forma .next-step {
+    text-align: right; }
+
+.bread-crumb-nav {
+  display: none;
+  position: absolute;
+  top: -147px;
+  background: #fff;
+  width: 800px;
+  height: 67px;
+  z-index: 99;
+  right: 118px;
+  text-align: right; }
+  .bread-crumb-nav a {
+    float: left;
+    margin: 10px; }
+    .bread-crumb-nav a:after {
+      font-family: mpd-icon;
+      content: "\e603";
+      font-size: 12px;
+      color: #E9E9E9; }
+
+.next-step {
+  margin-top: 20px;
+  clear: both;
+  float: right;
+  width: 30%;
+  line-height: 29px;
+  font-size: 16px;
+  text-align: right; }
+  .next-step .btn-primary {
+    width: 138px;
+    margin-left: 15px; }
+
+label {
+  font-weight: normal !important; }
+
+/* WIDE */
+@media only screen and (max-width: 6000px) {
+  .booking-header {
+    background: #5FB047;
+    color: #fff;
+    height: 50px;
+    text-align: center; }
+    .booking-header section .filter-button {
+      display: none !important; }
+    .booking-header section .booking-summary-info {
+      display: block;
+      text-align: right;
+      margin: auto;
+      padding: 14px 0px 14px 14px; }
+      .booking-header section .booking-summary-info p {
+        float: right; }
+        .booking-header section .booking-summary-info p span {
+          font-family: mpd-icon;
+          color: #fff;
+          font-size: 12px;
+          opacity: 0.5;
+          margin-left: 5px; } }
+/* DESKTOP */
+@media only screen and (max-width: 1240px) {
+  section.pro-forma .pro-forma-form .required label::after {
+    right: 28px; }
+  section.pro-forma .pro-forma-form .small-check-box {
+    display: inline;
+    margin: 7px 10px 0 7px !important; }
+
+  .next-step {
+    width: 26%; } }
+/* TABLET */
+@media only screen and (max-width: 990px) {
+  .booking-header .booking-summary-info p {
+    margin-right: 24px;
+    font-size: 15px; }
+  .booking-header .filter-button {
+    background: #28A4D8;
+    float: left;
+    padding: 6px 10px !important;
+    border-radius: 2px;
+    margin-left: 2px !important;
+    margin-top: 9px;
+    color: #fff;
+    width: 83px;
+    display: none !important; }
+    .booking-header .filter-button span {
+      font-family: mpd-icon;
+      font-size: 20px;
+      margin-right: 6px;
+      color: #fff;
+      float: left; }
+  .booking-header section .filter-button {
+    background: #28A4D8;
+    float: left;
+    padding: 6px 10px !important;
+    border-radius: 2px;
+    margin-left: 2px !important;
+    margin-top: 9px;
+    color: #fff;
+    width: 83px;
+    display: none !important; }
+    .booking-header section .filter-button span {
+      font-family: mpd-icon;
+      font-size: 20px;
+      margin-right: 6px;
+      color: #fff;
+      float: left; }
+
+  .price-summary .delivery-service {
+    background: none; }
+    .price-summary .delivery-service img {
+      width: 20% !important;
+      float: none;
+      clear: both;
+      margin-bottom: 16px;
+      margin: auto;
+      text-align: center;
+      display: block; }
+
+  section.pro-forma .pro-forma-form .required label::after {
+    right: 3px; }
+  section.pro-forma .btn-secondary {
+    float: right;
+    margin-bottom: 20px; }
+
+  .next-step {
+    width: 33%;
+    margin-right: 15px; } }
+/* MOBILE */
+@media only screen and (max-width: 767px) {
+  .booking-header {
+    background: #fff;
+    color: #5F666E;
+    height: 62px;
+    text-align: center;
+    padding: 0px 5px !important;
+    border-bottom: 1px solid #F4F4F4; }
+    .booking-header section .booking-summary-info {
+      width: 76% !important;
+      padding: 0px !important;
+      margin: 0px !important;
+      height: 42px;
+      float: right;
+      font-size: 13px;
+      margin-top: 12px !important;
+      text-align: left !important; }
+      .booking-header section .booking-summary-info p {
+        padding-right: 28px; }
+      .booking-header section .booking-summary-info p span {
+        display: none; }
+    .booking-header section .filter-button {
+      width: 60px !important;
+      margin-top: 14px !important; }
+      .booking-header section .filter-button span {
+        display: none; }
+
+  #parcel-details-container {
+    padding: 15px 0;
+    margin: 0 10px; }
+    #parcel-details-container .col-md-2 {
+      padding-left: 0px;
+      margin-top: 2px; }
+    #parcel-details-container label {
+      padding: 5px 0; }
+    #parcel-details-container .input-group {
+      margin-top: 16px;
+      margin-bottom: 29px; }
+    #parcel-details-container .col-xs-8 {
+      float: right; }
+    #parcel-details-container .col-sm-3 {
+      padding-left: 0; }
+    #parcel-details-container .icon-information68 {
+      display: none; }
+
+  section.pro-forma .pro-forma-form {
+    margin: 0 10px; }
+    section.pro-forma .pro-forma-form .form-horizontal .form-group .pro-forma-comment {
+      float: none;
+      text-align: center; }
+    section.pro-forma .pro-forma-form .form-horizontal .form-group label.col-sm-6 {
+      padding-left: 0;
+      margin-top: 15px; }
+    section.pro-forma .pro-forma-form input[type="checkbox"] {
+      display: inline; }
+    section.pro-forma .pro-forma-form .small-check-box {
+      margin: 0 !important; }
+    section.pro-forma .pro-forma-form #VATNumber {
+      width: 100%; }
+  section.pro-forma h1 {
+    margin-left: 10px;
+    margin-right: 10px; }
+  section.pro-forma h2 {
+    text-align: center;
+    margin-top: 20px !important; }
+  section.pro-forma p {
+    text-align: center;
+    margin: 10px 10px 20px 10px; }
+  section.pro-forma .cf {
+    margin: 0 10px; }
+  section.pro-forma div a.btn-secondary {
+    margin: 20px 0;
+    float: none;
+    width: 100%; }
+  section.pro-forma .next-step {
+    width: 100%;
+    padding: 0 15px; }
+
+  .price-summary img {
+    margin-top: 0px !important;
+    width: 50% !important; }
+  .price-summary .courier-name-summary {
+    text-align: center;
+    margin: 9px; }
+  .price-summary a {
+    width: 100% !important;
+    text-align: center !important;
+    display: block !important;
+    margin: 5px !important; }
+
+  .next-step {
+    width: 60%;
+    margin-right: 15px;
+    margin-top: 40px; } }
+table.parcel-shop-opening-times > tbody > tr > th {
+  width: 50%; }
+
+table.parcel-shop-opening-times > tbody > tr > th,
+table.parcel-shop-opening-times > tbody > tr > td {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+/*# sourceMappingURL=booking-common.css.map */

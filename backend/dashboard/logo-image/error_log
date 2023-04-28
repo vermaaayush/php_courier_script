@@ -1,0 +1,1 @@
+[04-Nov-2018 03:00:01 UTC] PHP Warning:  mysql_connect(): Too many connections in /home2/tascsico/public_html/dashboard/database.php on line 30

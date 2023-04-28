@@ -1,0 +1,235 @@
+/* Top Level */
+
+.zopim {
+    display: none !important;
+  }
+
+section{
+	margin-bottom:0;
+	padding-bottom:0!important;
+}
+.how-to-post-bg{
+	background:url("../media/1558/how-to-post-bg.jpg") repeat-x #d1d4db;
+}
+section.post-items-intro h1{
+	text-align:left;
+	margin-top:50px;
+	margin-bottom:0;
+}
+section.post-items-intro .post-item-intro-box{
+	background:#5fb047;
+	padding:18px;
+	margin-top:45px;
+}
+section.post-items-intro .post-item-intro-box p{
+	color:#fff;
+	font-size:16px;
+}
+section.post-items-intro .post-item-intro-box a {
+	color:#fff;
+}
+section.h-form{padding-bottom:20px!important;}
+section.how-to-post-steps .post-item-step .media-left, section.how-to-post-steps .post-item-step .media-body {
+	display:table-cell;
+	vertical-align:top;
+}
+section.how-to-post-steps .post-item-step{
+	padding:45px 0;
+	border-bottom:1px solid #efefef;
+}
+section.how-to-post-steps .post-item-step.last{
+	border-bottom:none;
+}
+section.how-to-post-steps .media-body h2{
+	text-align:left;
+	font-size:22px!important;
+	text-transform:initial;
+	padding:0 0 20px 0;
+	margin:0;	
+}
+section.how-to-post-steps .media-body{
+	padding:20px 0 0 60px;
+}
+section.how-to-post-steps .media-body p{
+	padding-right:50px;
+}
+section.how-to-post-steps .media-body ul{
+	padding-left:18px;
+}
+section.faq.advice-box{
+	padding-top:0!important;
+}
+section.faq .media-left .glyphicon{
+	font-size:40px;
+	padding-left:10px;
+}
+section.faq .advice{
+	margin-top:0;
+	margin-bottom:60px;
+}
+section.faq .advice .media-body{
+	vertical-align:bottom;
+	display:block;
+}
+section.faq .advice p{
+	font-size:16px;
+	padding-top:8px;
+	text-align:center;
+}
+section.post-top-menu{
+	padding:0;
+	margin:60px auto;
+}
+section.post-top-menu .post-item{
+	display:block;
+	text-align:center;
+}
+section.post-top-menu .outer{
+	border:1px solid #ddd;
+	margin-bottom:20px;
+}
+section.post-top-menu .outer h2{
+	display:inline;
+	
+}
+section.post-top-menu .outer a {
+	display:block;
+	padding:30px;
+}
+section.post-top-menu h2{
+    font-size: 20px!important;
+    margin: 0;
+    padding: 0;
+    background-color: #5FB047;
+    color: #fff;
+    padding: 10px 0;
+}
+section.post-top-menu .outer .post-item img{
+	height:90px;
+}
+section.post-top-menu a:hover {
+  background: #F8F8F8;
+  display: block;
+  opacity: 0.7;
+  filter: alpha(opacity=100);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+section.cta{
+	padding-top:60px;
+}
+section.cta .button-holder {
+    margin: 0 auto;
+    text-align: center;
+}
+section.cta .primaryButtonSmall {
+    font-size: 18px;
+    padding: 12px 30px;
+}
+/* Bike */
+section.bike-intro .bike-img{
+	padding-top:73px;
+}
+
+/* DESKTOP */
+@media only screen and (max-width: 1240px) {
+.h-form h2{font-size:22px!important;}
+/* Bike */
+	section.bike-intro .bike-img{
+		padding-top:115px;
+	}	
+	section.post-top-menu h2{
+		min-height:64px;
+	}
+}
+
+/* TABLET */
+@media only screen and (max-width: 990px) {
+.h-form h2{font-size:20px!important;}	
+/* Bike */
+	section.post-items-intro .post-item-intro-box{
+		margin-bottom:30px;
+	}
+	section.post-items-intro .post-item-intro-box p{
+		font-size:14px;
+	}
+	section.bike-intro .bike-img{
+		padding-top:165px;
+	}
+	section.bike-intro .bike-img img{
+		width:100%;
+	}
+	section.how-to-post-steps .media-body h2{
+		font-size:20px!important;
+	}
+	section.faq .advice p{
+		font-size:14px;
+	}
+	section.post-top-menu .outer{
+		margin-bottom:30px;
+	}
+	section.post-top-menu h2{
+		min-height:1px;
+	}
+}
+		
+/* MOBILE */
+@media only screen and (max-width: 767px) {
+	section.post-top-menu{
+		margin:25px 0;
+	}	
+	section.post-items-intro h1{
+		text-align:center;
+		margin-top:40px;
+	}
+	section.post-top-menu h2{
+		font-size:16px!important;
+	}
+	section.how-to-post-steps{
+		padding-left:15px;
+		padding-right:15px;
+	}
+	section.post-items-intro .post-item-intro-box{
+		margin-top:30px;
+	}
+	section.bike-intro .bike-img img{
+		margin-top:20px;
+	}		
+	section.how-to-post-steps .post-item-step{
+		text-align:center;
+	}
+	section.how-to-post-steps .media-body{
+		padding-left:0;
+		text-align:left;		
+	}		
+	section.how-to-post-steps .post-item-step .media-left{
+		display:block;
+		text-align:center;
+	}
+	section.faq .advice .media-left .glyphicon{
+		font-size:40px!important;
+	}
+	section.faq .advice .media-body{
+		display:table-cell!important;
+		text-align:left!important;
+	}
+			
+/* Bike */
+	section.bike-intro .bike-img{
+		text-align:center;
+		padding-top:0;
+		margin-bottom:15px;		
+	}
+	section.bike-intro .bike-img img{
+		float:none;
+		max-width:320px;
+	}
+	section.post-top-menu .outer{
+		margin-bottom:20px;
+	}
+	section.cta{
+		padding:30px 0!important;
+	}
+}
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

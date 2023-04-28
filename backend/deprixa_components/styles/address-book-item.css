@@ -1,0 +1,53 @@
+/* colours */
+/* nav */
+/* alerts buttons dialogues */
+/* rad */
+/* fonts */
+/* grid */
+/* media query */
+.address-book-item {
+  display: inline-table;
+  width: 100%;
+  color: #777; }
+
+.address-book-item-selector {
+  display: table-cell;
+  width: 20%; }
+
+.address-book-item-details {
+  display: table-cell; }
+
+.address-book-item-name {
+  color: #333;
+  font-weight: 800; }
+
+.address-book-item-comms {
+  display: inline-table;
+  width: 100%;
+  margin: 8px 0; }
+
+.address-book-item-phone {
+  display: table-cell;
+  width: 33%; }
+
+.address-book-item-email {
+  display: table-cell;
+  width: 66%; }
+
+.address-book-item-links {
+  margin-top: 0.5em; }
+
+.address-book-item-edit-link {
+  display: inline-block;
+  margin-right: 4em; }
+
+.address-book-item-remove-link {
+  display: inline-block; }
+
+.address-book-item-remove-link a, .address-book-item-edit-link a {
+  color: #5FB047; }
+
+.address-book-item-icon {
+  padding-right: 0.5em; }
+
+/*# sourceMappingURL=address-book-item.css.map */

@@ -1,0 +1,293 @@
+/* colours */
+/* nav */
+/* alerts buttons dialogues */
+/* rad */
+/* fonts */
+/* grid */
+/* media query */
+/* Custom Variables */
+.zopim {
+    display: none !important;
+  }
+@font-face {
+  font-family: 'size-weight';
+  src: url("../App_Plugins/mpdicons/size-weight-icomoon3d47.eot?34gtb7");
+  src: url("../App_Plugins/mpdicons/size-weight-icomoond41d.eot?#iefix34gtb7") format("embedded-opentype"), url("../App_Plugins/mpdicons/size-weight-icomoon3d47.woff?34gtb7") format("woff"), url("../App_Plugins/mpdicons/size-weight-icomoon3d47.ttf?34gtb7") format("truetype"), url("../App_Plugins/mpdicons/size-weight-icomoon3d47.svg?34gtb7#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="size-weight="], [class*=" size-weight-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.size-weight-icon-christmas208:before {
+  content: "\e60b";
+}
+
+.size-weight-icon-shopping:before {
+  content: "\e600";
+}
+
+.size-weight-icon-bed36:before {
+  content: "\e601";
+}
+
+.size-weight-icon-microwave4:before {
+  content: "\e602";
+}
+
+.size-weight-icon-print44:before {
+  content: "\e603";
+}
+
+.size-weight-icon-drink52:before {
+  content: "\e604";
+}
+
+.size-weight-icon-dust1:before {
+  content: "\e605";
+}
+
+.size-weight-icon-dining5:before {
+  content: "\e606";
+}
+
+.size-weight-icon-livingroom5:before {
+  content: "\e607";
+}
+
+.size-weight-icon-cardboard4:before {
+  content: "\e608";
+}
+
+.size-weight-icon-book13:before {
+  content: "\e609";
+}
+
+.size-weight-icon-stacked7:before {
+  content: "\e60a";
+}
+
+.grey-gradient-bg {
+  border-bottom: 7px solid #afcacd;
+  background: url("../../Images/size-weight/size-weight-header-bg.html") repeat-x #cedfe1;
+}
+
+section.size-weight-intro {
+  padding-bottom: 30px;
+  margin-bottom: 0;
+  position: relative;
+}
+section.size-weight-intro h1 {
+  text-align: left;
+  padding: 30px 0 20px 0;
+}
+section.size-weight-intro .pb-holder {
+  position: absolute;
+  right: -46px;
+  bottom: 0;
+}
+section.size-weight-intro .pb {
+  margin-top: 30px;
+  text-align: right;
+}
+
+section.guides {
+  padding-top: 10px;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+section.guides h1 {
+  padding: 40px 0 20px 0;
+  margin-top: 0;
+}
+section.guides p {
+  text-align: center;
+  margin-bottom: 40px;
+}
+section.guides h2 {
+  background: #5fb047;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+section.guides .guideBox {
+  padding: 20px;
+  background: white;
+  margin-top: 14px;
+}
+section.guides .guideBox span {
+  line-height: 1;
+  font-family: 'size-weight';
+  color: #5fb047;
+  font-size: 60px;
+  float: left;
+  margin-right: 15px;
+}
+section.guides .guideBox p {
+  text-align: left;
+  width: 100%;
+  margin-bottom: 0;
+  color: #5fb047;
+}
+section.guides .guideBox p.title {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  font-family: montserratregular, Helvetica;
+}
+section.guides .leftPos {
+  padding-left: 0;
+  padding-right: 7px;
+}
+section.guides .rightPos {
+  padding-right: 0;
+  padding-left: 7px;
+}
+
+section.golden-ribbon {
+  overflow: visible;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+section.golden-ribbon .ribbon {
+  position: relative;
+  top: 37px;
+  text-align: center;
+  font-size: 0;
+}
+section.golden-ribbon .ribbon .ribbonTitle, section.golden-ribbon .ribbon .leftRibbon, section.golden-ribbon .ribbon .rightRibbon {
+  display: inline-block;
+}
+section.golden-ribbon .ribbon .ribbonTitle {
+  vertical-align: bottom;
+  width: 70%;
+  background: #fdbd11;
+  margin-top: 6px;
+}
+section.golden-ribbon .ribbon .ribbonTitle p {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  min-height: 60px;
+}
+
+section.golden-rule {
+  padding-top: 50px;
+}
+section.golden-rule p {
+  text-align: center;
+}
+section.golden-rule h1 {
+  padding: 40px 0 20px 0;
+}
+section.golden-rule .cta-end {
+  text-align: center;
+  padding: 20px 0;
+  clear: both;
+}
+section.golden-rule .cta-end .primaryButtonSmall {
+  font-size: 18px;
+  padding: 12px 30px;
+}
+
+/* DESKTOP */
+@media only screen and (max-width: 1240px) {
+  section.size-weight-intro {
+    padding-bottom: 20px;
+  }
+  section.size-weight-intro .pb-holder img {
+    width: 500px;
+  }
+
+  section.guides .guideBox {
+    text-align: center;
+  }
+  section.guides .guideBox span {
+    float: none;
+  }
+  section.guides .guideBox p {
+    text-align: center;
+  }
+
+  section.golden-ribbon p {
+    padding: 10px 0;
+    font-size: 30px;
+  }
+  section.golden-ribbon .ribbon .ribbonTitle p {
+    font-size: 22px;
+    padding: 14px 0;
+  }
+
+  section.golden-rule h1 {
+    padding: 20px 0;
+  }
+}
+/* TABLET */
+@media only screen and (max-width: 990px) {
+  section.size-weight-intro {
+    padding-bottom: 0;
+  }
+  section.size-weight-intro h1, section.size-weight-intro p {
+    text-align: center;
+  }
+  section.size-weight-intro .pb-holder {
+    position: static;
+  }
+  section.size-weight-intro .pb-holder .pb {
+    text-align: center;
+    margin-left: 40px;
+  }
+  section.size-weight-intro .pb-holder .pb img {
+    width: 70%;
+  }
+
+  section.guides .col-md-6 {
+    overflow: hidden;
+    margin-top: 15px;
+  }
+}
+/* MOBILE */
+@media only screen and (max-width: 767px) {
+  section.size-weight-intro img {
+    display: none;
+  }
+
+  section.golden-ribbon
+  .ribbon .ribbonTitle {
+    width: 55%;
+  }
+
+  section.guides .leftPos {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  section.guides .rightPos {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  section.golden-rule {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  section.golden-rule .cta-end .primaryButtonSmall {
+    font-size: 14px;
+    width: 100%;
+  }
+}
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

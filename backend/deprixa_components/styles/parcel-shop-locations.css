@@ -1,0 +1,50 @@
+﻿.parcel-shop-locations-box {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 0.25em 0.5em;
+    background: #fff;
+}
+
+.parcel-shop-locations-box.validation-error {
+    border-color: #db2a31 !important;
+}
+
+.parcel-shop-location {
+    display: inline-table;
+    width: 100%;
+}
+
+.parcel-shop-location-content {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.shop-name {
+    font-weight:bold;
+}
+
+.shop-address {
+    color: #999;
+    font-size: 13px;
+}
+
+.parcel-shop-location.content-bordered {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+}
+
+.parcel-shop-location-content.content-radio {
+    width: 10%;
+    text-align: center;
+}
+
+.parcel-shop-location-more-options {
+    width: 100%;
+    padding: 0.25em 0 0.5em 0;
+    text-align: left;
+}
+
+.parcel-shop-location-error {
+    margin: 0.5em;
+}

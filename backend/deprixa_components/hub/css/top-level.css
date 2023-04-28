@@ -1,0 +1,609 @@
+/* colours */
+/* nav */
+/* alerts buttons dialogues */
+/* rad */
+/* fonts */
+/* grid */
+/* media query */
+/* colours */
+/* nav */
+/* alerts buttons dialogues */
+/* rad */
+/* fonts */
+/* grid */
+/* media query */
+/* section */
+/* retina images */
+/* Custom Variables */
+.zopim {
+    display: none !important;
+  }
+span.error {
+  display: none !important;
+}
+
+.input-error {
+  border-color: #db2a31 !important;
+  background: #fdf2f3 !important;
+}
+
+div.mpHeader {
+  border-bottom: 0 !important;
+}
+
+div.main-promo {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  background: #5fb047;
+}
+div.main-promo.main-promo-purple {
+  background: #564193;
+}
+div.main-promo section {
+  padding-bottom: 0px !important;
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  margin-bottom: 0px !important;
+  /* booking pod styles */
+  /* booking pod */
+}
+div.main-promo section .promo-left {
+  float: left;
+}
+div.main-promo section .promo-left h1 {
+  color: white;
+  text-transform: none;
+  margin: 30px 0px 20px 0;
+  text-align: left;
+  font-size: 30px !important;
+  letter-spacing: 0;
+}
+div.main-promo section .promo-left p {
+  width: 680px;
+  color: white;
+  margin-bottom: 16px;
+}
+div.main-promo section .promo-left .promo-trust-pilot {
+  border-radius: 2px;
+  margin: 10px 0 30px 0;
+  height: 86px;
+  width: 228px;
+  clear: left;
+  float: left;
+  position: relative;
+  background: url("../../Images/cms/global/trust-pilot-rating-small.png") no-repeat;
+  background-size: contain;
+}
+@media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6 / 2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
+  div.main-promo section .promo-left .promo-trust-pilot {
+    background-repeat: no-repeat;
+    background-image: url("../../Images/cms/global/trust-pilot-rating-bg.png");
+    background-size: 228px 86px;
+  }
+}
+div.main-promo section .promo-left .promo-trust-pilot span {
+  position: absolute;
+  top: 48px;
+  right: 17px;
+  color: white;
+}
+div.main-promo section #booking-pod-container {
+  float: right;
+  width: 427px;
+  background: #5f666e;
+  padding: 10px;
+  right: 0px;
+  z-index: 99;
+  position: relative;
+}
+div.main-promo section #booking-pod-container .pb {
+  display: block;
+}
+div.main-promo section #booking-pod-container h4 {
+  color: #fff;
+  font-size: 20px;
+  padding: 12px 0;
+  margin-bottom: 10px;
+  font-family: montserratregular, Helvetica;
+}
+div.main-promo section #booking-pod-container .form-inline {
+  margin-bottom: 28px;
+}
+div.main-promo section #booking-pod-container label {
+  color: #fff;
+  font-weight: normal;
+}
+div.main-promo section #booking-pod-container label.collection-time-lbl {
+  margin-left: 40px;
+}
+div.main-promo section #booking-pod-container form input[type=number]::-webkit-outer-spin-button, div.main-promo section #booking-pod-container form input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+div.main-promo section #booking-pod-container form input[type=number] {
+  -moz-appearance: textfield;
+}
+div.main-promo section #booking-pod-container form .icon-help19 {
+  font-family: "mpd-icon";
+  font-size: 16px !important;
+  color: #fff;
+  margin-left: 6px;
+  position: relative;
+  top: 2px;
+}
+div.main-promo section #booking-pod-container form .form-horizontal {
+  overflow: hidden;
+  margin-bottom: 4px;
+  min-height: 325px;
+}
+div.main-promo section #booking-pod-container form div.form-dim-input input[type="text"] {
+  width: 22%;
+  margin-right: 15px;
+}
+div.main-promo section #booking-pod-container form div.form-dim-input select {
+  width: 21%;
+}
+div.main-promo section #booking-pod-container form div.form-dim-input #DimensionType {
+  background: #eee;
+}
+div.main-promo section #booking-pod-container form div.form-weight {
+  width: 100%;
+}
+div.main-promo section #booking-pod-container form div.form-weight input[type="text"] {
+  width: 22%;
+  margin-right: 15px;
+  float: left;
+}
+div.main-promo section #booking-pod-container form div.form-weight select {
+  width: 22%;
+  float: left;
+}
+div.main-promo section #booking-pod-container form div.form-weight #weight {
+  clear: both;
+}
+div.main-promo section #booking-pod-container form div.form-weight label {
+  float: left;
+}
+div.main-promo section #booking-pod-container form div.form-weight #WeightType {
+  background: #eee;
+  text-transform: lowercase;
+}
+div.main-promo section #booking-pod-container form div.form-weight input[type="number"] {
+  width: 22%;
+  margin-right: 15px;
+  float: left;
+}
+div.main-promo section #booking-pod-container form .form-control {
+  padding: 6px 6px !important;
+  height: 37px;
+}
+div.main-promo section #booking-pod-container form .form-weight {
+  float: left;
+  width: 120px;
+}
+div.main-promo section #booking-pod-container form .form-group {
+  margin: 0 0 15px 0 !important;
+}
+div.main-promo section #booking-pod-container form #Pickup {
+  width: 215px;
+}
+div.main-promo section #booking-pod-container form .divide {
+  float: left;
+  padding: 0 10px;
+  color: white;
+  margin-top: 32px;
+}
+div.main-promo section #booking-pod-container form #CollectionTimeHour, div.main-promo section #booking-pod-container form #CollectionTimeMinute {
+  width: 95px;
+}
+div.main-promo section #booking-pod-container form #CollectionTimeHour {
+  margin-left: 40px;
+}
+div.main-promo section #booking-pod-container form #CollectionTimeMinute {
+  margin-top: 25px;
+}
+div.main-promo section #booking-pod-container form #more-choices {
+  color: white;
+  display: none;
+}
+div.main-promo section #booking-pod-container form .pull-right {
+  display: none;
+}
+div.main-promo section #booking-pod-container form .btn-primary {
+  width: 198px;
+  padding: 6px 12px 7px 12px;
+  box-shadow: none;
+  font-size: 17px;
+}
+div.main-promo section #booking-pod-container a, div.main-promo section #booking-pod-container #more-options {
+  color: white !important;
+}
+div.main-promo section #booking-pod-container .pb {
+  background: url("../../Images/cms/home/pb.png");
+  width: 188px;
+  height: 247px;
+  position: absolute;
+  top: 168px;
+}
+div.main-promo section #booking-pod-container #more-options-container .form-group {
+  color: #fff;
+}
+
+section.options {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+section.options .box {
+  float: left;
+  margin-bottom: 25px;
+}
+section.options .custom-resize {
+  width: 25%;
+  position: relative;
+  min-height: 315px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+section.options .col-lg-offset-1 {
+  margin-left: 0;
+}
+section.options .feature-choice {
+  display: block;
+  background: none;
+  padding: 8px 18px;
+  overflow: hidden;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 30px;
+  display: block;
+}
+section.options .feature-choice a {
+  text-decoration: none;
+}
+section.options .feature-choice img {
+  max-height: 118px;
+}
+section.options .feature-choice .eBay{
+  width:70%;
+  margin:15px 0;
+  max-height:94px;
+}
+section.options .feature-choice h2 {
+  font-size: 24px !important;
+  margin: 30px 0 15px 0;
+}
+section.options .feature-choice p{
+  font-size:14px;
+}		
+section.options .feature-choice span {
+  font-family: 'services-icons';
+  font-size: 80px;
+  color: #5fb047;
+  padding-top: 15px;
+  display: block;
+}
+section.options .feature-choice .primaryButtonSmall {
+  margin-bottom: 15px;
+  cursor: pointer;
+  width: 100%;
+}
+section.options .feature-choice .logo {
+  display: block;
+  margin: 15px auto 15px auto;
+  min-height: 66px;
+}
+section.options .feature-choice .logo.ajg {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+section.more-help h1 {
+  text-align: center;
+  padding: 20px 0;
+}
+section.more-help p {
+  text-align: center;
+}
+section.more-help .link-holder {
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+}
+section.more-help .link-holder a {
+  margin: 25px 20px 0 20px;
+  cursor: pointer;
+}
+
+/* WIDE SCREEN */
+@media only screen and (max-width: 6000px) {
+  .main-promo ul li {
+    font-size: 17px;
+  }
+
+  #booking-pod-container {
+    width: 530px !important;
+    padding-top: 16px;
+  }
+  #booking-pod-container .pb {
+    left: -195px;
+  }
+  #booking-pod-container .form-to, #booking-pod-container .form-from {
+    width: 335px !important;
+  }
+  #booking-pod-container .form-collection, #booking-pod-container .form-delivery {
+    width: 255px !important;
+  }
+  #booking-pod-container .form-from-postcode, #booking-pod-container .form-to-postcode {
+    width: 32% !important;
+  }
+
+  .form-dimensions {
+    width: 100%;
+  }
+  .form-dimensions input {
+    float: left;
+    width: 24% !important;
+    margin-right: 10px !important;
+  }
+  .form-dimensions .tooltip-inner {
+    width: 270px;
+    height: 217px;
+    background: url("../../Images/cms/home/dimensions.jpg");
+  }
+
+  section.mpd-couriers ul li img {
+    margin-right: 51px;
+  }
+}
+/* DESKTOP */
+@media only screen and (max-width: 1240px) {
+  div.main-promo {
+    font-size: 13px;
+  }
+  div.main-promo section .promo-left {
+    width: 50%;
+  }
+  div.main-promo section .promo-left h1 {
+    width: 530px !important;
+  }
+  div.main-promo section .promo-left p {
+    width: 540px;
+  }
+  div.main-promo section #booking-pod-container {
+    width: 427px !important;
+    padding-top: 16px;
+  }
+  div.main-promo section #booking-pod-container form .form-horizontal {
+    min-height: 384px;
+  }
+  div.main-promo section #booking-pod-container .form-to, div.main-promo section #booking-pod-container .form-from {
+    width: 299px !important;
+  }
+  div.main-promo section #booking-pod-container #DimensionType {
+    width: 82px !important;
+  }
+  div.main-promo section #booking-pod-container .full-width {
+    width: 30% !important;
+  }
+  div.main-promo section #booking-pod-container .form-from-postcode, div.main-promo section #booking-pod-container .form-to-postcode {
+    width: 24% !important;
+  }
+
+  section.options .custom-resize {
+    width: 25%;
+	min-height:345px;	
+  }
+  section.options .feature-choice h2 {
+    font-size: 20px !important;
+  }
+  section.options .feature-choice img {
+    max-height: 88px;
+  }
+  section.options .feature-choice .eBay{
+	width:75%;
+	margin:22px 0;	
+  }
+  section.options .box{
+	min-height:448px;
+  }
+}
+/* TABLET */
+@media only screen and (max-width: 990px) {
+  div.main-promo {
+    background: #5fb047;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+  }
+  div.main-promo section .promo-left {
+    width: 43% !important;
+  }
+  div.main-promo section .promo-left h1 {
+    width: 100% !important;
+    font-size: 26px !important;
+  }
+  div.main-promo section .promo-left p {
+    width: 310px;
+  }
+  div.main-promo section #booking-pod-container {
+    padding-top: 12px;
+  }
+  div.main-promo section #booking-pod-container form .form-horizontal {
+    min-height: 460px;
+  }
+  div.main-promo section #booking-pod-container .full-width {
+    width: 30% !important;
+  }
+  div.main-promo section #booking-pod-container .form-dimensions {
+    width: 100% !important;
+  }
+  div.main-promo section #booking-pod-container .form-dimensions input {
+    float: left !important;
+  }
+
+  section.options {
+    padding-top: 40px;
+  }
+  section.options .noPad-left {
+    padding-left: 15px;
+  }
+  section.options .noPad-right {
+    padding-right: 15px;
+  }
+  section.options .custom-resize {
+    width: 33%;
+  }
+  section.options .col-md-3 {
+    width: 33%;
+  }
+  section.options .feature-choice .eBay{
+	margin:0;
+  }
+}
+/* MOBILE */
+@media only screen and (max-width: 767px) {
+  div.main-promo {
+    background-image: none;
+    background: #e9e9e9;
+  }
+  div.main-promo section .promo-left {
+    width: 100% !important;
+    min-height: 79px;
+  }
+  div.main-promo section .promo-left h1.mpdHeader {
+    color: white;
+    text-align: center;
+    font-size: 26px !important;
+    margin: 0px auto !important;
+    width: 80% !important;
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+    float: none;
+  }
+  div.main-promo section .promo-left p {
+    text-align: center;
+    width: 100%;
+    padding: 0 15px;
+    color: white;
+  }
+  div.main-promo section .promo-left .promo-trust-pilot {
+    margin: 25px auto 30px auto;
+    float: none;
+  }
+  div.main-promo section {
+    background: none;
+    /* booking pod */
+  }
+  div.main-promo section form {
+    max-width: 400px !important;
+    margin: auto !important;
+  }
+  div.main-promo section #booking-pod-container {
+    width: 100% !important;
+    padding-top: 0;
+  }
+  div.main-promo section #booking-pod-container .full-width {
+    width: 310px !important;
+  }
+  div.main-promo section #booking-pod-container .form-from-pickup {
+    float: left !important;
+  }
+  div.main-promo section #booking-pod-container #Pickup {
+    width: 310px !important;
+  }
+  div.main-promo section #booking-pod-container .collection-time-lbl, div.main-promo section #booking-pod-container #CollectionTimeHour {
+    margin-left: 0 !important;
+  }
+  div.main-promo section #booking-pod-container .form-horizontal {
+    min-height: 353px !important;
+    padding-top: 30px !important;
+  }
+  div.main-promo section #booking-pod-container h4 {
+    padding: 0px 0 3px 0 !important;
+  }
+  div.main-promo section #booking-pod-container .form-to, div.main-promo section #booking-pod-container .form-from {
+    width: 66% !important;
+  }
+  div.main-promo section #booking-pod-container .form-from-postcode, div.main-promo section #booking-pod-container .form-to-postcode {
+    width: 30% !important;
+  }
+  div.main-promo section #booking-pod-container .form-dimensions {
+    width: 100%;
+  }
+  div.main-promo section #booking-pod-container .form-dimensions input {
+    float: left;
+    width: 22% !important;
+    margin-right: 10px !important;
+  }
+  div.main-promo section #booking-pod-container div.form-weight input[type="number"] {
+    width: 22% !important;
+    margin-right: 10px !important;
+  }
+  div.main-promo section #booking-pod-container div.form-weight select {
+    width: 15% !important;
+  }
+  div.main-promo section #booking-pod-container div.form-weight #WeightType {
+    width: 55px !important;
+  }
+  div.main-promo section #booking-pod-container #DimensionType {
+    width: 22% !important;
+  }
+  div.main-promo section #booking-pod-container .btn-primary {
+    width: 55% !important;
+  }
+  div.main-promo section #booking-pod-container .form-to, div.main-promo section #booking-pod-container .form-from {
+    width: 66% !important;
+  }
+  div.main-promo section #booking-pod-container a {
+    float: left !important;
+    margin-top: 10px;
+    clear: both;
+  }
+
+  section.options .box {
+    margin-bottom: 0;
+	min-height:1px;
+  }
+  section.options .col-xs-6 {
+    width: 100% !important;
+  }
+  section.options .feature-choice {
+    padding: 15px;
+  }
+  section.options .feature-choice h2 {
+    font-size: 12px !important;
+    margin: 20px 0 5px 0;
+  }
+  section.options .feature-choice span {
+    font-size: 50px;
+  }
+  section.options .feature-choice .logo {
+    margin-bottom: 0;
+  }
+  section.options .feature-choice img {
+    max-width: 260px;
+    max-height: initial;
+	margin-bottom:20px;
+  }
+  section.options .feature-choice .primaryButtonSmall {
+    max-width: 260px;
+  }
+  section.options .custom-resize {
+    width: 100%;
+	min-height:1px;
+  }
+
+  section.more-help .link-holder a {
+    margin: 25px 10px 0 10px;
+  }
+
+  .link-holder .primaryButtonSmall {
+    width: 95% !important;
+  }
+section.options .feature-choice .eBay{
+	margin:8px 0 9px 0;
+}
+}
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

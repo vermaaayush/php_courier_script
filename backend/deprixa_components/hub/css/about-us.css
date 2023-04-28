@@ -1,0 +1,592 @@
+/* colours */
+/* nav */
+/* alerts buttons dialogues */
+/* rad */
+/* fonts */
+/* grid */
+/* media query */
+/* colours */
+/* nav */
+/* alerts buttons dialogues */
+/* rad */
+/* fonts */
+/* grid */
+/* media query */
+/* section */
+/* retina images */
+/* Custom Variables */
+
+.zopim {
+    display: none !important;
+  }
+
+@font-face {
+  font-family: 'about-us-icon';
+  src: url("../App_Plugins/mpdicons/who-are-we-icomoonb746.eot?-pwj46m");
+  src: url("../App_Plugins/mpdicons/who-are-we-icomoond41d.eot?#iefix-pwj46m") format("embedded-opentype"), url("../App_Plugins/mpdicons/who-are-we-icomoonb746.woff?-pwj46m") format("woff"), url("../App_Plugins/mpdicons/who-are-we-icomoonb746.ttf?-pwj46m") format("truetype"), url("../App_Plugins/mpdicons/who-are-we-icomoonb746.svg?-pwj46m#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'about-us-icon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-award52:before {
+  content: "\e600";
+}
+
+.icon-pencil41:before {
+  content: "\e601";
+}
+
+.about-header-bg {
+  background: url("../../Images/cms/about-us/about-us-headerBg.jpg") repeat-x #d1d4db;
+}
+
+section.about-us-intro {
+  position: relative;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 30px;
+}
+section.about-us-intro h1 {
+  margin: 0 0 30px 0;
+}
+section.about-us-intro .post-office-building {
+  margin-top: 0;
+}
+section.about-us-intro .post-office-building img {
+  display: block;
+}
+section.about-us-intro .about-us-title {
+  background: #3d4042;
+  padding: 10px 20px 5px 20px;
+}
+section.about-us-intro .about-us-title h2 {
+  background: white;
+  color: #3d4042;
+  padding: 10px;
+  font-size: 16px;
+  width: 60%;
+  margin: 20px auto 30px auto;
+}
+section.about-us-intro .about-us-title p {
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+}
+section.about-us-intro .about-us-title #mobPb {
+  display: none;
+}
+section.about-us-intro .arrow {
+  width: 100%;
+  top: 340px;
+  left: 430px;
+  position: absolute;
+  display: block;
+  height: 95px;
+  background: url("../../Images/cms/about-us/arrow.png") no-repeat;
+}
+section.about-us-intro #desktopHeader {
+  display: none;
+}
+
+section.about-us-features {
+  padding-top: 40px;
+}
+section.about-us-features div {
+  position: relative;
+}
+section.about-us-features .feature-box {
+  float: left;
+  width: 170px;
+  height: 190px;
+  margin-right: 20px;
+}
+section.about-us-features .industry-leading-img {
+  background: url("../../Images/cms/about-us/industry-leading.png") no-repeat;
+}
+@media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6 / 2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
+  section.about-us-features .industry-leading-img {
+    background-repeat: no-repeat;
+    background-image: url("../../Images/cms/about-us/industry-leading-ret.png");
+    background-size: 170px 190px;
+  }
+}
+section.about-us-features .rated-excellent-img {
+  background: url("../../Images/cms/about-us/rated-excellent.png") no-repeat;
+}
+@media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6 / 2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
+  section.about-us-features .rated-excellent-img {
+    background-repeat: no-repeat;
+    background-image: url("../../Images/cms/about-us/rated-excellent-ret.png");
+    background-size: 170px 190px;
+  }
+}
+section.about-us-features h2 {
+  text-align: left;
+  font-size: 22px;
+  margin-bottom: 35px;
+}
+section.about-us-features p {
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+section.about-us-features .primaryButtonSmall {
+  bottom: 0;
+  position: absolute;
+}
+section.about-us-features .hp-trust-pilot {
+  float: left;
+  text-align: left;
+  margin-top: 0;
+}
+section.about-us-features .hp-trust-pilot img {
+  margin: auto;
+  height: 20px;
+}
+section.about-us-features .hp-trust-pilot .tp-score {
+  margin-left: 10px;
+  font-size: 24px;
+  position: relative;
+  top: 6px;
+}
+section.about-us-features .hp-trust-pilot .mpd-slide {
+  margin-top: 46px;
+}
+section.about-us-features .hp-trust-pilot .mpd-slide p {
+  background: white;
+  padding: 10px;
+}
+section.about-us-features .hp-trust-pilot .swiper-container {
+  margin-top: 0;
+}
+section.about-us-features .hp-trust-pilot .swiper-container .pagination {
+  bottom: 0 !important;
+  right: 0px;
+  position: absolute;
+}
+section.about-us-features .hp-trust-pilot .swiper-container .pagination .swiper-active-switch {
+  background: #5fb047;
+}
+section.about-us-features .hp-trust-pilot .swiper-container .swiper-wrapper .swiper-slide {
+  min-height: 140px !important;
+  padding: 0;
+}
+section.about-us-features .hp-trust-pilot .swiper-container .swiper-wrapper .swiper-slide img {
+  width: auto !important;
+  float: left;
+  margin-top: 12px !important;
+  margin-right: 12px !important;
+  height: 15px !important;
+}
+section.about-us-features .hp-trust-pilot .swiper-container .swiper-wrapper .swiper-slide h4 {
+  float: left;
+  font-family: montserratregular, Helvetica;
+}
+section.about-us-features .hp-trust-pilot .swiper-container .swiper-wrapper .swiper-slide p.tp-review {
+  clear: both;
+  text-align: left;
+  margin: 10px 0;
+  float: left;
+  padding: 10px;
+  background: #f9f9f9;
+}
+section.about-us-features .hp-trust-pilot .swiper-container .swiper-wrapper .swiper-slide p.fl {
+  color: #666;
+  clear: both;
+}
+
+section.about-us-contact {
+  padding: 40px 0;
+  margin-bottom: 0;
+}
+section.about-us-contact img {
+  padding-top: 10px;
+}
+section.about-us-contact h2 {
+  color: white;
+  text-align: left;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+section.about-us-contact p {
+  color: white;
+  margin: 20px 0;
+}
+
+section.about-us-proof {
+  padding: 50px 0;
+  margin-bottom: 0;
+}
+section.about-us-proof .subTitle {
+  text-align: center;
+  padding: 20px 0;
+}
+section.about-us-proof .box {
+  background: #e9e9e9;
+  padding: 50px;
+  float: none;
+  overflow: hidden;
+}
+section.about-us-proof span {
+  float: left;
+  font-family: 'about-us-icon';
+  font-size: 90px;
+  padding-top: 10px;
+  padding-right: 30px;
+}
+section.about-us-proof h3 {
+  display: inline;
+}
+section.about-us-proof .mpdRed {
+  color: #db2a31;
+}
+section.about-us-proof .mpdPurple {
+  color: #564193;
+}
+section.about-us-proof .cta-end {
+  text-align: center;
+  padding-top: 40px;
+  clear: both;
+}
+section.about-us-proof .cta-end .primaryButtonSmall {
+  font-size: 18px;
+  padding: 12px 30px;
+}
+
+.noPadLeft {
+  padding-left: 0;
+}
+
+.noPadRight {
+  padding-right: 0;
+}
+
+/* DESKTOP */
+@media only screen and (max-width: 1240px) {
+  .about-header-bg {
+    background: url("../../Images/cms/about-us/about-us-headerBg-desktop.jpg") repeat-x #d1d4db;
+  }
+
+  section.about-us-intro {
+    padding-bottom: 30px;
+  }
+  section.about-us-intro .title-info {
+    overflow: hidden;
+  }
+  section.about-us-intro #desktopHeader {
+    display: inline !important;
+    text-align: right;
+  }
+  section.about-us-intro #clearHeader {
+    display: none;
+  }
+  section.about-us-intro .arrow {
+    background-size: 280px;
+    top: -364px;
+    left: 378px;
+  }
+  section.about-us-intro .post-office-building {
+    margin-top: 0;
+  }
+  section.about-us-intro .post-office-building img {
+    width: 370px;
+  }
+  section.about-us-intro #desktopHeader #fullPb {
+    width: 330px;
+  }
+
+  section.about-us-features .feature-box {
+    margin-bottom: 80px;
+  }
+  section.about-us-features .primaryButtonSmall {
+    position: static;
+  }
+
+  section.about-us-contact img {
+    padding-top: 30px;
+  }
+
+  section.about-us-proof .box {
+    min-height: 226px;
+  }
+}
+/* TABLET */
+@media only screen and (max-width: 990px) {
+  section.about-us-intro h1 {
+    margin-bottom: 36px;
+  }
+  section.about-us-intro .arrow {
+    display: none !important;
+  }
+  section.about-us-intro .post-office-building {
+    display: none !important;
+  }
+  section.about-us-intro #desktopHeader {
+    display: block !important;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  section.about-us-features {
+    text-align: center;
+  }
+  section.about-us-features header {
+    min-height: 48px;
+  }
+  section.about-us-features h2 {
+    text-align: center;
+    font-size: 20px;
+  }
+  section.about-us-features p {
+    float: left;
+    padding: 0;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    min-height: 0;
+    width: 70%;
+  }
+  section.about-us-features .feature-box {
+    float: left;
+    display: inline;
+    margin: 0 auto 20px auto;
+  }
+  section.about-us-features .noPadLeft {
+    padding-left: 0 !important;
+  }
+  section.about-us-features .noPadRight {
+    padding-right: 0 !important;
+  }
+  section.about-us-features .primaryButtonSmall {
+    position: static;
+    float: left;
+    margin-left: 20px;
+  }
+  section.about-us-features .hp-trust-pilot {
+    margin-top: 20px;
+  }
+  section.about-us-features .hp-trust-pilot .swiper-container .swiper-wrapper .swiper-slide .tp-review {
+    width: 100%;
+  }
+  section.about-us-features .hp-trust-pilot .swiper-container .swiper-wrapper .swiper-slide p {
+    min-height: 0;
+  }
+  section.about-us-features .hp-trust-pilot .swiper-container .swiper-wrapper .swiper-slide .fl {
+    padding: 0;
+    margin-left: 0;
+  }
+
+  section.about-us-contact h2 {
+    font-size: 20px;
+  }
+  section.about-us-contact img {
+    width: 100%;
+    padding-top: 15%;
+  }
+
+  section.about-us-proof h2 {
+    font-size: 20px;
+  }
+  section.about-us-proof .box {
+    padding: 35px;
+    min-height: 210px;
+    position: relative;
+  }
+  section.about-us-proof .box span {
+    font-size: 70px;
+    margin-bottom: 42px;
+  }
+  section.about-us-proof .box h3 {
+    font-size: 18px;
+  }
+  section.about-us-proof .box .primaryButtonSmall {
+    position: absolute;
+    bottom: 25px;
+  }
+}
+/* MOBILE */
+@media only screen and (max-width: 767px) {
+  .about-header-bg {
+    background: #e9e9e9;
+  }
+
+  section.about-us-intro {
+    margin-bottom: 20px;
+  }
+  section.about-us-intro #desktopHeader {
+    display: none !important;
+  }
+  section.about-us-intro .title-info {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  section.about-us-intro .post-office-building {
+    display: none;
+  }
+  section.about-us-intro .about-us-title {
+    padding-bottom: 0;
+    background: white;
+  }
+  section.about-us-intro .about-us-title p {
+    color: #666;
+  }
+  section.about-us-intro .about-us-title h2 {
+    width: 75%;
+    color: white;
+    background: #3d4042;
+  }
+  section.about-us-intro .about-us-title #mobPb {
+    display: block;
+    width: 320px;
+    margin: 0 auto;
+  }
+  section.about-us-intro #fullPb {
+    display: none;
+  }
+  section.about-us-intro .arrow {
+    display: none;
+  }
+
+  section.about-us-features {
+    text-align: center;
+    padding: 20px 0 20px 0;
+  }
+  section.about-us-features header {
+    min-height: 0;
+  }
+  section.about-us-features div {
+    margin-top: 0;
+  }
+  section.about-us-features .industryLeading {
+    text-align: center;
+  }
+  section.about-us-features .industryLeading p {
+    text-align: center;
+    width: 100%;
+  }
+  section.about-us-features .industryLeading .primaryButtonSmall {
+    float: none;
+    margin-left: 0;
+  }
+  section.about-us-features h2 {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  section.about-us-features .feature-box {
+    float: none;
+    margin: 0 auto;
+  }
+  section.about-us-features p {
+    margin: 20px 0 10px 0;
+    min-height: 0;
+    padding: 0 15px;
+  }
+  section.about-us-features .primaryButtonSmall {
+    position: static;
+  }
+  section.about-us-features .noPadLeft {
+    padding-left: 15px !important;
+  }
+  section.about-us-features .hp-trust-pilot {
+    margin: 40px 0;
+  }
+  section.about-us-features .hp-trust-pilot .swiper-container {
+    overflow: visible !important;
+    max-width: 320px !important;
+  }
+  section.about-us-features .hp-trust-pilot .swiper-container .pagination {
+    position: absolute;
+    text-align: center;
+    bottom: -40px !important;
+    z-index: 9999;
+    left: 0 !important;
+    right: 0 !important;
+  }
+  section.about-us-features .hp-trust-pilot .swiper-container .swiper-wrapper {
+    min-width: 3000px;
+  }
+  section.about-us-features .hp-trust-pilot .swiper-container .swiper-wrapper .swiper-slide {
+    padding: 0 20px !important;
+  }
+  section.about-us-features .hp-trust-pilot .swiper-container .swiper-wrapper .swiper-slide .fl {
+    float: none;
+  }
+  section.about-us-features .hp-trust-pilot .swiper-container .swiper-wrapper .swiper-slide h4 {
+    text-align: center;
+    width: 100%;
+    clear: both;
+    min-height: 40px;
+  }
+  section.about-us-features .hp-trust-pilot .swiper-container .swiper-wrapper .swiper-slide img {
+    float: none;
+  }
+
+  section.about-us-contact {
+    padding: 20px 0;
+  }
+  section.about-us-contact h2 {
+    text-align: center;
+    font-size: 16px;
+  }
+  section.about-us-contact p {
+    text-align: center;
+  }
+  section.about-us-contact img {
+    padding-top: 0;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  section.about-us-proof {
+    padding: 20px 0;
+  }
+  section.about-us-proof h2, section.about-us-proof h3 {
+    font-size: 16px;
+    margin: 20px 0;
+  }
+  section.about-us-proof h3 {
+    display: block;
+    margin-bottom: 10px;
+  }
+  section.about-us-proof .subTitle {
+    padding: 0 10px;
+  }
+  section.about-us-proof .box {
+    margin: 15px 0;
+    padding: 30px;
+    text-align: center;
+  }
+  section.about-us-proof .box span {
+    font-size: 70px;
+    float: none;
+    padding: 0;
+    display: block;
+  }
+  section.about-us-proof .box .primaryButtonSmall {
+    position: static;
+    bottom: 0;
+  }
+  section.about-us-proof .cta-end {
+    padding: 20px 15px 15px 15px;
+  }
+  section.about-us-proof .cta-end .primaryButtonSmall {
+    font-size: 14px;
+    width: 100%;
+  }
+}
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

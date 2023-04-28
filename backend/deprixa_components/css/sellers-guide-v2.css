@@ -1,0 +1,422 @@
+.sticky {
+  border-bottom: 0;
+}
+.sticky.fixed {
+  position: fixed;
+  top: 0;
+  z-index: 30;
+  width: 1240px;
+}
+section.guide-to-buying-selling{
+	padding-bottom:0;
+	margin-bottom:50px;
+	background-image:url('../media/1666/clouds.png');
+	background-repeat: no-repeat;
+    background-position: 680px 15px;
+}
+section.guide-to-buying-selling .info{
+	padding-top:50px;
+}
+section.guide-to-buying-selling .info .pb{
+	float:left;
+	position:relative;
+	left:24px;
+	top:30px;
+}
+section.guide-to-buying-selling .info .pb.facebook{
+	top:16px;
+}
+section.guide-to-buying-selling .info .pb.folksy{
+	top:19px;
+}section.guide-to-buying-selling .info .pb.preloved{
+	top:0;
+}
+section.guide-to-buying-selling .info .info-box{
+	overflow:hidden;
+	color:#fff;
+}
+
+section.guide-to-buying-selling .info .info-box .info-box-top{
+	background:url('../media/1665/seller-guide-box-top.png')no-repeat;
+	width:100%;
+	min-height:39px;
+}
+section.guide-to-buying-selling .info .info-box .info-box-main{
+	background:#5FB047;
+	padding:0 20px 10px 20px;
+}
+section.guide-to-buying-selling .info .info-box .info-box-main img{
+	height:90px;
+	margin-bottom:15px;
+	background:#fff;
+}
+section.guide-to-buying-selling .info .info-box .info-box-main h1{
+	text-align:left;
+	color:#fff;
+	padding-right:100px;
+	padding-left:15px;
+	margin-bottom:0;
+}
+section.guide-to-buying-selling .info .info-box .info-box-bottom{
+	background:url('../media/1664/seller-guide-box-bottom.png')no-repeat;
+	min-height:13px;
+	width:100%;
+}
+section.how-to-sell-title{margin:0 auto; padding:40px 0 0 0;}
+section.how-to-sell-title h2{margin:0;}
+section.how-to-sell-title p{text-align:center; margin-top:20px;}
+section.full-wrap{
+    padding:0;
+	overflow:visible;
+    margin-bottom: 0 !important;
+    position: relative;
+    background-repeat: no-repeat;
+	min-height:270px;
+}
+section.full-wrap .step-arrow{
+	position:absolute;
+	bottom:-95px;
+}
+section.full-wrap .step-arrow.right{
+	left:282px;
+}
+section.full-wrap .step-arrow.left{
+	right:332px;
+}
+section.full-wrap p.title-step{
+	font-size:20px;
+	font-weight:bold;
+	font-family: montserratregular, Helvetica;
+}
+section.full-wrap p.non-width{width:90%;}
+section.step1 div, section.step3 div{padding-left:50px;}
+section.step1 div, section.step3 div, section.step2 div, section.step4 div{margin-top:110px;}
+section.step1 div.with-subtitle, section.step3 div.with-subtitle, section.step2 div.with-subtitle, section.step4 div.with-subtitle{margin-top:80px;}
+section.full-wrap div.preloved-margin{margin-top:50px;}
+section.full-wrap div.asos-margin{margin-top:50px;}
+section.full-wrap div.ebay-margin{margin-top:30px;}
+section.gumtree-step1{
+	background-position:left;
+	background-image:url('../media/1667/gumtree-step1.png');
+}
+section.gumtree-step2{
+	background-position:right;
+	background-image:url('../media/1668/gumtree-step2.png');
+}
+section.gumtree-step3{
+	background-position:left;
+	background-image:url('../media/1669/gumtree-step3.png');
+}
+section.gumtree-step4{
+	background-position:right;
+	background-image:url('../media/1670/gumtree-step4.png');
+}
+section.facebook-step1{
+	background-position:left;
+	background-image:url('../media/1677/facebook-step1.png');
+}
+section.facebook-step2{
+	background-position:right;
+	background-image:url('../media/1678/facebook-step2.png');
+}
+section.facebook-step3{
+	background-position:left;
+	background-image:url('../media/1679/facebook-step3.png');
+}
+section.facebook-step4{
+	background-position:right;
+	background-image:url('../media/1680/facebook-step4.png');
+}
+section.folksy-step1{
+	background-position:left;
+	background-image:url('../media/1681/folksy-step1.png');
+}
+section.folksy-step2{
+	background-position:right;
+	background-image:url('../media/1682/folksy-step2.png');
+}
+section.folksy-step3{
+	background-position:left;
+	background-image:url('../media/1683/folksy-step3.png');
+}
+section.folksy-step4{
+	background-position:right;
+	background-image:url('../media/1684/folksy-step4.png');
+}
+section.preloved-step1{
+	background-position:left;
+	background-image:url('../media/1686/preloved-step1.png');
+}
+section.preloved-step2{
+	background-position:right;
+	background-image:url('../media/1687/preloved-step2.png');
+}
+section.preloved-step3{
+	background-position:left;
+	background-image:url('../media/1688/preloved-step3.png');
+}
+section.preloved-step4{
+	background-position:right;
+	background-image:url('../media/1689/preloved-step4.png');
+}
+section.etsy-step1{
+	background-position:left;
+	background-image:url('../media/1690/etsy-step1.png');
+}
+section.etsy-step2{
+	background-position:right;
+	background-image:url('../media/1691/etsy-step2.png');
+}
+section.etsy-step3{
+	background-position:left;
+	background-image:url('../media/1692/etsy-step3.png');
+}
+section.etsy-step4{
+	background-position:right;
+	background-image:url('../media/1693/etsy-step4.png');
+}
+section.asos-step1{
+	background-position:left;
+	background-image:url('../media/1694/asos-step1.png');
+}
+section.asos-step2{
+	background-position:right;
+	background-image:url('../media/1711/asos-step2.png');
+}
+section.asos-step3{
+	background-position:left;
+	background-image:url('../media/1696/asos-step3.png');
+}
+section.asos-step4{
+	background-position:right;
+	background-image:url('../media/1697/asos-step4.png');
+}
+section.depop-step1{
+	background-position:left;
+	background-image:url('../media/1698/depop-step1.png');
+}
+section.depop-step2{
+	background-position:right;
+	background-image:url('../media/1699/depop-step2.png');
+}
+section.depop-step3{
+	background-position:left;
+	background-image:url('../media/1700/depop-step3.png');
+}
+section.depop-step4{
+	background-position:right;
+	background-image:url('../media/1701/depop-step4.png');
+}
+section.ebay-step1{
+	background-position:left;
+	background-image:url('../media/1738/ebay-step1.png');
+}
+section.ebay-step2{
+	background-position:right;
+	background-image:url('../media/1739/ebay-step2.png');
+}
+section.ebay-step3{
+	background-position:left;
+	background-image:url('../media/1740/ebay-step3.png');
+}
+section.ebay-step4{
+	background-position:right;
+	background-image:url('../media/1741/ebay-step4.png');
+}
+.no-repeat{
+	background-repeat:no-repeat;	
+}
+.gumtree-row1-height{min-height:236px;}
+.gumtree-row2-height{min-height:166px;}
+.gumtree-row3-height{min-height:246px;}
+.gumtree-row4-height{min-height:296px;}	
+.depop-height{min-height:318px;}
+
+section.tips{
+	margin-top:50px;
+	background-image:url('../media/1675/tips-bg.png');
+	background-repeat:repeat-y;
+	background-position:50% 0;
+	padding-bottom:0;
+}
+section.tips header{
+	margin:0 auto 40px auto;
+	width:360px;
+}
+section.tips .writing-ads, section.tips .buying{
+	padding:0 30px;
+}
+section.tips .tip-box{
+	border:2px solid #5FB047;
+	margin-bottom:30px;
+	padding-left:15px;
+	padding-right:15px;
+}
+section.tips .tip-box img{
+	display:block;
+	margin:15px auto;
+	width:100%;
+	border:1px solid #eee;
+}
+section.tips .tip-box ul{
+	padding-left:25px;
+	padding-right:25px;
+}
+section.tips .tip-box .tip-title{
+	background:#5FB047;
+	color:#fff;
+	padding:10px;
+	margin-bottom:10px;
+	margin-left:-15px;
+	margin-right:-15px;
+}
+section.tips .tip-box .tip-title .media-body, section.avoid .tip-box .tip-title .media-body{
+	font-size:16px;
+	font-family: montserratregular, Helvetica;
+}
+section.tips .tip-box .tip-title .icon-box, section.avoid .tip-box .tip-title .icon-box{
+	font-family: "track-icon";
+    font-size: 20px;
+    padding-right: 10px;
+}
+section.tips .tip-box p{
+	padding:0 0 10px 0;
+	margin:0;
+}
+section.tips .media-body{vertical-align:middle;}
+section.tips .media-body h2{margin:0; text-align:left; padding-left:20px;}
+section.avoid{margin-bottom:0;}
+section.avoid .tip-box {
+	border:2px solid #db2a31;
+	overflow:hidden;
+	padding:0;
+}
+section.avoid .tip-box .tip-title{
+	background:#db2a31;
+	color:#fff;
+	padding:10px;
+}
+section.avoid .bad-tips-container{
+	padding:0 30px;
+}
+section.avoid .tip-box .tip-text p{
+	margin-right:30px;
+}
+section.avoid .tip-box .tip-text p.subTitle{
+	font-weight:bold;
+	color:#db2a31;
+	padding-top:10px;
+}
+section.avoid .button-holder{
+	margin: 0 auto;
+    text-align: center;
+    padding: 40px 0;
+}
+section.avoid .button-holder .primaryButtonSmall{
+	font-size: 18px;
+    padding: 12px 30px;
+}
+/* DESKTOP */
+@media only screen and (max-width: 1240px) {
+section.guide-to-buying-selling{
+	background-position: 450px 15px;
+}	
+.gumtree-row1-height{min-height:278px;}
+.gumtree-row2-height{min-height:206px;}
+.gumtree-row3-height{min-height:306px;}
+.gumtree-row4-height{min-height:378px;}
+}
+/* TABLET */
+@media only screen and (max-width: 990px) {
+	section.step1 div, section.step3 div, section.step2 div, section.step4 div{
+		margin-top:80px;
+	}
+	section.full-wrap .step-arrow.right{
+		left:120px;
+	}
+	section.full-wrap .step-arrow.right.ebay-right{
+		left:60px;
+	}
+	section.full-wrap .step-arrow.left.ebay-left{
+		right:110px;
+	}
+	.gumtree-row1-height{min-height:338px;}
+	.gumtree-row2-height{min-height:246px;}
+	.gumtree-row3-height{min-height:388px;}
+	.gumtree-row4-height{min-height:498px;}
+
+	section.avoid{
+		margin-top:20px;
+	}
+}
+/*MOBILE*/
+@media only screen and (max-width: 767px) {
+	section.guide-to-buying-selling{
+		background-image:none;
+	}
+	section.guide-to-buying-selling .info .info-box .media-left{
+		display:block;
+		text-align:center;
+	}
+	section.guide-to-buying-selling .info .info-box .media-body h1{
+		padding:0;
+		text-align:center;
+		margin-bottom:15px;
+	}
+	section.guide-to-buying-selling .info{
+		padding-top:15px;
+	}
+	section.guide-to-buying-selling .info .pb{
+		display:none;
+	}
+	section.full-wrap .step-arrow.right, section.full-wrap .step-arrow.left{
+		display:none;
+	}
+	section.full-wrap {
+		background-position:center;
+	}
+	section.step1 div, section.step3 div, section.step2 div, section.step4 div{
+		margin-top:265px!important;
+		margin-bottom:20px;
+		padding-left:15px;
+		text-align:center;
+	}
+	section.full-wrap p.title-step{
+		text-align:center;
+		font-size:18px;
+	}
+	section.tips{
+		background-image:none;
+	}
+	section.tips .writing-ads, section.tips .buying{
+		padding:0 15px;
+	}
+	section.tips .buying header{
+		margin-top:40px;
+	}
+	section.tips .tip-box{
+		margin-bottom:15px;
+	}
+	section.tips header{
+		width:300px;
+	}
+	.gumtree-row1-height, .gumtree-row2-height, .gumtree-row3-height, .gumtree-row4-height{min-height:1px;}		
+	section.avoid .bad-tips-container{
+		padding:0 15px;
+	}
+	section.avoid{
+		padding-bottom:0;
+		padding-left:15px;
+	    padding-right:15px;
+	}
+	section.avoid .button-holder .primaryButtonSmall{
+		font-size:16px;
+	width:100%;
+	}
+	section.how-to-sell-title p{
+	width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+	}
+}	
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

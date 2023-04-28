@@ -1,0 +1,241 @@
+/* colours */
+/* nav */
+/* alerts buttons dialogues */
+/* rad */
+/* fonts */
+/* grid */
+/* media query */
+/* colours */
+/* nav */
+/* alerts buttons dialogues */
+/* rad */
+/* fonts */
+/* grid */
+/* media query */
+/* section */
+/* retina images */
+/* Variables */
+.zopim {
+    display: none !important;
+  }
+section.careers-intro {
+  padding-bottom: 0;
+  margin-top: 30px;
+}
+section.careers-intro h1 {
+  margin-top: 0;
+  color: white;
+}
+
+section.our-company h1 {
+  margin: 40px 0;
+}
+section.our-company p {
+  text-align: center;
+}
+section.our-company h2 {
+  text-align: left;
+  font-size: 22px;
+  margin: 40px 0;
+  display: inline;
+  padding-left: 45px;
+}
+section.our-company .benefits {
+  margin-top: 30px;
+}
+section.our-company .benefits .parcelboy {
+  width: 178px;
+  height: 237px;
+  float: left;
+  margin-left: 30%;
+  margin-top: 20px;
+  background: url("../../Images/cms/careers/pb.png") no-repeat;
+}
+section.our-company .benefits ul {
+  float: left;
+  padding: 10px 0 0 20px;
+}
+section.our-company .benefits ul li {
+  list-style: none;
+}
+section.our-company .benefits ul li:before {
+  vertical-align: sub;
+  content: "\e606";
+  font-family: "contact-icon";
+  font-size: 20px;
+  color: #5fb047;
+  margin-right: 15px;
+}
+
+section.job-title h1 {
+  margin: 40px 0;
+}
+section.job-title p {
+  text-align: center;
+}
+
+section.job-roles {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+section.job-roles .twitter-feed {
+  padding-top: 20px;
+}
+section.job-roles .twitter-feed iframe {
+  max-height: 300px;
+}
+section.job-roles .job-box {
+  margin-bottom: 25px;
+  float: left;
+}
+section.job-roles .job-box .job-info h3 {
+  text-align: left;
+  padding: 10px 0;
+}
+section.job-roles .job-box .job-info .job-outer{
+  border:2px solid #5fb047;
+	width:300px;
+}
+section.job-roles .job-box .job-info .job-outer p{
+	padding-left:10px;
+}
+section.job-roles .job-box .job-info .open-roles {
+  background: #5fb047;
+  color: white;
+  padding: 10px;
+  display: block;
+  margin-bottom: 10px;
+}
+section.job-roles .job-box .job-info a {
+  display: block;
+}
+section.job-roles .job-box .spec {
+  clear: both;
+  margin-top: 20px;
+  float: left;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+section.job-roles .job-box .spec p {
+  font-weight: bold;
+  margin: 0;
+}
+
+section.meet-team header h1 {
+  margin: 20px 0 40px 0;
+}
+section.meet-team header p {
+  text-align: center;
+}
+section.meet-team .employee {
+  text-align: center;
+  margin: 20px 0;
+}
+section.meet-team .employee .employee-name {
+  padding-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 0;
+  margin-top: 0;
+}
+
+section.where-we-are h1 {
+  margin: 40px 0;
+}
+section.where-we-are p {
+  text-align: center;
+}
+section.where-we-are .map-container {
+  padding: 0;
+}
+section.where-we-are .map-container iframe {
+  width: 100%;
+}
+
+section.awards h1 {
+  margin: 40px 0;
+}
+section.awards p {
+  text-align: center;
+}
+
+/* WIDE SCREEN */
+/* DESKTOP */
+@media only screen and (max-width: 1240px) {
+  h3 {
+    font-size: 18px;
+  }
+
+  section.our-company .benefits .parcelboy {
+    margin-left: 25%;
+  }
+
+  section.job-roles .job-box h3 {
+    font-size: 18px;
+  }
+}
+/* TABLET */
+@media only screen and (max-width: 990px) {
+  section.careers-intro {
+    margin-top: 0;
+  }
+  section.careers-intro h1 {
+    margin: 20px 0;
+  }
+
+  section.our-company .benefits h2 {
+    font-size: 20px;
+  }
+  section.our-company .benefits .parcelboy {
+    margin-left: 10%;
+  }
+}
+/* MOBILE */
+@media only screen and (max-width: 767px) {
+  h1 {
+    margin: 20px 0 !important;
+  }
+
+  .mobHide {
+    display: none;
+  }
+
+  section.job-title p {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  section.careers-intro {
+    margin: 0;
+  }
+
+  section.job-roles {
+    text-align: center;
+  }
+  section.job-roles .job-box .job-info .job-outer{
+	width:100%;
+  }
+  section.job-roles .job-box {
+    margin-bottom: 10px;
+  }
+  section.job-roles .job-box .job-info h3 {
+    text-align: center;
+  }
+  section.job-roles .twitter-feed, section.job-roles .trust-pilot-feed {
+    display: none;
+  }
+
+  section.our-company .benefits .parcelboy {
+    display: none;
+  }
+
+  section.awards p {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  section.meet-team, section.where-we-are {
+    display: none;
+  }
+}
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

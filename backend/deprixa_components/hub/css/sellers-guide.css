@@ -1,0 +1,807 @@
+/* colours */
+/* nav */
+/* alerts buttons dialogues */
+/* rad */
+/* fonts */
+/* grid */
+/* media query */
+/* colours */
+/* nav */
+/* alerts buttons dialogues */
+/* rad */
+/* fonts */
+/* grid */
+/* media query */
+/* section */
+/* retina images */
+/* Variables*/
+.zopim {
+    display: none !important;
+  }
+@font-face {
+  font-family: 'track-icon';
+  src: url("../App_Plugins/mpdicons/track-icon1c1d.html?-xe5lwo");
+  src: url("../App_Plugins/mpdicons/track-icond41d.html?#iefix-xe5lwo") format("embedded-opentype"), url("../App_Plugins/mpdicons/track-icon1c1d-2.html?-xe5lwo") format("woff"), url("../App_Plugins/mpdicons/track-icon1c1d-3.html?-xe5lwo") format("truetype"), url("../App_Plugins/mpdicons/track-icon1c1d-4.html?-xe5lwo#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'services-icon';
+  src: url("../App_Plugins/mpdicons/services-icomoon1c1d.eot?-xe5lwo");
+  src: url("../App_Plugins/mpdicons/services-icomoond41d.eot?#iefix-xe5lwo") format("embedded-opentype"), url("../App_Plugins/mpdicons/services-icomoon1c1d.woff?-xe5lwo") format("woff"), url("../App_Plugins/mpdicons/services-icomoon1c1d.ttf?-xe5lwo") format("truetype"), url("../App_Plugins/mpdicons/services-icomoon1c1d.svg?-xe5lwo#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.track-icon-checked:before {
+	content: "\e603";
+}
+
+.track-icon-close40:before {
+	content: "\e601";
+}
+
+.icon-service-right218{
+	content: "\e619";
+}
+.media-left, .media-body {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.sellers-guide-bg {
+  background: #ceeeee;
+}
+
+h2 {
+  font-size: 25px !important;
+}
+
+section.sellers-guide-header {
+  padding: 0;
+  margin: 0 auto;
+}
+section.sellers-guide-header h1 {
+  text-align: left;
+  margin: 70px 0 0 0;
+  padding-bottom: 20px;
+}
+
+section.subHeading {
+  margin: 0 auto;
+  padding: 40px 0;
+}
+section.subHeading h2 {
+  margin: 0 0 30px 0;
+}
+section.subHeading p {
+  text-align: center;
+  padding: 0 10%;
+  margin-bottom: 0;
+}
+
+section.sellers-list a:hover {
+  background: #F8F8F8;
+  display: block;
+  opacity: 0.7;
+  filter: alpha(opacity=100);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+section.sellers-list .overlay .comingsoon {
+  z-index: 10;
+  display: none;
+  opacity: 0.9;
+}
+section.sellers-list .overlay:hover .comingsoon {
+  display: block;
+}
+section.sellers-list .sellers-box {
+  display: block;
+  border: 1px solid #dfdfdf;
+  text-align: center;
+  min-height: 217px;
+  margin-top: 30px;
+  position: relative;
+}
+section.sellers-list .sellers-box img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+section.sellers-list .sellers-box img.gumtree {
+  width: 45%;
+}
+section.sellers-list .sellers-box img.etsy, section.sellers-list .sellers-box img.folksy, section.sellers-list .sellers-box img.asos, section.sellers-list .sellers-box img.depop {
+  width: 60%;
+}
+section.sellers-list .sellers-box img.preloved, section.sellers-list .sellers-box img.amazon {
+  width: 80%;
+}
+section.cta {
+  padding-top: 60px;
+}
+section.cta .button-holder {
+  margin: 0 auto;
+  text-align: center;
+}
+section.cta .primaryButtonSmall {
+  font-size: 18px;
+  padding: 12px 30px;
+}
+
+.gumtree-bg {
+  background:#ef6224;
+}
+
+.amazon-bg {
+  background: #232f3e;
+}
+.generic-bg{
+  background:#5fb047;
+}
+
+section.sellers-bg {
+  overflow: visible;
+}
+section.sellers-bg .sellers-intro {
+  padding-bottom: 30px;
+}
+section.sellers-bg .sellers-intro h1, section.sellers-bg .sellers-intro p {
+  color: white !important;
+  text-align: left;
+}
+section.sellers-bg .sellers-intro h1 {
+  margin: 40px 0 20px 0;
+}
+section.sellers-bg .logo-badge {
+  position: relative;
+  background: white;
+  -ms-box-shadow: 4px 4px 4px rgba(50, 50, 50, 0.1);
+  -webkit-box-shadow: 4px 4px 4px rgba(50, 50, 50, 0.1);
+  -moz-box-shadow: 4px 4px 4px rgba(50, 50, 50, 0.1);
+  box-shadow: 4px 4px 4px rgba(50, 50, 50, 0.1);
+  width: 200px;
+  height: 200px;
+  border: 1px solid #f0f0f0;
+}
+section.sellers-bg .logo-badge.gumtree {
+  top: 35px;
+}
+section.sellers-bg .logo-badge.amazon {
+  top: 45px;
+}
+section.sellers-bg .logo-badge img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+section.sellers-bg .logo-badge img.gumtree {
+  width: 80%;
+}
+section.sellers-bg .logo-badge img.amazon {
+  width: 90%;
+}
+
+section.how-to-sell {
+  padding: 0;
+  text-align: center;
+}
+section.how-to-sell h2 {
+  text-align: center;
+  margin: 0;
+  padding: 30px 0 10px 0;
+}
+section.how-to-sell .steps, section.how-to-sell .amazon-steps {
+  padding-top: 40px;
+}
+section.how-to-sell .steps:before, section.how-to-sell .amazon-steps:before {
+  border-top: 1px dashed #dfdfdf;
+  content: "";
+  margin: 0 auto;
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 80%;
+  z-index: -1;
+}
+section.how-to-sell .amazon-steps:before {
+  top: 23%;
+  width: 70%;
+}
+section.how-to-sell .step-box {
+  text-align: center;
+}
+section.how-to-sell .step-box .circle {
+  display: inline-block;
+  margin-bottom: 25px;
+  width: 118px;
+  height: 118px;
+  padding: 9px 7px 3px 7px;
+  margin-right: 10px;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 60px;
+  -ms-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -webkit-border-radius: 60px;
+}
+section.how-to-sell .step-box .circle.gumtree {
+  background: #1a889d;
+}
+section.how-to-sell .step-box .circle.amazon {
+  background: #fd9500;
+}
+section.how-to-sell .step-box .circle span {
+  color: white;
+  font-size: 36px;
+  display: block;
+  text-transform: uppercase;
+}
+section.how-to-sell .step-box .circle span.step {
+  font-size: 18px;
+  padding-top: 25px;
+}
+section.how-to-sell .step-box p {
+  margin-bottom: 0;
+  font-size: 13px;
+}
+section.how-to-sell .step-box p.threeCol {
+  padding: 0 20px;
+}
+section.how-to-sell .step-box p.marginBottom {
+  margin-bottom: 10px;
+}
+
+section.writing-tips h2 {
+  margin: 40px 0;
+}
+section.writing-tips .tip {
+  background: white;
+  border: 1px solid #dedede;
+  padding: 20px 20px 10px 20px;
+  margin-bottom: 10px;
+}
+section.writing-tips .tip .subHeading {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+section.writing-tips .tip .subHeading.green {
+  color: #5fb047;
+}
+section.writing-tips .tip .subHeading.red {
+  color: #db2a31;
+}
+section.writing-tips .icon-box {
+  font-family: "track-icon";
+  font-size: 24px;
+  padding-right: 10px;
+}
+section.writing-tips .icon-box.green {
+  color: #5fb047;
+}
+section.writing-tips .icon-box.red {
+  color: #db2a31;
+}
+section.writing-tips hr {
+  border-top: 1px solid white;
+  box-shadow: 0 1px 0 0 #b3b3b3;
+  margin: 35px 0;
+}
+
+section.tips-for-buying h2 {
+  margin: 40px 0;
+}
+section.tips-for-buying .tip {
+  margin-bottom: 30px;
+}
+section.tips-for-buying .tip .header {
+  background: #5fb047;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+section.tips-for-buying .tip .header .icon-box {
+  font-family: "services-icon";
+  font-size: 18px;
+  padding-right: 10px;
+  color: white;
+}
+section.tips-for-buying .tip .header .media-body {
+  color: white;
+  font-size: 16px;
+  font-family: montserratregular, Helvetica;
+}
+section.tips-for-buying .tip p {
+  padding: 0 20px;
+}
+section.tips-for-buying .button-holder {
+  margin: 0 auto;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  padding: 40px 0;
+}
+section.tips-for-buying .button-holder .primaryButtonSmall {
+  font-size: 18px;
+  padding: 12px 30px;
+}
+
+/* DESKTOP */
+@media only screen and (max-width: 1240px) {
+  section.sellers-guide-header h1 {
+    margin-top: 40px;
+  }
+  section.sellers-guide-header .pb {
+    padding-top: 20px;
+  }
+  section.sellers-guide-header .pb img {
+    width: 100%;
+  }
+
+  section.sellers-list .sellers-box {
+    min-height: 177px;
+  }
+  section.sellers-list .overlay:hover .comingsoon {
+    width: 294px;
+    height: 175px;
+  }
+  section.sellers-list .sellers-box img.facebook{
+    width:75%;
+  }
+  section.sellers-bg .logo-badge.gumtree {
+    top: 44px;
+  }
+
+  section.how-to-sell .steps:before {
+    top: 29%;
+  }
+  section.how-to-sell .amazon-steps:before {
+    top: 20%;
+  }
+}
+/* TABLET */
+@media only screen and (max-width: 990px) {
+  section.sellers-guide-header h1 {
+    margin-top: 30px;
+  }
+  section.sellers-guide-header .pb {
+    padding-top: 75px;
+  }
+
+  section.subHeading {
+    padding-bottom: 0;
+  }
+  section.subHeading h2 {
+    font-size: 20px !important;
+    margin-bottom: 20px;
+  }
+
+  section.sellers-list a:hover {
+    opacity: 1;
+    background: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+  }
+  section.sellers-list .overlay:hover .comingsoon {
+    display: none;
+  }
+
+  section.cta {
+    padding-top: 45px;
+  }
+
+  section.sellers-bg .sellers-intro {
+    padding-bottom: 20px;
+  }
+  section.sellers-bg .sellers-intro h1 {
+    margin-top: 30px;
+  }
+  section.sellers-bg .logo-badge {
+    width: 160px;
+    height: 160px;
+  }
+  section.sellers-bg .logo-badge.gumtree, section.sellers-bg .logo-badge.amazon {
+    top: 34px;
+  }
+
+  section.how-to-sell {
+    padding-bottom: 40px;
+  }
+  section.how-to-sell .steps:before {
+    top: 25%;
+  }
+  section.how-to-sell .amazon-steps:before {
+    top: 16%;
+  }
+}
+/* MOBILE */
+@media only screen and (max-width: 767px) {
+  section.sellers-guide-header h1 {
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+  }
+  section.sellers-guide-header p {
+    text-align: center;
+  }
+  section.sellers-guide-header .pb {
+    padding-top: 20px;
+    float: none;
+    text-align: center;
+  }
+  section.sellers-guide-header .pb img {
+    max-width: 320px;
+  }
+
+  section.subHeading {
+    padding-bottom: 20px;
+  }
+
+  section.sellers-list .sellers-box {
+    margin-top: 15px;
+  }
+  section.sellers-list .sellers-box img.gumtree {
+    width: 155px;
+  }
+  section.sellers-list .sellers-box img.facebook, section.sellers-list .sellers-box img.etsy, section.sellers-list .sellers-box img.folksy, section.sellers-list .sellers-box img.asos {
+    width: 230px;
+  }
+  section.sellers-list .sellers-box img.preloved, section.sellers-list .sellers-box img.amazon, section.sellers-list .sellers-box img.depop {
+    width: 250px;
+  }
+
+  section.sellers-bg .sellers-intro h1, section.sellers-bg .sellers-intro p {
+    text-align: center;
+  }
+  section.sellers-bg .logo {
+    display: none;
+  }
+
+  section.how-to-sell header {
+    width: 100%;
+    text-align: center;
+  }
+  section.how-to-sell header h2 {
+    text-align: center;
+    font-size: 18px !important;
+  }
+  section.how-to-sell header p {
+    margin-bottom: 30px;
+  }
+  section.how-to-sell .steps, section.how-to-sell .amazon-steps {
+    padding-top: 0;
+  }
+  section.how-to-sell .steps:before, section.how-to-sell .amazon-steps:before {
+    display: none;
+  }
+  section.how-to-sell .step-box {
+    margin-top: 35px;
+  }
+
+  section.writing-tips {
+    padding: 0 15px 10px 15px;
+  }
+  section.writing-tips h2 {
+    font-size: 18px !important;
+  }
+
+  section.tips-for-buying {
+    padding: 0 15px;
+  }
+  section.tips-for-buying h2 {
+    font-size: 18px !important;
+  }
+  section.tips-for-buying .button-holder .primaryButtonSmall {
+    width: 100%;
+  }
+}
+
+/* AMAZON UNIQUE */
+#amazon section{
+	padding-bottom:0;
+	margin-bottom:0;
+}
+#amazon section.intro{
+	padding-bottom:35px;
+	margin-bottom:0;
+}
+#amazon .intro .amazon-intro{
+	padding-right:100px;
+}
+#amazon .intro .amazon-intro h1{
+	color:#fff;
+	text-align:left;
+	margin:50px 0 40px 0;
+}
+#amazon .intro .amazon-intro p{
+	color:#fff;
+	width:95%
+}
+#amazon .intro .amazon-intro-img img{
+	float:right;
+	padding-top:30px;
+}
+#amazon section.sub-intro{
+	padding:30px 0;
+}
+#amazon section.sub-intro .item{
+	margin:30px 0;
+}
+#amazon section.sub-intro .item .bullet{
+	width:46px;
+	height:46px;
+	background:url("../media/1563/amazon-bullet.png") no-repeat;
+	margin-right:20px;
+}
+#amazon section.sub-intro .item .media-body p{
+	padding-left:20px;
+	margin-bottom:0;
+}
+#amazon section.pb-guide{
+	padding-top:50px;
+}
+#amazon section.pb-guide .guide-outer{
+	margin:0 auto;
+	width:50%;
+}
+#amazon section.pb-guide .guide-outer .pb img{
+	display:inline;
+	float:left;
+}
+#amazon section.pb-guide .mpd-txt{
+	overflow:hidden;
+	padding-left:15px;
+}
+#amazon section.pb-guide .mpd-txt img{
+	margin-top:20px;
+}
+#amazon section.pb-guide .mpd-txt h2{
+	text-align:left;
+	color:#e28e30;
+	float:left;
+	display:inline;
+}
+#amazon section.amazon-basics{
+	padding-bottom:50px;
+}
+#amazon section.amazon-basics h2{
+	margin:50px 0;
+}
+#amazon section.amazon-basics .box h3{
+	font-size:18px;
+	color:#e28e30;
+	text-transform:initial;
+	text-align:left;
+	margin:30px 0;
+	padding:0 10px;
+}
+#amazon section.amazon-basics .box p{
+	padding:0 10px;
+}
+#amazon section.amazon-tips h2{
+	margin:60px 0 40px 0;
+}
+#amazon section.amazon-tips p{
+	text-align:center;
+	width:70%;
+	margin:0 auto 50px auto;
+}
+#amazon section.amazon-tips .tip{
+	background:#fff;
+	border-radius:4px;
+	-ms-border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-raduius:4px;
+	padding:15px;
+	margin-bottom:20px;
+}
+#amazon section.amazon-tips .tip .tip-icon{
+	font-family: "services-icons";
+	font-size: 50px;
+	color:#232f3e;
+	margin-right:15px;
+}
+#amazon section.amazon-tips .tip h3{
+	font-size:16px;
+	color:#e28e30;
+	text-align:left;
+}
+#amazon section.amazon-tips .tip p{
+	text-align:left;
+	width:100%;
+	margin-bottom:10px;
+	padding-right:5em;
+}
+#amazon section.lingo .quote{
+	border:1px solid #ddd;
+	border-radius:4px;
+	-ms-border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-raduius:4px;
+    overflow:hidden;
+	padding:20px;
+	margin-bottom:50px;
+}
+#amazon section.lingo h2{
+	margin:50px 0;
+}
+#amazon section.lingo .quote .bubble-left{
+	background:url("../media/1569/bubble-left.png")no-repeat;
+	width:304px;
+	height:146px;
+	position:relative;
+}
+#amazon section.lingo .quote .bubble-right{
+	background:url("../media/1570/bubble-right.png")no-repeat;
+	width:309px;
+	height:148px;
+	position:relative;
+}
+#amazon section.lingo .quote .bubble-left h3{
+	color:#fff;
+	text-align:left;
+	width:140px;
+	font-size:20px;
+	margin-top:40px;
+}	
+#amazon section.lingo .quote .bubble-right h3{
+	color:#fff;
+	font-size:20px;
+	text-align:left;
+	width:252px;
+	margin-top:40px;
+	padding-left:30px;
+}
+
+/*Desktop*/
+@media only screen and (max-width: 1240px) {
+	#amazon .intro .amazon-intro-img img{
+		padding-top:45px;
+	}
+	#amazon section.pb-guide .guide-outer{
+		width:65%;
+	}
+	#amazon section.amazon-basics .box img{
+		width:311px;
+	}
+}
+
+/*Tablet*/
+@media only screen and (max-width: 990px) {
+	#amazon .intro .amazon-intro-img img{
+		padding-top:85px;
+	}
+	#amazon section.pb-guide .guide-outer{
+		width:75%;
+	}
+	#amazon section.amazon-basics .box img{
+		width:230px;
+	}
+	#amazon section.lingo .quote .bubble-left, #amazon section.lingo .quote .bubble-right{
+		background-size:100%;
+		width: 33.33333333333333%;
+	}
+	#amazon section.lingo .quote .bubble-right h3{
+		font-size:16px;
+		width:225px;
+		margin-top:32px;
+	}
+	#amazon section.lingo .quote .bubble-left h3{
+		margin-top:35px;
+		font-size:16px;
+	}
+}
+
+/*Mobile*/
+@media only screen and (max-width: 767px) {
+	#amazon .intro .amazon-intro{
+		width:100%; 
+		padding:0 15px;
+	}
+	#amazon .intro .amazon-intro p{
+		width:100%;
+	}
+	#amazon .intro .amazon-intro h1{
+		text-align:center;
+	}
+	#amazon .intro .amazon-intro-img{
+		text-align:center;	
+	}
+	#amazon .intro .amazon-intro-img img{
+		float:none;
+		padding-top:20px;
+	}
+	#amazon section.sub-intro{
+		padding:0;
+	}
+	#amazon section.sub-intro .item .bullet{
+		background-size:100%;
+		width:20px;
+		margin-right:0;
+	}
+	#amazon section.sub-intro .item .media-body p{
+		padding-left:10px;
+	}
+	#amazon section.pb-guide{
+		padding-left:15px;
+		padding-right:15px;
+	}
+	#amazon section.pb-guide .guide-outer{
+		width:100%;
+	}
+	#amazon section.amazon-basics .box{
+		text-align:center;
+		margin-top:40px;
+	}
+	#amazon section.amazon-basics h2{
+		margin-bottom:10px;
+	}
+	#amazon section.amazon-basics .box img{
+		max-width:320px;
+		width:initial;
+	}
+	#amazon section.amazon-basics .box h3{
+		padding:0;
+		text-align:center;
+	}
+	#amazon section.amazon-tips .tip {
+		text-align:center;
+	}
+	#amazon section.amazon-tips .tip .media-left, #amazon section.amazon-tips .tip .media-left{
+		display:block;
+	}
+	#amazon section.amazon-tips .tip h3, #amazon section.amazon-tips .tip p{
+		text-align:center;
+	}
+	#amazon section.amazon-tips .tip p{
+		padding-right:0;
+	}
+	#amazon section.amazon-tips .tip h3{
+		margin:20px 0;
+	}
+	#amazon section.lingo{
+		padding-left:15px;
+		padding-right:15px;
+	}
+	#amazon section.lingo .quote{
+		padding-top:0;
+	}
+	#amazon section.lingo .quote .bubble-left, #amazon section.lingo .quote .bubble-right{
+		float:none;
+		margin:30px auto 20px auto;
+		width:304px;
+		position:relative;
+		
+	}
+	#amazon section.lingo .quote .bubble-left h3{
+		position:absolute;
+		font-size:18px;
+		top:20px;
+		left:80px;
+		margin-top:25px;
+	}
+	#amazon section.lingo .quote .bubble-right h3{
+		position:absolute;
+		font-size:18px;
+		top:20px;
+		left:40px;
+		margin-top:25px;
+		width:230px;
+	}
+	#amazon section.lingo .quote .quote-txt{
+		padding-left:0;
+		padding-right:0;
+	}
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

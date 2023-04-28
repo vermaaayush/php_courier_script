@@ -1,0 +1,351 @@
+/* colours */
+/* nav */
+/* alerts buttons dialogues */
+/* rad */
+/* fonts */
+/* grid */
+/* media query */
+/* colours */
+/* nav */
+/* alerts buttons dialogues */
+/* rad */
+/* fonts */
+/* grid */
+/* media query */
+/* section */
+/* retina images */
+/* Variables */
+.zopim {
+    display: none !important;
+  }
+.packaging-bg {
+  border-bottom: 7px solid #afcacd;
+  background: url("../../Images/cms/help-support/help-header-bg.jpg") repeat-x #cddfe1;
+}
+
+.leftBox {
+  padding-left: 0 !important;
+}
+
+.noPad {
+  padding: 0 !important;
+}
+
+.rightBox {
+  padding-right: 0 !important;
+}
+
+.mobShow {
+  display: none !important;
+}
+
+.MPDRed {
+  color: #db2a31;
+}
+
+section.packaging-header {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+section.packaging-header .packaging-title {
+  padding-top: 70px;
+  padding-top: 55px;
+}
+section.packaging-header .packaging-title h1, section.packaging-header .packaging-title p {
+  text-align: left;
+  color: #666;
+}
+section.packaging-header .packaging-title p {
+  width: 70%;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+section.packaging-header .header-image {
+  padding-top: 40px;
+  text-align: right;
+}
+
+section.dos {
+  padding-bottom: 0;
+  margin: 30px auto;
+}
+section.dos h2 {
+  margin-bottom: 30px;
+  color: #5fb047;
+}
+section.dos .packaging-box {
+  border: 1px solid #ddd;
+  position: relative;
+  text-align: center;
+  margin-bottom: 15px;
+}
+section.dos .packaging-box img {
+  margin: 10px 0;
+}
+section.dos .packaging-box .green {
+  color: #5fb047;
+  font-weight: bold;
+}
+section.dos .packaging-box .icon-box {
+  color: #5fb047;
+  font-family: "track-icon";
+  font-size: 50px;
+  position: absolute;
+  right: 15px;
+  top: 100px;
+}
+section.dos .packaging-box p {
+  background: #f5f5f5;
+  padding: 20px 10px;
+  margin-bottom: 0;
+  min-height: 100px;
+}
+
+section.donts h2 {
+  color: #db2a31;
+  margin-bottom: 30px;
+}
+section.donts .textbox {
+  background: #f5f5f5;
+  padding: 20px;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+section.donts .textbox p {
+  margin: 0;
+  width: 90%;
+  padding-left: 45px;
+}
+section.donts .textbox .red {
+  color: #db2a31;
+  font-weight: bold;
+}
+section.donts .textbox .icon-box {
+  margin-bottom: 20px;
+  float: left;
+  color: #db2a31;
+  font-family: "track-icon";
+  font-size: 30px;
+}
+
+section.extras {
+  margin-bottom: 0;
+  padding-top: 40px;
+}
+section.extras img {
+  height: 140px;
+  width: 140px;
+  float: left;
+}
+section.extras p {
+  margin-bottom: 0;
+  width: 70%;
+  padding-left: 20px;
+  float: left;
+}
+
+section.tabs {
+  margin-top: 60px;
+}
+section.tabs h3 {
+  text-align: left;
+  font-size: 22px;
+  padding-left: 22px;
+  margin: 20px 0;
+}
+section.tabs p {
+  font-weight: bold;
+  padding-left: 22px;
+}
+section.tabs .tab-content {
+  border: 1px solid #ddd;
+  padding-right: 10px;
+}
+section.tabs .nav-tabs {
+  border-bottom: 0;
+}
+section.tabs .nav-tabs > li {
+  margin-right: 6px;
+}
+section.tabs .nav-tabs > li > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 15px;
+  color: white;
+  background: #5fb047;
+}
+section.tabs .nav-tabs > li.active > a {
+  text-decoration: none;
+  background: white;
+  color: #666;
+}
+section.tabs .cta-end {
+  text-align: center;
+  padding: 20px 0;
+  clear: both;
+}
+section.tabs .cta-end .primaryButtonSmall {
+  font-size: 18px;
+  padding: 12px 30px;
+}
+
+/* DESKTOP */
+@media only screen and (max-width: 1240px) {
+  section.dos .packaging-box img {
+    height: 122px;
+  }
+  section.dos .packaging-box .icon-box {
+    top: 93px;
+    font-size: 40px;
+  }
+  section.dos .packaging-box p {
+    min-height: 120px;
+  }
+
+  section.donts .textbox {
+    min-height: 140px;
+  }
+
+  section.extras p {
+    width: 60%;
+  }
+}
+/* TABLET */
+@media only screen and (max-width: 990px) {
+  section.packaging-header .col-sm-6 {
+    width: 100%;
+  }
+  section.packaging-header .packaging-title {
+    padding-top: 30px;
+  }
+  section.packaging-header .packaging-title h1, section.packaging-header .packaging-title p {
+    text-align: center;
+    width: 100%;
+  }
+  section.packaging-header .header-image {
+    text-align: center;
+  }
+
+  section.dos h2 {
+    font-size: 20px;
+  }
+  section.dos .packaging-box img {
+    height: 112px;
+	width:174px;
+  }
+  section.dos .packaging-box .icon-box {
+    top: 83px;
+    font-size: 30px;
+  }
+  section.dos .packaging-box .icon-box.bgWhite{
+	background:#fff;
+  }
+  section.dos .packaging-box p {
+    min-height: 160px;
+  }
+
+  section.donts h2 {
+    font-size: 20px;
+  }
+  section.donts .textbox {
+    min-height: 160px;
+  }
+
+  section.extras {
+    padding-bottom: 20px;
+  }
+  section.extras div {
+    width: 100%;
+    margin-bottom: 20px;
+    clear: both;
+  }
+  section.extras p {
+    width: 80%;
+  }
+
+  section.tabs h3 {
+    font-size: 20px;
+  }
+}
+/* MOBILE */
+@media only screen and (max-width: 767px) {
+  .mobHide {
+    display: none !important;
+  }
+
+  .mobShow {
+    display: block !important;
+  }
+
+  section.packaging-header .header-image img {
+    max-width: 300px;
+	height:140px;
+  }
+
+  section.dos {
+    padding: 0 10px;
+  }
+  section.dos h2 {
+    font-size: 18px;
+  }
+  section.dos .col-sm-4 {
+    padding: 0;
+  }
+  section.dos .packaging-box p {
+    min-height: 0;
+  }
+
+  section.donts h2 {
+    font-size: 18px;
+  }
+  section.donts .textbox {
+    margin-bottom: 15px;
+    min-height: 0;
+  }
+
+  section.extras {
+    padding-bottom: 0;
+  }
+  section.extras .extras-block {
+    text-align: center;
+  }
+  section.extras img {
+    float: none;
+  }
+  section.extras p {
+    width: 100%;
+    padding-left: 0;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  section.tabs h3 {
+    font-size: 18px;
+    padding-left: 12px;
+  }
+  section.tabs p {
+    padding-left: 12px;
+  }
+  section.tabs ul {
+    padding-left: 28px;
+  }
+  section.tabs .nav-tabs {
+    padding-left: 10px;
+  }
+  section.tabs .nav-tabs > li > a {
+    font-size: 12px;
+  }
+  section.tabs .tab-content {
+    padding-right: 20px;
+  }
+  section.tabs .cta-end {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  section.tabs .cta-end .primaryButtonSmall {
+    font-size: 14px;
+    width: 100%;
+  }
+}
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

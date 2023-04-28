@@ -1,0 +1,446 @@
+/* colours */
+/* nav */
+/* alerts buttons dialogues */
+/* rad */
+/* fonts */
+/* grid */
+/* media query */
+/* colours */
+/* nav */
+/* alerts buttons dialogues */
+/* rad */
+/* fonts */
+/* grid */
+/* media query */
+/* section */
+/* retina images */
+/* Variables */
+/* Delivery Affiliate Header*/
+.zopim {
+    display: none !important;
+  }
+.purple-bg {
+  background: #564193;
+  color: white;
+}
+.purple-bg section {
+  margin: 0 auto;
+}
+.purple-bg h1, .purple-bg p {
+  color: white;
+  text-align: left !important;
+}
+.purple-bg .header-info {
+  padding-top: 50px;
+}
+.purple-bg .pb {
+  padding-right: 10%;
+}
+.purple-bg .pb img {
+  width: 299px;
+  float: right;
+}
+
+.title {
+  padding-bottom: 0;
+  margin: 30px auto;
+}
+.title header p {
+  text-align: center;
+  padding-top: 20px;
+}
+
+section.sub-heading {
+  margin: 0 auto;
+  padding: 40px 0;
+}
+section.sub-heading h2 {
+  font-size: 25px !important;
+  margin-bottom: 30px;
+}
+section.sub-heading p {
+  text-align: center;
+  padding: 0 5%;
+}
+
+section.full-wrap {
+  padding: 80px 0;
+  margin-bottom: 0 !important;
+  position: relative;
+  background-repeat: no-repeat;
+  /*How It Works*/
+  /* MPD+*/
+  /*Delivery Affiliate*/
+}
+section.full-wrap.measure-parcel {
+  background-image: url("../../Images/cms/how-it-works/measure-parcel.png");
+  background-position: right;
+}
+section.full-wrap.choose-service {
+  background-image: url("../media/1260/choose-service.png");
+  background-position: left;
+}
+section.full-wrap.print-label {
+  background-image: url("../../Images/cms/how-it-works/print-label.png");
+  background-position: right;
+}
+section.full-wrap.wait-collection {
+  background-image: url("../../Images/cms/how-it-works/wait-for-collection.png");
+  background-position: left;
+}
+section.full-wrap.track-parcel {
+  background-image: url("../../Images/cms/how-it-works/track-parcel.png");
+  background-position: right;
+}
+section.full-wrap.job-done {
+  background-image: url("../../Images/cms/how-it-works/job-parcel.png");
+  background-position: left;
+}
+section.full-wrap.save-more {
+  background-image: url("../../Images/cms/mpd_plus/send-more-save.png");
+  background-position: right;
+}
+section.full-wrap.exclusive-access {
+  background-image: url("../../Images/cms/mpd_plus/exclusive-access.png");
+  background-position: left;
+}
+section.full-wrap.best-team {
+  background-image: url("../../Images/cms/mpd_plus/best-team.png");
+  background-position: right;
+}
+section.full-wrap.extra-protection {
+  background-image: url("../../Images/cms/mpd_plus/extra-protection.png");
+  background-position: left;
+}
+section.full-wrap.be-first-line {
+  background-image: url("../../Images/cms/mpd_plus/first-in-line.png");
+  background-position: left;
+}
+section.full-wrap.innovation {
+  background-image: url("../../Images/cms/mpd_plus/feedback.png");
+  background-position: right;
+}
+section.full-wrap.speedy-upload {
+  background-image: url("../../Images/cms/mpd_plus/speedy-upload.png");
+  background-position: left;
+}
+section.full-wrap.about-program {
+  background-image: url("../media/1524/affiliate-program.png");
+  background-position: right;
+}
+section.full-wrap.commission {
+  background-image: url("../media/1525/commission-earnt.png");
+  background-position: left;
+}
+section.full-wrap.restrictions {
+  background-image: url("../media/1527/restrictions.png");
+  background-position: right;
+}
+section.full-wrap.who-uses {
+  background-image: url("../media/1528/users.png");
+  background-position: left;
+}
+section.full-wrap.promote-mpd {
+  background-image: url("../media/1526/promote.png");
+  background-position: right;
+}
+section.full-wrap .grey-arrow, section.full-wrap .white-arrow {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+}
+section.full-wrap .grey-arrow {
+  border-top: 20px solid #e9e9e9;
+}
+section.full-wrap .white-arrow {
+  border-top: 20px solid white;
+}
+section.full-wrap header {
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+section.full-wrap header .bullet {
+  float: left;
+  display: block;
+  padding: 0 10px;
+  background: #abcbcd;
+  color: white;
+  font-size: 30px;
+}
+section.full-wrap header h2 {
+  padding-top: 10px;
+  margin-top: 0;
+  font-size: 20px;
+  text-align: left !important;
+  clear: none;
+  padding-right: 100px;
+  padding-left: 50px;
+  text-transform: none;
+  margin-bottom: 0;
+}
+section.full-wrap header h2.double-line {
+  padding-top: 0;
+}
+section.full-wrap header h2.noBullet {
+  padding-left: 0;
+}
+section.full-wrap .half-col-left .parcelboy, section.full-wrap .half-col-left .parcelboysmall {
+  position: absolute;
+  top: 86px;
+  right: -224px;
+  border: none;
+}
+section.full-wrap .half-col-left p {
+  padding-right: 50px;
+}
+section.full-wrap .half-col-right {
+  float: right;
+}
+section.full-wrap .table-cell {
+  display: table-cell;
+  vertical-align: top;
+}
+section.full-wrap .number {
+  display: inline-block;
+  width: 39px;
+  height: 39px;
+  padding: 9px 7px 3px 7px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1;
+  color: white;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  background-color: #ef6224;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -moz-border-radius: 20px;	
+  float: left;
+}
+section.full-wrap ul.restriction-list {
+  padding-left: 20px;
+}
+section.full-wrap ul.restriction-list > li {
+  color: #5fb047;
+}
+section.full-wrap ul.restriction-list > li > span {
+  color: #000;
+}
+
+section.controls {
+  border-top: 1px solid #dddddd;
+  padding-top: 25px;
+}
+section.controls .noPad {
+  padding-right: 0;
+}
+section.controls .primaryButtonSmall {
+  float: right;
+  font-size: 18px;
+  padding: 12px 30px;
+}
+
+section.delivery {
+  padding-top: 35px;
+}
+section.delivery p {
+  font-size: 14px;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+section.delivery .button-holder {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 18px;
+}
+section.delivery .button-holder .primaryButtonSmall {
+  margin-right: 30px;
+  font-size: 18px;
+  padding: 12px 30px;
+}
+
+/* WIDE SCREEN */
+/* DESKTOP */
+@media only screen and (max-width: 1240px) {
+  section.full-wrap .half-col-left .parcelboy {
+    top: 96px;
+    right: -120px;
+  }
+  section.full-wrap .half-col-left .parcelboysmall {
+    top: 96px;
+    right: -114px;
+  }
+
+  section.delivery p {
+    width: 70%;
+  }
+}
+/* TABLET */
+@media only screen and (max-width: 979px) {
+  .purple-bg .pb {
+    padding-right: 0;
+  }
+
+  section.sub-heading h2 {
+    font-size: 20px !important;
+  }
+
+  section.full-wrap.about-program header h2, section.full-wrap.commission header h2, section.full-wrap.restrictions header h2, section.full-wrap.who-uses header h2, section.full-wrap.promote-mpd header h2 {
+    padding-right: 0 !important;
+    padding-top: 4px;
+    font-size: 20px !important;
+  }
+  section.full-wrap .half-col-left .parcelboy, section.full-wrap .half-col-left .parcelboysmall {
+    top: 178px;
+    right: -76px;
+  }
+  section.full-wrap .half-col-right {
+    padding-left: 72px;
+    padding-right: 0;
+  }
+  section.full-wrap .number {
+    width: 29px;
+    height: 29px;
+    font-size: 18px;
+    padding-top: 6px;
+  }
+  section.full-wrap ul.restriction-list {
+    padding-right: 25px;
+  }
+}
+/* MOBILE */
+@media only screen and (max-width: 767px) {
+  .purple-bg .header-info {
+    padding-top: 40px;
+  }
+  .purple-bg h1 {
+    margin: 0;
+    text-align: center !important;
+  }
+  .purple-bg p {
+    text-align: center !important;
+  }
+  .purple-bg .pb {
+    float: none;
+    text-align: center;
+  }
+  .purple-bg .pb img {
+    float: none;
+  }
+
+  .title {
+    padding: 0 10px;
+  }
+  .title p {
+    padding: 20px 0;
+  }
+
+  section.sub-heading h2 {
+    font-size: 18px !important;
+  }
+
+  section.full-wrap {
+    background-position: top center !important;
+    margin-top: 40px;
+    padding: 40px 0;
+    background-size: 300px auto;
+  }
+  section.full-wrap header {
+    margin: 0 auto;
+  }
+  section.full-wrap header .bullet {
+    float: none;
+    margin: 0 auto 15px auto;
+    max-width: 40px;
+  }
+  section.full-wrap header h2 {
+    font-size: 16px;
+    text-align: center !important;
+    padding: 0 0 20px 0 !important;
+  }
+  section.full-wrap .half-col-left, section.full-wrap .half-col-right {
+    margin-top: 130px;
+    text-align: center;
+  }
+  section.full-wrap .half-col-left p {
+    padding-right: 0;
+  }
+  section.full-wrap .half-col-left .parcelboy, section.full-wrap .half-col-left .parcelboysmall {
+    display: none;
+  }
+  section.full-wrap .half-col-right {
+    padding: 0 15px;
+  }
+  section.full-wrap.about-program .half-col-left, section.full-wrap.commission .half-col-left, section.full-wrap.restrictions .half-col-left, section.full-wrap.who-uses .half-col-left, section.full-wrap.promote-mpd .half-col-left {
+    text-align: center;
+    margin-top: 120px;
+  }
+  section.full-wrap.about-program header, section.full-wrap.commission header, section.full-wrap.restrictions header, section.full-wrap.who-uses header, section.full-wrap.promote-mpd header {
+    margin-right: 0;
+    display: inline-block;
+  }
+  section.full-wrap.about-program header h2, section.full-wrap.commission header h2, section.full-wrap.restrictions header h2, section.full-wrap.who-uses header h2, section.full-wrap.promote-mpd header h2 {
+    font-size: 18px !important;
+    display: inline-block;
+    padding-top: 5px !important;
+  }
+  section.full-wrap .number {
+    vertical-align: top;
+    float: none;
+  }
+  section.full-wrap .grey-arrow, section.full-wrap .white-arrow {
+    display: none;
+  }
+  section.full-wrap .restriction-list {
+    list-style: none;
+  }
+  section.full-wrap .restriction-list li:before {
+    content: '\2022';
+    font-size: 20px;
+    color: #5fb047;
+    vertical-align: middle;
+    padding-right: 5px;
+  }
+
+  section.controls {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  section.controls div {
+    padding-left: 0;
+  }
+  section.controls .primaryButtonSmall {
+    float: none;
+    width: 100%;
+    font-size: 14px;
+  }
+
+  section.delivery p {
+    width: 95% !important;
+  }
+  section.delivery span {
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+  section.delivery .button-holder .primaryButtonSmall {
+    margin-right: 0;
+    width: 100%;
+  }
+  section.delivery .button-holder.delivery-affiliate {
+    padding-top: 0;
+  }
+}
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

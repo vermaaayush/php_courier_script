@@ -1,0 +1,55 @@
+/* colours */
+/* nav */
+/* alerts buttons dialogues */
+/* rad */
+/* fonts */
+/* grid */
+/* media query */
+.alphabetical-selector-element {
+  display: inline-block;
+  background-color: #e9e9e9;
+  padding: 4px; }
+  .alphabetical-selector-element .nav-pills li a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 2px 8px; }
+    .alphabetical-selector-element .nav-pills li a:hover {
+      background-color: #fff; }
+  .alphabetical-selector-element .nav-pills > li.active > a:hover {
+    color: #5FB047; }
+
+/*DESKTOP*/
+@media only screen and (max-width: 1240px) {
+  .alphabetical-selector-element {
+    padding: 7px 4px 4px 4px; }
+    .alphabetical-selector-element .nav-pills li a {
+      padding: 0 6px; } }
+/*TABLET*/
+@media only screen and (max-width: 990px) {
+  .alphabetical-selector-element {
+    padding-top: 10px; }
+    .alphabetical-selector-element .nav-pills li a {
+      padding: 2px 8px; } }
+/*MOBILE*/
+@media only screen and (max-width: 767px) {
+  .my-contacts-selection-bar .my-contacts-selection-by-initial {
+    height: auto; }
+
+  .my-contacts-address-book-item-line {
+    border-bottom: 0;
+    padding: 0 10px; }
+    .my-contacts-address-book-item-line .my-contacts-address-book-item {
+      width: 100%;
+      border-bottom: 1px solid #ddd; }
+      .my-contacts-address-book-item-line .my-contacts-address-book-item .address-book-item-details .address-book-item-comms .address-book-item-phone, .my-contacts-address-book-item-line .my-contacts-address-book-item .address-book-item-details .address-book-item-comms .address-book-item-email {
+        display: block;
+        width: 100%;
+        margin: 5px 0; }
+
+  .pull-right {
+    float: none !important;
+    text-align: center; }
+    .pull-right .create-contact-button {
+      width: 95%; } }
+
+/*# sourceMappingURL=alphabetical-selector.css.map */

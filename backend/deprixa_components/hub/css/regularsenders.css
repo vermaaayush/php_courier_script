@@ -1,0 +1,107 @@
+.zopim {
+    display: none !important;
+  }
+.mobHide{display:inline;}
+.mobShow{display:block;}
+.blue-bg{background:url("../media/1293/blue-bg.jpg") repeat-x; height:327px;}
+.business-account-head .promo{padding-top:70px; position:relative;}
+.business-account-head .promo img{float:left;}
+.business-account-head .promo h1{color:#fff; font-size:46px!important; text-transform:none; clear: none; float: left; width: 470px; text-align: left; padding-top: 20px;}
+.business-account-head .promo .boxes{position:absolute; bottom:-48px; right:-40px; background:url("../media/1295/boxes.png")no-repeat; width:212px; height:259px;}
+.business-account{padding-bottom:60px;}
+.info{padding-top:35px; padding-right:30px; position:relative;}
+.info h1{text-align:left; margin:0; margin-bottom:20px;}
+.info .benefits{background:#fff; border-radius:3px; padding:20px; margin-top:25px; padding-left:0; clear:both;}
+.info .benefits h2{margin:30px 0 0 0; padding:0; text-align:left; font-size:22px!important; color:#5fb047; text-transform:none; font-weight:bold;}
+.info .benefits ul{padding-left:0; list-style:none; padding-top:30px;}
+.info .benefits ul li{margin:10px 0; padding-right:10%;}
+.info .benefits ul li p{margin-bottom:0; margin-left:25px;}
+.info .benefits ul li:before {font-family: 'contact-icon'; font-size:20px; color:#5fb047; content:"\e606"; vertical-align:sub; padding-right:5px;}
+.info .well{font-size:16px; font-family: montserratregular, Helvetica, Helvetica; color:#666; padding:22px; background:#f0f0f0;}
+.info .logos{list-style:none;}
+.info .logos li{float:left;}
+.info .logos li img{margin-right:46px;}
+.info h2{margin:0; padding-top:0; text-transform:none;}
+
+
+#business-accounts{background:#e9e9e9; padding:15px; border-radius:3px; overflow:hidden; margin-top:77px; position:relative; z-index:50;}
+#business-accounts h2{color:#666666; margin:15px 0; padding:0; text-transform:none; font-size:22px;}
+#business-accounts .tel{color:#fff;}
+#business-accounts p{color:#666; margin-bottom:20px; background:#f6f6f6; border-radius:3px; padding:15px; margin-top:25px;}
+#business-accounts .form-control{margin-bottom:6px; border:0;}
+#business-accounts #submit{width: 100%; padding: 6px 12px 7px 12px; box-shadow: none; font-size: 17px; margin:15px 0; float:right;}
+#business-accounts .telno{display:none; color:#5fb047; text-decoration:none;}
+#business-accounts .desktopTel{color:#5fb047; text-decoration:none;}
+#business-accounts .success{background:#5fb047; color: #fff; margin: -15px; padding: 95px 35px 15px 35px; text-transform: none; font-size: 20px; min-height: 280px; line-height: 30px;}
+#business-accounts ::-webkit-input-placeholder{color:#c8c8c8;}
+#business-accounts :-moz-placeholder{color:#c8c8c8;}
+#business-accounts ::-moz-placeholder{color:#c8c8c8;}
+#business-accounts :-ms-input-placeholder{color:#c8c8c8;}
+
+.phone-box {padding: 20px;
+    background-color: #FBC127;
+    
+    text-align: center;
+    border-radius: 10px;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;}
+
+.phone-box a {color: #fff!important;text-decoration: none;}
+
+/* DESKTOP */
+@media only screen and (max-width: 1240px) {
+	.business-account{padding-bottom:20px;}
+	.business-account-head .promo{padding-top:80px;}
+	.business-account-head .promo img{max-width:160px;}
+	.business-account-head .promo h1{width:440px; font-size:32px!important;}
+.business-account-head .promo .boxes{height:279px; bottom:-93px; width:212px;}
+	#business-accounts h2{font-size:22px!important;}
+	.info .logos li img{margin-right:24px; max-height:60px;}
+	.info h2{font-size:22px!important;}
+}
+
+/* TABLET */
+@media only screen and (max-width: 990px) {
+	.info .benefits h2{font-size:20px!important;}
+    .info .pb {display:none;}
+	#business-accounts h2{font-size:20px!important;}
+	.business-account-head .promo img{max-width:145px;}
+	.business-account-head .promo h1{width:230px; font-size:28px!important;}
+	.business-account-head .promo .boxes{background-size:80%; right: -120px; bottom: -160px;}
+    .info .well{width:58%;}
+    .info .logos{padding-left:0;}
+    .info .logos li img{margin-right: 20px; max-height: 46px;}
+    .info .benefits{width:100%;}
+    .info .benefits ul li{padding-right:0;}
+    .info h2{width:395px; font-size:20px!important;}
+}
+
+/*Mobile*/
+@media only screen and (max-width: 767px) {
+	.mobHide{display:none;}
+	.mobShow{display:inline!important;}
+	.blue-bg{background:none; height:auto;}
+     #business-accounts #submit{width:100%;}
+    .business-account-head .promo{padding:0;}
+    .business-account-head .promo h1{padding: 20px 15px; margin:0; background:#009dd1;float:none; display:block; width:100%; text-align:center; text-transform:uppercase; font-size:18px!important;}
+    .business-account-head .promo .boxes, .business-account-head .promo img{display:none;}
+	.info{padding-top:0;}
+    .info h2{width:100%;}
+    .info .logos{text-align:center;}
+    .info .logos li{float:none; display:inline-block;}
+    .info .logos li img{margin-right:10px;}
+    .info .well{width:100%; font-size:13px;}
+    .info h1, .info p{text-align:center;}
+    .info .benefits{width:100%; padding:0;}
+    .info .benefits ul{padding-top:10px; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px solid #eee;}
+    .info .benefits ul li p{text-align:left!important;}
+    .info .benefits h2 {text-align:center; font-size:18px!important;}
+    .info p{text-align:left;}
+
+    #business-accounts{margin-top:20px;}
+    #business-accounts h2 {font-size:18px!important;}
+	#business-accounts .telno{display:inline; font-weight:bold;}
+    #business-accounts .desktopTel{display:none;}
+	#business-accounts #submit{margin-bottom:0;}
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

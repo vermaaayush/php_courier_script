@@ -1,0 +1,555 @@
+.butterbar {
+  position: relative;
+  height: 3px;
+  margin-bottom: -3px;
+}
+
+.butterbar .bar {
+  position: absolute;
+  width: 100%;
+  height: 0;
+  text-indent: -9999px;
+  background-color: #23b7e5;
+}
+
+.butterbar .bar:before {
+  position: absolute;
+  right: 50%;
+  left: 50%;
+  height: 3px;
+  background-color: inherit;
+  content: "";
+}
+
+.butterbar.active {
+  -webkit-animation: changebar 2.25s infinite 0.75s;
+     -moz-animation: changebar 2.25s infinite 0.75s;
+          animation: changebar 2.25s infinite 0.75s;
+}
+
+.butterbar.active .bar {
+  -webkit-animation: changebar 2.25s infinite;
+     -moz-animation: changebar 2.25s infinite;
+          animation: changebar 2.25s infinite;
+}
+
+.butterbar.active .bar:before {
+  -webkit-animation: movingbar 0.75s infinite;
+     -moz-animation: movingbar 0.75s infinite;
+          animation: movingbar 0.75s infinite;
+}
+
+/* Moving bar */
+
+@-webkit-keyframes movingbar {
+  0% {
+    right: 50%;
+    left: 50%;
+  }
+  99.9% {
+    right: 0;
+    left: 0;
+  }
+  100% {
+    right: 50%;
+    left: 50%;
+  }
+}
+
+@-moz-keyframes movingbar {
+  0% {
+    right: 50%;
+    left: 50%;
+  }
+  99.9% {
+    right: 0;
+    left: 0;
+  }
+  100% {
+    right: 50%;
+    left: 50%;
+  }
+}
+
+@keyframes movingbar {
+  0% {
+    right: 50%;
+    left: 50%;
+  }
+  99.9% {
+    right: 0;
+    left: 0;
+  }
+  100% {
+    right: 50%;
+    left: 50%;
+  }
+}
+
+/* change bar */
+
+@-webkit-keyframes changebar {
+  0% {
+    background-color: #23b7e5;
+  }
+  33.3% {
+    background-color: #23b7e5;
+  }
+  33.33% {
+    background-color: #fad733;
+  }
+  66.6% {
+    background-color: #fad733;
+  }
+  66.66% {
+    background-color: #7266ba;
+  }
+  99.9% {
+    background-color: #7266ba;
+  }
+}
+
+@-moz-keyframes changebar {
+  0% {
+    background-color: #23b7e5;
+  }
+  33.3% {
+    background-color: #23b7e5;
+  }
+  33.33% {
+    background-color: #fad733;
+  }
+  66.6% {
+    background-color: #fad733;
+  }
+  66.66% {
+    background-color: #7266ba;
+  }
+  99.9% {
+    background-color: #7266ba;
+  }
+}
+
+@keyframes changebar {
+  0% {
+    background-color: #23b7e5;
+  }
+  33.3% {
+    background-color: #23b7e5;
+  }
+  33.33% {
+    background-color: #fad733;
+  }
+  66.6% {
+    background-color: #fad733;
+  }
+  66.66% {
+    background-color: #7266ba;
+  }
+  99.9% {
+    background-color: #7266ba;
+  }
+}
+
+/*breadcrumbs-alt*/
+.breadcrumbs-alt {
+    list-style-type:none;
+    margin:0px 0 20px;
+    overflow:hidden;
+    padding:0;
+    width:100%;
+}
+.breadcrumbs-alt li {
+    float:left;
+    margin:0 25px 0 0;
+    transition:all 0.3s ease-in-out 0s;
+}
+.breadcrumbs-alt a:before {
+    border-color:#E0E1E7 #E0E1E7 #E0E1E7 rgba(0,0,0,0);
+    border-style:solid;
+    border-width:1.5em 0 1.7em 1em;
+    content:"";
+    left:-1em;
+    margin-top:-1.6em;
+    position:absolute;
+    top:50%;
+    transition:all 0.3s ease-in-out 0s;
+}
+.breadcrumbs-alt a:after {
+    border-bottom:1.5em solid rgba(0,0,0,0);
+    border-left:1em solid #E0E1E7;
+    border-top:1.5em solid rgba(0,0,0,0);
+    content:"";
+    margin-top:-1.5em;
+    position:absolute;
+    right:-1em;
+    top:50%;
+    transition:all 0.3s ease-in-out 0s;
+}
+.breadcrumbs-alt a {
+    background:#E0E1E7;
+    color:#444444;
+    float:left;
+    font-size:12px;
+    padding:10px;
+    position:relative;
+    text-decoration:none;
+    transition: all 0.3s ease-in-out 0s;
+}
+/*active and hover*/
+.breadcrumbs-alt a:hover:before,.breadcrumbs-alt a.current:before {
+    border-color:#1FB5AD #1FB5AD #1FB5AD rgba(0,0,0,0);
+    border-style:solid;
+    border-width:1.5em 0 1.7em 1em;
+    content:"";
+    left:-1em;
+    margin-top:-1.6em;
+    position:absolute;
+    top:50%;
+    transition:all 0.3s ease-in-out 0s;
+}
+.breadcrumbs-alt a:hover:after,.breadcrumbs-alt a.current:after {
+    border-bottom:1.5em solid rgba(0,0,0,0);
+    border-left:1em solid #1FB5AD;
+    border-top:1.5em solid rgba(0,0,0,0);
+    content:"";
+    margin-top:-1.5em;
+    position:absolute;
+    right:-1em;
+    top:50%;
+    transition:all 0.3s ease-in-out 0s;
+}
+.breadcrumbs-alt a:hover,.breadcrumbs-alt a.current {
+    background:#1FB5AD;
+    color:#fff;
+    float:left;
+    font-size:12px;
+    padding:10px;
+    position:relative;
+    text-decoration:none;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.top-nav ul.top-menu > li > a {
+  background:#F6F6F6;
+  border:1px solid #F6F6F6;
+  border-radius:100px;
+  margin-right:0;
+  padding:0;
+}
+
+ul.top-menu > li > a {
+  background:#F6F6F6;
+  border-radius:50%;
+  color:#666666;
+  font-size:16px;
+  margin-right:15px;
+  padding-bottom:4px;
+  padding-left:8px;
+  padding-right:8px !important;
+  padding-top:4px;
+}
+.top-nav .nav .caret {
+  border-bottom-color:#A4AABA;
+  border-top-color:#A4AABA;
+}
+
+.caret {
+  border-left-color:transparent;
+  border-left-style:solid;
+  border-left-width:4px;
+  border-right-color:transparent;
+  border-right-style:solid;
+  border-right-width:4px;
+  border-top-style:solid;
+  border-top-width:4px;
+  display:inline-block;
+  height:0;
+  margin-left:2px;
+  vertical-align:middle;
+  width:0;
+}
+
+.top-nav .username {
+    font-size:13px;
+    color:#555555;
+}
+.top-nav ul.top-menu>li>a {
+    border-radius:100px;
+    -webkit-border-radius:100px;
+    padding:0px;
+    background:none;
+    margin-right:0;
+    border:1px solid #F6F6F6;
+    background:#F6F6F6;
+}
+
+
+
+.table-bordered1 th,
+.table-bordered1 td {
+  border-left: 1px solid #dddddd;
+  background: #f5f5f5;
+}
+
+.btn-danger {
+  background-color:#D9534F;
+  border-color:#D43F3A;
+  box-shadow:#B20000 0 2px 0 0;
+  color:#FFFFFF;
+}
+
+.btn {
+  -webkit-user-select:none;
+  background-image:none;
+  border:1px solid transparent;
+  border-radius:4px;
+  cursor:pointer;
+  display:inline-block;
+  font-size:14px;
+  font-weight:normal;
+  line-height:1.42857;
+  margin-bottom:0;
+  text-align:center;
+  vertical-align:middle;
+  white-space:nowrap;
+}
+
+/* tables */
+.table-style {
+	float: left;
+	width: 100%;
+}
+.table-styleorange1 {
+	float: center;
+	width: 70%;
+}
+.table-list {
+	float: left;
+	background-color: #fff;
+	border: 1px solid #dddddd;
+	margin-bottom:5px;
+	width: 100%;
+}
+.table-styleorange {
+	float: left;
+	width: 100%;
+}
+.table-styleorange1 {
+	float: center;
+	width: 70%;
+}
+.table-listorange {
+	text-align: center;
+	background-color: #fff;
+	border: 1px solid #dddddd;
+	margin-bottom:5px;
+	width: 100%;
+}
+.table-listorange1 {
+	text-align: center;
+	background-color: #fff;
+	border: 1px solid #dddddd;
+	margin-bottom:5px;
+	width: 70%;
+}
+.table-list th {
+	padding: 9px 2px;
+	background-color: #FA8564;
+	text-align: center;
+}
+.table-listorange th {
+	padding: 7px 1px;
+	background-color: #A48AD4;
+	text-align: center;
+}
+.table-listorange1 th {
+	padding: 7px 1px;
+	background-color: #0080FF;
+	text-align: center;
+}
+.table-list td {
+	padding: 5px 1px;
+	text-align: center;
+	background-color: #f5f5f5;
+}
+
+.table-listorange td {
+	padding: 3px 1px;
+	text-align: center;
+	background-color: #f5f5f5;
+
+}
+.table-listorange1 td {
+	padding: 3px 1px;
+	text-align: center;
+	background-color: #f5f5f5;
+
+}
+.table-list tr:hover td {
+	background-color: #f9f9f9;
+}
+.table-listorange tr:hover td {
+	background-color: #f9f9f9;
+}
+.table-listorange1 tr:hover td {
+	background-color: #f9f9f9;
+}
+a.pageno li {list-style: none;float: left;margin-right:5px; padding:6px;border:solid 1px #dddddd;color:#77C043; border-radius:3px;background-color: #eee;}
+a.pageno {text-decoration:none;}
+a.pageno li:hover{background-color:#F36510;color:#ffffff;}
+
+.classic-title {
+  border-bottom-color:#EEEEEE;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  font-weight:400;
+  margin-bottom:16px;
+  padding-bottom:8px;
+}
+
+.classic-title span {
+  border-bottom-color:#F36510;
+}
+
+.classic-title span {
+  border-bottom-color:#F36510;
+}
+
+.classic-title1 {
+  border-bottom-color:#FFFFFF;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  font-weight:400;
+  margin-bottom:16px;
+  padding-bottom:8px;
+}
+
+.classic-title span {
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  padding-bottom:8px;
+}
+
+.classic-title1 span {
+  border-bottom-color:#F36510;
+}
+
+.classic-title1 span {
+  border-bottom-color:#F36510;
+}
+
+.classic-title1 span {
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  padding-bottom:8px;
+}
+
+
+
+.gentxt1 {
+	width: 190px;
+	height:36px;
+	border:1px solid #999999;
+	padding:10px 20px;
+	box-shadow:#BEBEBE 0 1px 0 0 inset;
+	background:#fff;
+	/*para Firefox*/
+	-moz-border-radius: 3px 3px 3px 3px;
+	/*para Safari y Chrome*/
+	-webkit-border-radius: 3px 3px 3px 3px;
+	/* para Opera */
+	border-radius: 3px 3px 3px 3px;
+	
+}
+
+.gentxt11 {
+	width: 290px;
+	height:36px;
+	border:1px solid #999999;
+	padding:10px 20px;
+	box-shadow:#BEBEBE 0 2px 0 0 inset;
+	background:#fff;
+	/*para Firefox*/
+	-moz-border-radius: 3px 3px 3px 3px;
+	/*para Safari y Chrome*/
+	-webkit-border-radius: 3px 3px 3px 3px;
+	/* para Opera */
+	border-radius: 3px 3px 3px 3px;
+	
+}
+
+.gentxt12 {
+	width: 200px;
+	height:36px;
+	border:1px solid #999999;
+	padding:10px 20px;
+	box-shadow:#BEBEBE 0 2px 0 0 inset;
+	background:#fff;
+	/*para Firefox*/
+	-moz-border-radius: 3px 3px 3px 3px;
+	/*para Safari y Chrome*/
+	-webkit-border-radius: 3px 3px 3px 3px;
+	/* para Opera */
+	border-radius: 3px 3px 3px 3px;
+	
+}
+
+.mini-stat {
+    background:#f9f9f9;
+    padding:20px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    margin-bottom:20px;
+}
+.mini-stat-icon {
+    width:60px;
+    height:60px;
+    display:inline-block;
+    line-height:60px;
+    text-align:center;
+    font-size:30px;
+    background:#eee;
+    -webkit-border-radius:100%;
+    -moz-border-radius:100%;
+    border-radius:100%;
+    float:left;
+    margin-right:10px;
+    color:#fff;
+}
+.mini-stat-info {
+    font-size:12px;
+    padding-top:2px;
+}
+.mini-stat-info span {
+    display:block;
+    font-size:24px;
+    font-weight:600;
+}
+.orange {
+    background:#fa8564 !important;
+}
+.tar {
+    background:#1fb5ac !important;
+}
+.mini-stat .green {
+    background:#aec785 !important;
+}
+.pink {
+    background:#a48ad4 !important;
+}
+.yellow-b {
+    background: #fdd752 !important;
+}
+.black {
+    background:#666666 !important;
+}
+.red {
+    background:#D90000 !important;
+}
+.green {
+    background:#FF6699 !important;
+}
+
+/*# sourceMappingURL=../css/theme.map */

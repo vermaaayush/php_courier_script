@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+    background: url('../bg.jpg'); 
+    background-size: cover; 
+    margin: 0; 
+    padding-top: 10px; 
+    box-sizing: border-box; 
+    position:relative;
+
+}
+h1.gs-title{
+    color: #ec6919;
+ 
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin: 40px 0 20px;
+    text-align: center;
+}
+.gs-logo{
+    max-width:95px; 
+    width:11%; 
+    position:fixed; 
+    right:2%; 
+    top:2%; 
+}
+.gs-logo img{ 
+    width:100%;
+}
+p, label{
+    font-size: 14px;
+}
+.main-container{
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 0px solid #cccccc;
+    margin-bottom: 20px;
+    padding: 10px 30px 30px;
+}
+.main-container:after{
+    content: '';
+    display:block;
+    clear: both;
+}
+#map{
+    width: 100%;
+    height: 170px;
+}
+.map-container{
+    width: 48.5%;
+    float: left;
+    border: 1px solid #555;
+}
+#total-distance{
+    width: 48.5%;
+    float: left;
+    margin-right: 2%;
+    border: 1px solid #555;
+}
+p.map-header{
+    background-color: #666;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+    padding: 5px 5px 5px 10px;
+}
+.custom-distance input{
+    width: 70%;
+    margin-right: 2%;
+    margin-bottom: 10px;
+    border: 1px solid #00A3D9;
+    padding: 5px;
+    font-size: 13px;
+    box-sizing: border-box;
+    float: left;
+}
+.custom-distance:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.custom-distance .start-point-current-location{
+    background-color: #23B7E5;
+    border: 1px solid #00A3D9;
+    color: #fff;
+    float: left;
+    font-size: 13px;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    width: 25.9%;
+    transition: background-color 700ms, color 700ms;
+	border:1px solid transparent;
+	border-radius:4px;
+			  background-color:#23B7E5;
+  border-color:#23B7E5;
+  box-shadow:#00A3D9 0 2px 0 0;
+  color:#FFFFFF !important;
+}
+.custom-distance .start-point-current-location:hover{
+    color: #fff;
+    background-image:none;
+		border:1px solid transparent;
+		border-radius:4px;
+		cursor:pointer;
+		display:inline-block;
+		font-size:14px;
+		font-weight:normal;
+		line-height:1.42857;
+		margin-bottom:0;
+		text-align:center;
+		vertical-align:middle;
+		white-space:nowrap;
+
+}
+#waypoints{
+    height: 170px;
+    overflow-y: scroll;
+    font-size: 12px;
+}
+.end-point-container{
+    display: none;
+    float: left;
+    width: 49%;
+}
+.start-point-container {
+    float: left;
+    margin-right: 2%;
+    width: 48.5%;
+}
+.clear{
+    clear: both;
+}
+.adp-placemark{
+    margin-top: 0px;
+}
+@media (max-width: 680px){
+    #total-distance, #map{
+        width: 100%;
+        float: none;
+    }
+    #total-distance{
+        margin-bottom: 20px;
+    }
+    .main-container{
+        width: 90%;
+        padding: 10px;
+    }
+    .map-container{
+        width: 100%;
+    }
+    .start-point-container{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .custom-distance input, .end-point-container{
+        width: 100%;
+    }
+    .custom-distance .start-point-current-location{
+        width: 50%;
+		
+    }
+}

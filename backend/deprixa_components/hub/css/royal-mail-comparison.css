@@ -1,0 +1,442 @@
+/* colours */
+/* nav */
+/* alerts buttons dialogues */
+/* rad */
+/* fonts */
+/* grid */
+/* media query */
+/* Custom Variables */
+.zopim {
+    display: none !important;
+  }
+@font-face {
+  font-family: 'royal-mail-icon';
+  src: url("../App_Plugins/mpdicons/contact-icomoonb746.eot?-pwj46m");
+  src: url("../App_Plugins/mpdicons/contact-icomoond41d.eot?#iefix-pwj46m") format("embedded-opentype"), url("../App_Plugins/mpdicons/contact-icomoonb746.woff?-pwj46m") format("woff"), url("../App_Plugins/mpdicons/contact-icomoonb746.ttf?-pwj46m") format("truetype"), url("../App_Plugins/mpdicons/contact-icomoonb746.svg?-pwj46m#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'royal-mail-icon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-check52:before {
+  content: "\e606";
+}
+#royalMailHeader{text-transform:uppercase;}
+div.royalMail {
+  background: #564193!important;
+}
+
+section.royal-mail-intro {
+  padding-bottom: 0;
+}
+section.royal-mail-intro h1, section.royal-mail-intro p {
+  color: white!important;
+}
+section.royal-mail-intro h1 {
+  padding: 30px 0;
+}
+section.royal-mail-intro p {
+  text-align: left;
+  clear:both;
+  width:590px;	
+}
+
+section.royal-mail-list .list-item {
+  padding: 40px 30px 0 0;
+}
+section.royal-mail-list .list-item span:after {
+  font-family: 'royal-mail-icon';
+  content: "\e606";
+  font-size: 30px;
+  width: 20px;
+  height: 20px;
+  float: left;
+}
+section.royal-mail-list .list-item h3 {
+  text-align: left;
+  display: inline-block;
+  font-size: 22px;
+  text-transform: capitalize;
+  padding: 2px 0 0 20px;
+}
+section.royal-mail-list .list-item p {
+  padding-left: 40px;
+}
+
+section.cheaper-royal-mail {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+section.cheaper-royal-mail h2 {
+  text-align: left;
+  font-size: 26px;
+  padding: 30px 0;
+}
+section.cheaper-royal-mail p {
+  padding-right: 30px;
+}
+section.cheaper-royal-mail img {
+  float: right;
+  margin-top: 30px;
+}
+
+section.comparison-tables {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+section.comparison-tables h2 {
+  padding: 30px 0 10px 0;
+}
+section.comparison-tables .cta-end {
+  text-align: center;
+  padding: 0 0 40px 0;
+  clear: both;
+}
+section.comparison-tables .cta-end .primaryButtonSmall {
+  font-size: 18px;
+  padding: 12px 30px;
+}
+
+/* Responsive Tables */
+.table-container {
+  margin: 5% 3%;
+}
+@media (min-width: 48em) {
+  .table-container {
+    margin: 2%;
+  }
+}
+@media (min-width: 75em) {
+  .table-container {
+    margin: 2em auto;
+    max-width: 100%;
+  }
+}
+
+.responsive-table {
+  width: 100%;
+  margin-bottom: 1.5em;
+  border: 1px solid #cdcdcd;
+}
+@media (min-width: 48em) {
+  .responsive-table {
+    font-size: .9em;
+  }
+}
+@media (min-width: 62em) {
+  .responsive-table {
+    font-size: 1em;
+  }
+}
+.responsive-table thead {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+@media (min-width: 48em) {
+  .responsive-table thead {
+    position: relative;
+    clip: auto;
+    height: auto;
+    width: auto;
+    overflow: auto;
+  }
+}
+.responsive-table thead th {
+  background: #525252;
+  border: 1px solid #80858a;
+  font-weight: normal;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.responsive-table thead th:first-of-type {
+  text-align: center;
+}
+.responsive-table thead th.royalMailRed {
+  background: #b20000;
+  border-left: none;
+  color: white;
+  font-size: 22px;
+  border-bottom: 0;
+  border-top: 20px solid #b20000;
+  border-right: 1px solid #b20000;
+}
+.responsive-table thead th.noBorderRight {
+  border-right: 0;
+}
+.responsive-table tbody,
+.responsive-table tr,
+.responsive-table th,
+.responsive-table td {
+  display: block;
+  padding: 0;
+  text-align: left;
+  white-space: normal;
+}
+@media (min-width: 48em) {
+  .responsive-table tr {
+    display: table-row;
+  }
+}
+.responsive-table th,
+.responsive-table td {
+  padding: .5em;
+  vertical-align: middle;
+}
+@media (min-width: 30em) {
+  .responsive-table th,
+  .responsive-table td {
+    padding: .75em .5em;
+  }
+}
+@media (min-width: 48em) {
+  .responsive-table th,
+  .responsive-table td {
+    display: table-cell;
+    padding: .5em;
+  }
+  .responsive-table th.bottom-border,
+  .responsive-table td.bottom-border {
+    border-bottom: 20px solid #b20000;
+  }
+}
+@media (min-width: 62em) {
+  .responsive-table th,
+  .responsive-table td {
+    padding: .75em .5em;
+  }
+}
+@media (min-width: 75em) {
+  .responsive-table th,
+  .responsive-table td {
+    padding: .75em;
+  }
+  .responsive-table th.bottom-border,
+  .responsive-table td.bottom-border {
+    border-bottom: 20px solid #b20000;
+  }
+}
+.responsive-table th.mpdGreen,
+.responsive-table td.mpdGreen {
+  color: #5fb047;
+}
+.responsive-table th.greenBg,
+.responsive-table td.greenBg {
+  background: #5fb047;
+  color: white;
+}
+.responsive-table th.lightGreenBg,
+.responsive-table td.lightGreenBg {
+  background: #7ebf6b;
+  color: white;
+}
+.responsive-table th.royalMailRed,
+.responsive-table td.royalMailRed {
+  background: #b20000;
+  color: white;
+  font-size: 16px;
+  border-right: 1px solid #b20000;
+}
+.responsive-table th span,
+.responsive-table td span {
+  padding: 0;
+}
+@media (min-width: 48em) {
+  .responsive-table tbody {
+    display: table-row-group;
+  }
+}
+.responsive-table tbody tr {
+  margin-bottom: 1em;
+}
+@media (min-width: 48em) {
+  .responsive-table tbody tr {
+    display: table-row;
+    border-width: 1px;
+    background: #f3f3f3;
+  }
+}
+.responsive-table tbody tr:last-of-type {
+  margin-bottom: 0;
+}
+@media (min-width: 48em) {
+  .responsive-table tbody tr:nth-of-type(even) {
+    background: #f9f9f9;
+  }
+}
+.responsive-table tbody th[scope="row"] {
+  background: #60666d;
+  color: white;
+  font-family: Lato-Regular, Arial;
+}
+@media (min-width: 48em) {
+  .responsive-table tbody th[scope="row"] {
+    background-color: transparent;
+    color: #5e5d52;
+    text-align: center;
+  }
+}
+.responsive-table tbody td {
+  text-align: right;
+}
+@media (min-width: 48em) {
+  .responsive-table tbody td {
+    text-align: center;
+  }
+}
+.responsive-table tbody td[data-title]:before {
+  content: attr(data-title);
+  float: left;
+  font-size: .8em;
+}
+@media (min-width: 30em) {
+  .responsive-table tbody td[data-title]:before {
+    font-size: .9em;
+  }
+}
+@media (min-width: 48em) {
+  .responsive-table tbody td[data-title]:before {
+    content: none;
+  }
+}
+
+/* DESKTOP */
+@media only screen and (max-width: 1240px) {
+  section.royal-mail-intro p{width:530px;}
+}
+		
+/* TABLET */
+@media only screen and (max-width: 990px) {
+  div.main-promo section.royal-mail-intro h1#royalMailHeader{
+	width:100%!important;
+	letter-spacing:-2px;
+  }		
+  section.royal-mail-intro p{width:100%;}			
+  section.royal-mail-intro {
+    padding-bottom: 20px;
+  }
+
+  section.royal-mail-list .list-item h3 {
+    font-size: 18px;
+  }
+
+  section.cheaper-royal-mail {
+    text-align: center;
+  }
+  section.cheaper-royal-mail h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+  section.cheaper-royal-mail img {
+    float: none;
+  }
+
+  section.comparison-tables .table-container .responsive-table .firstCol {
+    width: 120px;
+  }
+  section.comparison-tables .table-container .responsive-table .secondCol {
+    width: 139px;
+  }
+}
+/* MOBILE */
+@media only screen and (max-width: 767px) {
+  div.main-promo section.royal-mail-intro h1#royalMailHeader{
+	letter-spacing:0;
+	font-size:18px!important;
+	text-align:center;
+  }
+  section.royal-mail-intro {
+    margin-bottom: 20px;
+    padding: 0!important;
+  }
+  div.main-promo section .promo-left{
+	padding:0 15px;
+  }
+  section.royal-mail-intro h1 {
+    padding: 15px 10px;
+  }
+  div.main-promo section .promo-left{
+	background:none!Important;
+  }
+  section.royal-mail-list {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  section.royal-mail-list .list-item {
+    padding: 10px 0 0 0;
+  }
+  section.royal-mail-list .list-item span:after {
+    float: none;
+    font-size: 40px;
+  }
+  section.royal-mail-list .list-item h3 {
+    display: block;
+    width: 100%;
+    margin-top: 0;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 18px;
+  }
+  section.royal-mail-list .list-item p {
+    padding: 0 10px;
+  }
+
+  section.cheaper-royal-mail {
+    text-align: center;
+  }
+  section.cheaper-royal-mail h2 {
+    font-size: 18px;
+    text-align: center;
+    padding: 15px 10px;
+  }
+  section.cheaper-royal-mail img {
+    width: 260px;
+  }
+  section.cheaper-royal-mail p {
+    padding: 0 10px;
+  }
+
+  section.comparison-tables h2 {
+    font-size: 18px;
+    padding: 15px 0 10px 0;
+  }
+  section.comparison-tables .responsive-table tbody td {
+    font-size: 12px;
+  }
+  section.comparison-tables .responsive-table tbody td.lightGreenBg {
+    background: #5fb047;
+  }
+  section.comparison-tables .responsive-table tbody td[data-title]:before {
+    font-size: .9em;
+  }
+  section.comparison-tables p {
+    text-align: center;
+  }
+  section.comparison-tables .cta-end{
+	padding: 0 10px 40px 10px;
+  }
+  section.comparison-tables .cta-end .primaryButtonSmall{
+	width:100%; font-size:14px;
+  }
+}
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

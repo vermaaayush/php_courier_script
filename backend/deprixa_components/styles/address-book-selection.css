@@ -1,0 +1,100 @@
+﻿.address-book-link {
+    font-family: asap, arial;
+    font-weight: normal;
+    font-size: 14px;
+    float: right;
+    display: none;
+}
+
+.rapid-book-heading .address-book-link {
+    font-size: 13px;
+    text-transform: none;
+    color: #fff;
+    margin-top: -2px;
+    display: inline-block;
+}
+
+.address-book-link.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.address-book-link-text {
+    padding-left: 0.5em;
+}
+
+.address-book-selection {
+    padding: 0 1em 1em 1em;
+    display: none;
+}
+
+.address-book-selection.rapid-book-address-book {
+    background-color: #e9e9e9;
+    padding: 0.5em;
+}
+
+.address-book-selection-error {
+    float: right;
+    padding: 0 1em 0 0;
+}
+
+.address-book-selection.single-line-alphabetical-selector .alphabetical-selector-element {
+    width: 100%;
+}
+
+.address-book-selection.single-line-alphabetical-selector .alphabetical-selector-element .nav-pills {
+    width: 100%;
+}
+
+.address-book-selection.single-line-alphabetical-selector .alphabetical-selector-element .nav-pills li {
+    min-width: 3.3%;
+    text-align: center;
+}
+
+.address-book-selection.single-line-alphabetical-selector .alphabetical-selector-element .nav-pills li:last-child {
+    min-width: 4%;
+}
+
+.address-book-selection.single-line-alphabetical-selector .alphabetical-selector-element .nav-pills li a {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.address-book-selection.rapid-book-address-book .alphabetical-selector-element .nav-pills li a {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.address-book-selector {
+    background-color: #fff;
+    padding: 0.5em;
+}
+
+.address-book-selector-no-item {
+    margin: 0;
+    padding: 0.5em 0;
+}
+
+.address-book-selector-items {
+    margin: 0.5em 0;
+    max-height: 380px;
+    overflow-y: auto;
+}
+
+.address-book-selection.rapid-book-address-book .address-book-selector-items {
+    max-height: 352px;
+}
+
+.address-book-selector-item {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 0.5em;
+}
+
+.address-book-selector-item:last-child {
+    border: none;
+    margin-bottom: 0;
+}
+
+.address-book-selector-item .address-book-item {
+    cursor: pointer;
+}

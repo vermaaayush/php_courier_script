@@ -1,0 +1,26 @@
+﻿.address-entry-element {position: relative;}
+.address-entry-manual-entry-link { margin-top: 0.5em; }
+.address-entry-find-postcode-group label { font-weight: 800; }
+.address-entry-find-postcode-group .find-postcode-input-col { padding: 0 !important; }
+.address-entry-find-postcode-group .address-entry-find-postcode-btn { min-width: 0; float: right; width:63%; padding: 6px 8px 8px 8px !important;}
+.address-entry-find-postcode-message { display: none; color: #db2a31; }
+
+.address-lookup-results { display: none; position: absolute; left: 0; width: 100%; z-index: 999; border-radius: 3px; padding: 0.25em 0.5em; background: #fff; overflow-y: auto; }
+.address-lookup-results-inner { width: 100%; }
+.address-lookup-result { display: inline-table; width: 100%; float: left;padding: 5px 8px; }
+.address-lookup-result-address { display: table-cell; vertical-align: middle; }
+.address-lookup-result-radio { display: table-cell; width: 10%; text-align: center; vertical-align: middle; }
+
+.result-bordered { border-bottom: 1px solid #eee;}
+.result-bordered:last-child {border-bottom: 0;}
+    
+
+.field-validation-error span { display: block; clear: both; }
+.address-lookup-result:hover {background:#eee;}
+.greyed-out-text { color: #a3abb1; }
+.coldel .greyed-out-text, .coldel .form-control[readonly], .coldel .form-control[disabled], .input[type=number][readonly] {display:none;}
+.collapsed-element { display: none; }
+
+.address-lookup-results input[type=radio] {
+    display:none;
+}
